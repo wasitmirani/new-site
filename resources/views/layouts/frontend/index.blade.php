@@ -258,7 +258,7 @@
                                 <div class="iconic-box-body">
                                     <h5 class="iconic-box-title">Multi-Channel Selling</h5>
                                     <p class="iconic-box-content">
-                                        {{
+                                    {{
                                         Str::limit(config('app.name').'  supports integration with other online marketplaces like Amazon, Shopify, eBay, Etsy, OnBuy, Fruugo, Wish, GumTree, fb Shops, InstaShop, BigCommerce, WooCommerce, LinnWorks, and so on.', 146, '.....')
                                     }}
 
