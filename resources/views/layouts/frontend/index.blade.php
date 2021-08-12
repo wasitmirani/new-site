@@ -222,9 +222,10 @@
                                     <img src="{{asset('assets/img/feature/flaticon-headphones.png')}}" alt="headphones">
                                 </div>
                                 <div class="iconic-box-body">
-                                    <h5 class="iconic-box-title">Audio & Video Call</h5>
+                                    <h5 class="iconic-box-title">24/7 Live Support</h5>
                                     <p class="iconic-box-content">
-                                        Sed perspiciatis unde omnis este error voluptate accusant doloremque systems.
+
+                                        You can reach out to us via live chat, text, or email. Our representatives are available round the clock to address your queries and concerns.
                                     </p>
                                     <div class="iconic-box-btn">
                                         <a href="#"><i class="fas fa-arrow-right"></i></a>
@@ -235,14 +236,15 @@
                         <div class="col-lg-3 col-md-6">
                             <div class="single-iconic-box iconic-box-v3 exclusive-iconic-box-2 wow fadeInUp" data-wow-delay="0.2s">
                                 <div class="iconic-box-icon">
-                                    <img src="{{asset('assets/img/feature/flaticon-share.png')}}" alt="share">
+                                    <img src="{{asset('assets/img/feature/rising.png')}}" alt="share">
                                 </div>
                                 <div class="iconic-box-body">
-                                    <h5 class="iconic-box-title">Screen Sharing</h5>
-                                    <p class="iconic-box-content">
-                                        Quis autem vel eum iuresc reprehe nderit ea voluptatey velit esse quam nihile
+                                    <h5 class="iconic-box-title">Progress Reports</h5>
+                                    <p class="iconic-box-content " style="margin-bottom:55px;">
+                                        You can check the weekly, monthly, and yearly progress of your
+                                        online store on our dashboard system.
                                     </p>
-                                    <div class="iconic-box-btn">
+                                    <div class="iconic-box-btn ">
                                         <a href="#"><i class="fas fa-arrow-right"></i></a>
                                     </div>
                                 </div>
@@ -251,12 +253,15 @@
                         <div class="col-lg-3 col-md-6">
                             <div class="single-iconic-box iconic-box-v3 exclusive-iconic-box-3 wow fadeInUp" data-wow-delay="0.3s">
                                 <div class="iconic-box-icon">
-                                    <img src="{{asset('assets/img/feature/flaticon-chatting.png')}}" alt="chatting">
+                                    <img src="{{asset('assets/img/feature/flaticon-share.png')}}" alt="chatting">
                                 </div>
                                 <div class="iconic-box-body">
-                                    <h5 class="iconic-box-title">Chat & Message</h5>
+                                    <h5 class="iconic-box-title">Multi-Channel Selling</h5>
                                     <p class="iconic-box-content">
-                                        On the other hand dennce with righteous indig nations dislike men beguiled
+                                        {{
+                                        Str::limit(config('app.name').'  supports integration with other online marketplaces like Amazon, Shopify, eBay, Etsy, OnBuy, Fruugo, Wish, GumTree, fb Shops, InstaShop, BigCommerce, WooCommerce, LinnWorks, and so on.', 146, '.....')
+                                    }}
+
                                     </p>
                                     <div class="iconic-box-btn">
                                         <a href="#"><i class="fas fa-arrow-right"></i></a>
@@ -271,8 +276,8 @@
                                 </div>
                                 <div class="iconic-box-body">
                                     <h5 class="iconic-box-title">Download Apps</h5>
-                                    <p class="iconic-box-content">
-                                        Sed perspiciatis unde omnis este error voluptate accusant doloremque systems.
+                                    <p class="iconic-box-content" style="margin-bottom:55px;">
+                                        Offering smart mobile application for our customers to shop and sell anywhere around the world.
                                     </p>
                                     <div class="iconic-box-btn">
                                         <a href="#"><i class="fas fa-arrow-right"></i></a>
