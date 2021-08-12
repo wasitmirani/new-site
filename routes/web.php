@@ -14,4 +14,4 @@ use App\Http\Controllers\FrontEndController;
 |
 */
 
-Route::get('/',[FrontEndController::class,'index']);
+Route::get('/',[FrontEndController::class,'index'])->name('home');

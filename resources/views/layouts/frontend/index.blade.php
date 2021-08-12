@@ -79,17 +79,10 @@
                                 </div>
                                 <nav class="main-menu">
                                     <ul>
-                                        <li class="menu-item menu-item-has-children">
-                                            <a href="index.html" class="nav-link active">Demos</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="index.html">Homepage Sass</a></li>
-                                                <li><a href="index-2.html">Homepage SEO</a></li>
-                                                <li><a href="index-3.html">Homepage App</a></li>
-                                                <li><a href="index-4.html" class="nav-link active">Homepage Chatbot</a></li>
-                                                <li><a href="index-5.html">Homepage Consultant</a></li>
-                                                <li><a href="index-6.html">Homepage Fintech</a></li>
-                                            </ul>
+                                        <li class="menu-item active">
+                                            <a href="{{route('home')}}" class="nav-link active">Home</a>
                                         </li>
+
                                         <li class="menu-item menu-item-has-children">
                                             <a href="services.html" class="nav-link">Services</a>
                                             <ul class="sub-menu">
@@ -316,10 +309,11 @@
                         <div class="section-heading-tag">
                             <span class="single-heading-tag">Collaboration With Chat</span>
                         </div>
-                        <h2>Response Chat Videos <span>Anywhere</span> Location</h2>
+                        <h2>See Your Business
+                            <span> Scale with</span> <img src="{{asset('assets/img/logo-red.png')}}" alt="logo"></h2>
                         <div class="section-title-description">
-                            <p class="mb-13">On the other hand denounce with righteous indignation and dislike men who are beguiled and demoralized by the charms pleasure moment so blindede.</p>
-                            <p>Beguiled and demoralized by charms pleasu moment blinded desire that they cannot foresee.</p>
+                            <p class="mb-13"> We enable you to take control of your business and let it scale by dropshipping. We empower your with all the requisite tools from online store integration, access provision to suppliers, and automated payments, shipping, and orders.</p>
+                            <p>{{config('app.name')}} offers an intuitive, automated panel to save your time and energy. It keeps track of your store’s day-to-day operations to help you focus on the bigger stuff.</p>
                         </div>
                         <div class="section-button-wrapper">
                             <a href="services.html" class="filled-btn bg-mandy button-radius">
@@ -347,9 +341,13 @@
                         </div>
                         <div class="section-list-style list-style-v2">
                             <ul>
-                                <li>Easy To Collaborate With User</li>
-                                <li>Manage Team & Users Flow</li>
-                                <li>Upgrade UI Design</li>
+                                <li>Easy Access</li>
+                                <li>Verified Suppliers
+                                </li>
+                                <li>Easy to Use Interface</li>
+                                <li>Updated Data</li>
+                                <li>Automated Processing</li>
+                                <li>Simple Setup</li>
                             </ul>
                         </div>
                         <div class="section-button-wrapper">
