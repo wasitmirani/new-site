@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\FrontEndController;
+use League\CommonMark\Extension\FrontMatter\FrontMatterParser;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,3 +16,5 @@ use App\Http\Controllers\FrontEndController;
 */
 
 Route::get('/',[FrontEndController::class,'index'])->name('home');
+Route::get('/contact-us',[FrontEndController::class,'contact'])->name('contact');
+Route::get('/about-us',[FrontEndController::class,'about'])->name('about');
