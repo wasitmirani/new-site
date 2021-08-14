@@ -18,3 +18,5 @@ use League\CommonMark\Extension\FrontMatter\FrontMatterParser;
 Route::get('/',[FrontEndController::class,'index'])->name('home');
 Route::get('/contact-us',[FrontEndController::class,'contact'])->name('contact');
 Route::get('/about-us',[FrontEndController::class,'about'])->name('about');
+Route::get('/pricing',[FrontEndController::class,'pricing'])->name('pricing');
+Route::get('/integrations',[FrontEndController::class,'integrations'])->name('integrations');

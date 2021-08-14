@@ -13,7 +13,7 @@
                         <div class="col-12">
                             <div class="breadcrumb-content text-center">
                                 <div class="page-title wow fadeInDown" data-wow-delay="0.2s" data-wow-duration="2500ms">
-                                    <h1>Contact Us</h1>
+                                    <h1>{{$title}}</h1>
                                 </div>
                                 <div class="page-breadcrumb wow fadeInUp" data-wow-delay="0.3s" data-wow-duration="2500ms">
                                    <ul class="breadcrumb">
@@ -28,4 +28,3 @@
             </div> <!-- /.container -->
         </section> <!-- /.breadcrumb-area -->
 <!--====== End Breadcrumb Area ======-->
-  

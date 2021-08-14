@@ -7,7 +7,6 @@
 @endcomponent
 <!--====== Start Contact Area ======-->
     @component('frontend.components.contactUs')
-
     @endcomponent
 <!--====== End Contact Area ======-->
 <!--====== Start Map Area ======-->

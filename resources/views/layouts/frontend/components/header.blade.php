@@ -31,7 +31,7 @@
                                         <a href="{{route('home')}}" class="nav-link active">Home</a>
                                     </li>
                                     <li class="menu-item ">
-                                        <a href="{{route('home')}}" class="nav-link ">Integrations</a>
+                                        <a href="{{route('integrations')}}" class="nav-link ">Integrations</a>
                                     </li>
                                     <li class="menu-item menu-item-has-children">
                                         <a href="#" class="nav-link">Partners</a>
@@ -49,20 +49,20 @@
                                         </ul>
                                     </li>
                                     <li class="menu-item">
-                                        <a href="{{route('about')}}" class="nav-link">About</a>
+                                        <a href="{{route('pricing')}}" class="nav-link">Pricing</a>
                                     </li>
                                     <li class="menu-item menu-item-has-children">
                                         <a href="#" class="nav-link">Recources</a>
                                         <ul class="sub-menu">
-                                            <li><a href="about.html">Seller</a></li>
-                                            <li><a href="team.html">Vendor/Supplier</a></li>
-                                            <li><a href="pricing.html">OnePiece Wholesaler</a></li>
-                                            <li><a href="coming-soon.html">Bulk Wholesaler</a></li>
-                                            <li><a href="404.html">Exporter</a></li>
-                                            <li><a href="pricing.html">Franchise</a></li>
-                                            <li><a href="coming-soon.html">Whitelable</a></li>
-                                            <li><a href="404.html">Investment</a></li>
-                                            <li><a href="404.html">Smartshop
+                                            <li><a href="about.html">Platform Tour</a></li>
+                                            <li><a href="team.html">{{config('app.name')}} Academy</a></li>
+                                            <li><a href="pricing.html">{{config('app.name')}} Guru</a></li>
+                                            <li><a href="coming-soon.html">Mobile App</a></li>
+                                            <li><a href="404.html">Webinars</a></li>
+                                            <li><a href="pricing.html">Blogs</a></li>
+                                            <li><a href="coming-soon.html">Hot Products</a></li>
+                                            <li><a href="404.html">Help Centre</a></li>
+                                            <li><a href="404.html">Free Tools
                                             </a></li>
                                         </ul>
                                     </li>
