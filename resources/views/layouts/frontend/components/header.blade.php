@@ -6,7 +6,7 @@
                 <div class="col-xl-4 col-md-6 col-8">
                     <div class="site-branding-and-language-selection">
                         <div class="brand-logo">
-                            <a href="index.html">
+                            <a href="{{route('home')}}">
                                 <img src="{{asset('assets/img/logo-red.png')}}" alt="logo">
                             </a>
                         </div>
@@ -27,25 +27,23 @@
                             </div>
                             <nav class="main-menu">
                                 <ul>
-                                    <li class="menu-item active">
-                                        <a href="{{route('home')}}" class="nav-link active">Home</a>
-                                    </li>
                                     <li class="menu-item ">
                                         <a href="{{route('integrations')}}" class="nav-link ">Integrations</a>
                                     </li>
                                     <li class="menu-item menu-item-has-children">
                                         <a href="#" class="nav-link">Partners</a>
                                         <ul class="sub-menu">
-                                            <li><a href="about.html">Seller</a></li>
-                                            <li><a href="team.html">Vendor/Supplier</a></li>
-                                            <li><a href="pricing.html">OnePiece Wholesaler</a></li>
-                                            <li><a href="coming-soon.html">Bulk Wholesaler</a></li>
-                                            <li><a href="404.html">Exporter</a></li>
-                                            <li><a href="pricing.html">Franchise</a></li>
-                                            <li><a href="coming-soon.html">Whitelable</a></li>
-                                            <li><a href="404.html">Investment</a></li>
-                                            <li><a href="404.html">Smartshop
-                                            </a></li>
+                                            <li><a href="{{route('partners.seller')}}">Seller </a></li>
+                                        <li><a href="{{route('partners.vendor')}}"> Vendor/Supplier </a></li>
+                                        <li><a href="https://store.edropship.co.uk/" target=_blank> OnePiece
+                                                Wholesaler</a></li>
+                                        <li><a href="https://store.edropship.co.uk/" target=_blank> Bulk Wholesaler</a>
+                                        </li>
+                                        <li><a href="{{route('partners.exporter')}}"> Exporter </a></li>
+                                        <li><a href="{{route('contact')}}"> Franchise </a></li>
+                                        <li><a href="{{route('contact')}}"> Whitelable </a></li>
+                                        <li><a href="{{route('contact')}}"> Investment </a></li>
+                                        <li><a href="{{route('contact')}}"> Smartshop </a></li>
                                         </ul>
                                     </li>
                                     <li class="menu-item">

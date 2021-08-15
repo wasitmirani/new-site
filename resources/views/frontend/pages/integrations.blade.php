@@ -133,55 +133,55 @@ element.style {
         <div class="our-services-content-wrapper">
             <div class="row">
                 <div class="col-xl-3  col-lg-4 col-sm-6">
-                    @component('frontend.components.IntegrationCard',['image'=>'amazon.png','name'=>'Amazon','color'=>6])
+                    @component('frontend.components.IntegrationCard',['image'=>'amazon.png','name'=>'Amazon','color'=>6,'url'=>route('integration',['slug'=>'amazon'])])
                     @endcomponent
                 </div> <!-- /.col-lg-6-->
                 <div class="col-xl-3  col-lg-4 col-sm-6">
-                    @component('frontend.components.IntegrationCard',['image'=>'ebay_icondark.png','name'=>'Ebay','color'=>5])
+                    @component('frontend.components.IntegrationCard',['image'=>'ebay_icondark.png','name'=>'Ebay','color'=>5,'url'=>route('integration',['slug'=>'ebay'])])
                     @endcomponent
                 </div> <!-- /.col-lg-6-->
                 <div class="col-xl-3  col-lg-4 col-sm-6">
-                    @component('frontend.components.IntegrationCard',['image'=>'shopify.png','name'=>'Shopify','color'=>7])
+                    @component('frontend.components.IntegrationCard',['image'=>'shopify.png','name'=>'Shopify','color'=>7,'url'=>route('integration',['slug'=>'shopify'])])
                     @endcomponent
                 </div> <!-- /.col-lg-6-->
                 <div class="col-xl-3  col-lg-4 col-sm-6">
-                    @component('frontend.components.IntegrationCard',['image'=>'OnBuy_Logo.png','name'=>'onBuy','color'=>4])
+                    @component('frontend.components.IntegrationCard',['image'=>'OnBuy_Logo.png','name'=>'onBuy','color'=>4,'url'=>route('integration',['slug'=>'onBuy'])])
                     @endcomponent
                 </div>
             </div> <!-- /.row -->
             <div class="row">
                 <div class="col-xl-3  col-lg-4 col-sm-6">
-                    @component('frontend.components.IntegrationCard',['image'=>'bigcommerce2.png','name'=>'Bigcommerce','color'=>5])
+                    @component('frontend.components.IntegrationCard',['image'=>'bigcommerce2.png','name'=>'Bigcommerce','color'=>5,'url'=>route('integration',['slug'=>'bigcommerce'])])
                     @endcomponent
                 </div> <!-- /.col-lg-6-->
                 <div class="col-xl-3  col-lg-4 col-sm-6">
-                    @component('frontend.components.IntegrationCard',['image'=>'Linnworks.png','name'=>'Linnworks','color'=>5])
+                    @component('frontend.components.IntegrationCard',['image'=>'Linnworks.png','name'=>'Linnworks','color'=>5,'url'=>route('integration',['slug'=>'linnworks'])])
                     @endcomponent
                 </div> <!-- /.col-lg-6-->
                 <div class="col-xl-3  col-lg-4 col-sm-6">
-                    @component('frontend.components.IntegrationCard',['image'=>'wish-logo.png','name'=>'Wish','color'=>4])
+                    @component('frontend.components.IntegrationCard',['image'=>'wish-logo.png','name'=>'Wish','color'=>4,'url'=>route('integration',['slug'=>'wish'])])
                     @endcomponent
                 </div> <!-- /.col-lg-6-->
                 <div class="col-xl-3  col-lg-4 col-sm-6">
-                    @component('frontend.components.IntegrationCard',['image'=>'OnBuy_Logo.png','name'=>'onBuy','color'=>4])
+                    @component('frontend.components.IntegrationCard',['image'=>'OnBuy_Logo.png','name'=>'onBuy','color'=>4,'url'=>route('integration',['slug'=>'amazon'])])
                     @endcomponent
                 </div>
             </div> <!-- /.row -->
             <div class="row">
                 <div class="col-xl-3  col-lg-4 col-sm-6">
-                    @component('frontend.components.IntegrationCard',['image'=>'bigcommerce2.png','name'=>'Bigcommerce','color'=>5])
+                    @component('frontend.components.IntegrationCard',['image'=>'bigcommerce2.png','name'=>'Bigcommerce','color'=>5,'url'=>route('integration',['slug'=>'amazon'])])
                     @endcomponent
                 </div> <!-- /.col-lg-6-->
                 <div class="col-xl-3  col-lg-4 col-sm-6">
-                    @component('frontend.components.IntegrationCard',['image'=>'Linnworks.png','name'=>'Linnworks','color'=>5])
+                    @component('frontend.components.IntegrationCard',['image'=>'Linnworks.png','name'=>'Linnworks','color'=>5,'url'=>route('integration',['slug'=>'amazon'])])
                     @endcomponent
                 </div> <!-- /.col-lg-6-->
                 <div class="col-xl-3  col-lg-4 col-sm-6">
-                    @component('frontend.components.IntegrationCard',['image'=>'wish-logo.png','name'=>'Wish','color'=>4])
+                    @component('frontend.components.IntegrationCard',['image'=>'wish-logo.png','name'=>'Wish','color'=>4,'url'=>route('integration',['slug'=>'amazon'])])
                     @endcomponent
                 </div> <!-- /.col-lg-6-->
                 <div class="col-xl-3  col-lg-4 col-sm-6">
-                    @component('frontend.components.IntegrationCard',['image'=>'OnBuy_Logo.png','name'=>'onBuy','color'=>4])
+                    @component('frontend.components.IntegrationCard',['image'=>'OnBuy_Logo.png','name'=>'onBuy','color'=>4,'url'=>route('integration',['slug'=>'amazon'])])
                     @endcomponent
                 </div>
             </div> <!-- /.row -->
