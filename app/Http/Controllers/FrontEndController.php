@@ -28,7 +28,8 @@ class FrontEndController extends Controller
         return view($this->file_path."pricing");
     }
     public function integrations(){
-        return view($this->file_path."integrations");
+        $channels=Integration::all();
+        return view($this->file_path."integrations",['channels'=>$channels]);
     }
 
 

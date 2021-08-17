@@ -22,14 +22,14 @@
                         <img class="particle-4 animate-float-bob-y" src="{{asset('assets/img/particle/particle-5.png')}}" alt="particle Four">
                     </div>
                     <div class="section-title section-title-mandy">
-                        <h5>{{ $name }} Integration </h5>
+                        <h5>{{ $channel->title  }} Integration </h5>
 
-                        <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1500ms">Source inventory for your <span>{{ $name }} </span> with @component('frontend.components.appTitle')
+                        <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1500ms">Source inventory for your <span>{{ $channel->title  }} </span> with @component('frontend.components.appTitle')
 
                         @endcomponent <div class="brand-logo">
                         <br>
                             <h5 >
-                            Integrate your {{ $name }} store to easily automate your DropShipping order management, payments and shipping
+                            Integrate your {{ $channel->title }} store to easily automate your DropShipping order management, payments and shipping
 
 
                         </h5>
@@ -99,7 +99,7 @@
                     <div class="section-heading-tag">
                         <span class="single-heading-tag">Our integration process is straight forward & intuitive                        </span>
                     </div>
-                    <h2>Source inventory from verified suppliers & <span>sell on</span> {{ $name }}</h2>
+                    <h2>Source inventory from verified suppliers & <span>sell on</span> {{ $channel->title  }}</h2>
                     <div class="section-title-description">
                         <p class="mb-13">On the other hand denounce with righteous indignation and dislike men who are beguiled and demoralized by the charms pleasure moment so blindede.</p>
                         <p>Beguiled and demoralized by charms pleasu moment blinded desire that they cannot foresee.</p>
@@ -119,7 +119,7 @@
         <div class="row justify-content-center">
             <div class="col-12">
                 <div class="section-title mb-135 text-center section-title-tuna">
-                    <h2>eDropShip features for {{ $name }} store owners
+                    <h2>eDropShip features for {{ $channel->title }} store owners
                         <br class="d-none d-md-block"> With <span>Our Solutions</span></h2>
                 </div>
             </div>

@@ -293,8 +293,8 @@
                 </div>
             </div> <!-- /.row --> --}}
             <div class="view-more-btn-wrapper text-center mt-20 wow fadeInUp" data-wow-delay="0.9s" data-wow-duration="1500ms">
-                <a href="services.html" class="filled-btn btn-bordered bg-clear-blue">
-                    View All Services <i class="fas fa-arrow-right"></i>
+                <a href="{{route('integrations')}}" class="filled-btn btn-bordered bg-clear-blue">
+                    View All Integrations <i class="fas fa-arrow-right"></i>
                 </a>
             </div>
         </div> <!-- /.container -->
