@@ -24,189 +24,42 @@
             </div>
         </div>
         <div class="row">
+            @foreach ($pricing_list as $item)
             <!-- Single Pricing Table -->
             <div class="col-lg-4">
-                <div class="pricing-table starter-plan wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                    <div class="pricing-plan-title">
-                        <div class="pricing-table-icon" style="background-image: url(assets/img/pricing/pricing-table-blob.svg);">
-                            <h5 class="plan-title bg-burning-orange-gradient">Free Trial</h5>
-                            <img src="assets/img/pricing/pricing-table-icon.png" alt="pricing plan icon one">
-                        </div>
-                        <div class="pricing-plan-cost">
-                            <span class="payment-currency">£</span>
-                            <span class="plan-price">0.00</span>
-                            <span class="plan-type">/ Monthly</span>
-                        </div>
-                    </div>
-                    <div class="pricing-plan-features">
-                        <ul>
-                            <li class="plan-feature">Social Media Marketing</li>
-                            <li class="plan-feature">2.100 Keywords</li>
-                            <li class="plan-feature">One Way Link Building</li>
-                            <li class="plan-feature plan-feature-disabled">5 Free Optimization</li>
-                            <li class="plan-feature plan-feature-disabled">3 Press Releases</li>
-                        </ul>
-                    </div>
-                    <div class="pricing-table-foot">
-                        <div class="plan-select">
-                            <a href="service-details.html" class="filled-btn bg-burning-orange">Select Plan <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Single Pricing Table -->
-            <div class="col-lg-4">
-                <div class="pricing-table professional-plan wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                    <div class="pricing-plan-title">
-                        <div class="pricing-table-icon" style="background-image: url(assets/img/pricing/pricing-table-blob.svg);">
-                            <h5 class="plan-title bg-ocean-blue-gradient">Professional</h5>
-                            <img src="assets/img/pricing/pricing-table-icon.png" alt="pricing plan icon one">
-                        </div>
-                        <div class="pricing-plan-cost">
-                            <span class="payment-currency">$</span>
-                            <span class="plan-price">57.68</span>
-                            <span class="plan-type">/ Monthly</span>
-                        </div>
-                    </div>
-                    <div class="pricing-plan-features">
-                        <ul>
-                            <li class="plan-feature">Social Media Marketing</li>
-                            <li class="plan-feature">2.100 Keywords</li>
-                            <li class="plan-feature">One Way Link Building</li>
-                            <li class="plan-feature">5 Free Optimization</li>
-                            <li class="plan-feature">3 Press Releases</li>
-                        </ul>
-                    </div>
-                    <div class="pricing-table-foot">
-                        <div class="plan-select">
-                            <a href="service-details.html" class="filled-btn bg-ocean-blue-gradient">Select Plan <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Single Pricing Table -->
-            <div class="col-lg-4">
-                <div class="pricing-table premium-plan wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                    <div class="pricing-plan-title">
-                        <div class="pricing-table-icon" style="background-image: url(assets/img/pricing/pricing-table-blob.svg);">
-                            <h5 class="plan-title bg-magenta-gradient">Pro - Premium</h5>
-                            <img src="assets/img/pricing/pricing-table-icon.png" alt="pricing plan icon one">
-                        </div>
-                        <div class="pricing-plan-cost">
-                            <span class="payment-currency">$</span>
-                            <span class="plan-price">99.25</span>
-                            <span class="plan-type">/ Monthly</span>
-                        </div>
-                    </div>
-                    <div class="pricing-plan-features">
-                        <ul>
-                            <li class="plan-feature">Social Media Marketing</li>
-                            <li class="plan-feature">2.100 Keywords</li>
-                            <li class="plan-feature">One Way Link Building</li>
-                            <li class="plan-feature">5 Free Optimization</li>
-                            <li class="plan-feature">3 Press Releases</li>
-                        </ul>
-                    </div>
-                    <div class="pricing-table-foot">
-                        <div class="plan-select">
-                            <a href="service-details.html" class="filled-btn bg-magenta">Select Plan <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+              <div class="pricing-table {{$item->type}}-plan wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                  <div class="pricing-plan-title">
+                      <div class="pricing-table-icon" style="background-image: url(assets/img/pricing/pricing-table-blob.svg);">
+                          <h5 class="plan-title {{$item->class}}">{{ucfirst($item->title)}}</h5>
+                          <img src="assets/img/pricing/pricing-table-icon.png" alt="pricing plan icon one">
+                      </div>
+                      <div class="pricing-plan-cost">
+                          <span class="payment-currency">£</span>
+                          <span class="plan-price">{{$item->rate}}</span>
+                          <span class="plan-type">/ Monthly</span>
+                      </div>
+                  </div>
+                  <div class="pricing-plan-features">
+                      <ul>
+                          <li class="plan-feature">Social Media Marketing</li>
+                          <li class="plan-feature">2.100 Keywords</li>
+                          <li class="plan-feature">One Way Link Building</li>
+                          <li class="plan-feature plan-feature-disabled">5 Free Optimization</li>
+                          <li class="plan-feature plan-feature-disabled">3 Press Releases</li>
+                      </ul>
+                  </div>
+                  <div class="pricing-table-foot">
+                      <div class="plan-select">
+                          <a href="#" class="filled-btn {{$item->btn_class}}">Select Plan <i class="fas fa-arrow-right"></i></a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <!-- Single Pricing Table -->
+      @endforeach
+
         </div> <!-- /.row -->
-        <div class="row">
-            <!-- Single Pricing Table -->
-            <div class="col-lg-4">
-                <div class="pricing-table starter-plan wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                    <div class="pricing-plan-title">
-                        <div class="pricing-table-icon" style="background-image: url(assets/img/pricing/pricing-table-blob.svg);">
-                            <h5 class="plan-title bg-burning-orange-gradient">Free Trial</h5>
-                            <img src="assets/img/pricing/pricing-table-icon.png" alt="pricing plan icon one">
-                        </div>
-                        <div class="pricing-plan-cost">
-                            <span class="payment-currency">£</span>
-                            <span class="plan-price">0.00</span>
-                            <span class="plan-type">/ Monthly</span>
-                        </div>
-                    </div>
-                    <div class="pricing-plan-features">
-                        <ul>
-                            <li class="plan-feature">Social Media Marketing</li>
-                            <li class="plan-feature">2.100 Keywords</li>
-                            <li class="plan-feature">One Way Link Building</li>
-                            <li class="plan-feature plan-feature-disabled">5 Free Optimization</li>
-                            <li class="plan-feature plan-feature-disabled">3 Press Releases</li>
-                        </ul>
-                    </div>
-                    <div class="pricing-table-foot">
-                        <div class="plan-select">
-                            <a href="service-details.html" class="filled-btn bg-burning-orange">Select Plan <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Single Pricing Table -->
-            <div class="col-lg-4">
-                <div class="pricing-table professional-plan wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                    <div class="pricing-plan-title">
-                        <div class="pricing-table-icon" style="background-image: url(assets/img/pricing/pricing-table-blob.svg);">
-                            <h5 class="plan-title bg-ocean-blue-gradient">Professional</h5>
-                            <img src="assets/img/pricing/pricing-table-icon.png" alt="pricing plan icon one">
-                        </div>
-                        <div class="pricing-plan-cost">
-                            <span class="payment-currency">$</span>
-                            <span class="plan-price">57.68</span>
-                            <span class="plan-type">/ Monthly</span>
-                        </div>
-                    </div>
-                    <div class="pricing-plan-features">
-                        <ul>
-                            <li class="plan-feature">Social Media Marketing</li>
-                            <li class="plan-feature">2.100 Keywords</li>
-                            <li class="plan-feature">One Way Link Building</li>
-                            <li class="plan-feature">5 Free Optimization</li>
-                            <li class="plan-feature">3 Press Releases</li>
-                        </ul>
-                    </div>
-                    <div class="pricing-table-foot">
-                        <div class="plan-select">
-                            <a href="service-details.html" class="filled-btn bg-ocean-blue-gradient">Select Plan <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Single Pricing Table -->
-            <div class="col-lg-4">
-                <div class="pricing-table premium-plan wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                    <div class="pricing-plan-title">
-                        <div class="pricing-table-icon" style="background-image: url(assets/img/pricing/pricing-table-blob.svg);">
-                            <h5 class="plan-title bg-magenta-gradient">Pro - Premium</h5>
-                            <img src="assets/img/pricing/pricing-table-icon.png" alt="pricing plan icon one">
-                        </div>
-                        <div class="pricing-plan-cost">
-                            <span class="payment-currency">$</span>
-                            <span class="plan-price">99.25</span>
-                            <span class="plan-type">/ Monthly</span>
-                        </div>
-                    </div>
-                    <div class="pricing-plan-features">
-                        <ul>
-                            <li class="plan-feature">Social Media Marketing</li>
-                            <li class="plan-feature">2.100 Keywords</li>
-                            <li class="plan-feature">One Way Link Building</li>
-                            <li class="plan-feature">5 Free Optimization</li>
-                            <li class="plan-feature">3 Press Releases</li>
-                        </ul>
-                    </div>
-                    <div class="pricing-table-foot">
-                        <div class="plan-select">
-                            <a href="service-details.html" class="filled-btn bg-magenta">Select Plan <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+
     </div> <!-- /.container -->
 </section> <!-- /.pricing-area -->
 <!--====== End Pricing Area ======-->

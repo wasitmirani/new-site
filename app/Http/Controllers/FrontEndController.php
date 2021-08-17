@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Pricing;
 use App\Models\Integration;
 use Illuminate\Http\Request;
 
@@ -25,7 +26,8 @@ class FrontEndController extends Controller
     }
 
     public function pricing(){
-        return view($this->file_path."pricing");
+        $pricing_list=Pricing::orderBy('sort','ASC')->get();
+        return view($this->file_path."pricing",compact('pricing_list'));
     }
     public function integrations(){
         $channels=Integration::all();
