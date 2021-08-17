@@ -50,12 +50,14 @@
                     </div>
                     <div class="user-profile-card wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="1500ms">
                         <ul>
-                            <li class="user-profile" data-toggle="tooltip" data-placement="top" title="Amazon integration"><a href="#"><img src="{{asset('assets/img/hero/amazon_ico.png')}}" alt="amazon"></a></li>
-                            <li class="user-profile" data-toggle="tooltip" data-placement="top" title="Ebay integration"><a href="#"><img src="{{asset('assets/img/hero/ebay_icon.png')}}" alt="ebay"></a></li>
-                            <li class="user-profile" data-toggle="tooltip" data-placement="top" title="Shopify integration"><a href="#"><img src="{{asset('assets/img/hero/shopify.png')}}" alt="shopify"></a></li>
-                            <li class="user-profile" data-toggle="tooltip" data-placement="top" title="Bigcommerce  integration"><a href="#"><img src="{{asset('assets/img/hero/bigcommerce.png')}}" alt="bigcommerce"></a></li>
-                            <li class="user-profile" data-toggle="tooltip" data-placement="top" title="Wish integration"><a href="#"><img src="{{asset('assets/img/hero/wish-logo.png')}}" alt="wish-logo"></a></li>
-                            <li class="user-profile" data-toggle="tooltip" data-placement="top" title="WooCommerce integration"><a href="#"><img src="{{asset('assets/img/hero/WooCommerce_logo.png')}}" alt="WooCommerce_logo "></a></li>
+                            @foreach ($channels as $item)
+                            <li class="user-profile" data-toggle="tooltip" data-placement="top" title="{{ $item->title}} integration">
+                                <a href="{{route('integration',['slug'=>$item->slug])}}"><img src="{{asset('assets/img/hero/'.$item->icon)}}" alt="{{ $item->title}}"></a>
+                            </li>
+                            @if($loop->iteration  >5)
+                            @break
+                            @endif
+                            @endforeach
                             <li class="user-profile sign-up" data-toggle="tooltip" data-placement="top" title="More integrations"><a href="#"><i class="fas fa-plus"></i></a></li>
                         </ul>
                     </div>

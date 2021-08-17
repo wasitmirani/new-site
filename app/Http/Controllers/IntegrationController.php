@@ -12,11 +12,11 @@ class IntegrationController extends Controller
     public function index(Request $request){
 
         $name=$request->slug;
-
+        $channels=Integration::take(8)->get();
         $channel=Integration::where('slug',$name)->first();
         if(empty($channel)){
             return back();
         }
-        return view('frontend.pages.integrations.index',compact('channel'));
+        return view('frontend.pages.integrations.index',compact('channel','channels'));
     }
 }
