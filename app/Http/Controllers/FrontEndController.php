@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Integration;
 use Illuminate\Http\Request;
 
 class FrontEndController extends Controller
@@ -9,8 +10,9 @@ class FrontEndController extends Controller
     //
     private $file_path="frontend.pages.";
     public function index(){
+        $channels=Integration::take(8)->get();
 
-        return view($this->file_path.'index');
+        return view($this->file_path.'index',compact('channels'));
     }
 
     public function contact(){

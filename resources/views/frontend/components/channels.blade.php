@@ -23,84 +23,28 @@
     <div class="service-area-content">
         <div class="container-fluid">
             <div class="row">
+                @if(!empty($channels))
+                @foreach ($channels as $item)
                 <div class="col-xl-2 col-lg-4 col-md-6">
                     <div class="single-service-box single-service-box-v2 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="service-thumbnail">
-                            <img src="{{asset('assets/img/services/amazon.png')}}" alt="amazon channels {{config('app.name')}}">
+                            <img src="{{asset('assets/img/services/'.$item->thumbnail)}}" alt="{{$item->title}} channels {{config('app.name')}}">
                         </div>
                         <div class="service-box-content">
-                            <h5 class="service-box-title">Amazon integration</h5>
+                            <h5 class="service-box-title">{{$item->title}} integration</h5>
                             <div class="service-box-btn">
-                                <a href="service-details.html"><i class="fas fa-arrow-right"></i></a>
+                                <a href="{{route('integration',['slug'=>$item->slug])}}"><i class="fas fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-2 col-lg-4 col-md-6">
-                    <div class="single-service-box single-service-box-v2 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="service-thumbnail">
-                            <img src="{{asset('assets/img/services/ebay_icondark.png')}}" alt="eBay channels {{config('app.name')}}">
-                        </div>
-                        <div class="service-box-content">
-                            <h5 class="service-box-title">eBay  Integration</h5>
-                            <div class="service-box-btn">
-                                <a href="service-details.html"><i class="fas fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-2 col-lg-4 col-md-6">
-                    <div class="single-service-box single-service-box-v2 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="service-thumbnail">
-                            <img src="{{asset('assets/img/services/shopify.png')}}" alt="shopify channels {{config('app.name')}}">
-                        </div>
-                        <div class="service-box-content">
-                            <h5 class="service-box-title">Shopify Integration</h5>
-                            <div class="service-box-btn">
-                                <a href="service-details.html"><i class="fas fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-2 col-lg-4 col-md-6">
-                    <div class="single-service-box single-service-box-v2 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="service-thumbnail">
-                            <img src="{{asset('assets/img/services/bigcommerce.png')}}" alt="BigCommerce channels {{config('app.name')}}">
-                        </div>
-                        <div class="service-box-content">
-                            <h5 class="service-box-title">BigCommerce Integration</h5>
-                            <div class="service-box-btn">
-                                <a href="service-details.html"><i class="fas fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-2 col-lg-4 col-md-6">
-                    <div class="single-service-box single-service-box-v2 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="service-thumbnail">
-                            <img src="{{asset('assets/img/services/OnBuy_Logo.png')}}" alt="OnBuy channels {{config('app.name')}}">
-                        </div>
-                        <div class="service-box-content">
-                            <h5 class="service-box-title">OnBuy Integration</h5>
-                            <div class="service-box-btn">
-                                <a href="service-details.html"><i class="fas fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-2 col-lg-4 col-md-6">
-                    <div class="single-service-box single-service-box-v2 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="service-thumbnail">
-                            <img src="{{asset('assets/img/services/wish-logo.png')}}" alt="wish channels {{config('app.name')}}">
-                        </div>
-                        <div class="service-box-content">
-                            <h5 class="service-box-title">Wish Integration</h5>
-                            <div class="service-box-btn">
-                                <a href="service-details.html"><i class="fas fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                @if($loop->iteration  >5)
+                @break
+                @endif
+
+                @endforeach
+                @endif
+
 
             </div> <!-- /.row -->
         </div> <!-- /.container-fluid -->

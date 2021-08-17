@@ -32,12 +32,14 @@
                         </div>
                         <div class="user-profile-card wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="1500ms">
                             <ul>
-                                <li class="user-profile" data-toggle="tooltip" data-placement="top" title="Amazon integration"><a href="#"><img src="{{asset('assets/img/hero/amazon_ico.png')}}" alt="amazon"></a></li>
-                                <li class="user-profile" data-toggle="tooltip" data-placement="top" title="Ebay integration"><a href="#"><img src="{{asset('assets/img/hero/ebay_icon.png')}}" alt="ebay"></a></li>
-                                <li class="user-profile" data-toggle="tooltip" data-placement="top" title="Shopify integration"><a href="#"><img src="{{asset('assets/img/hero/shopify.png')}}" alt="shopify"></a></li>
-                                <li class="user-profile" data-toggle="tooltip" data-placement="top" title="Bigcommerce  integration"><a href="#"><img src="{{asset('assets/img/hero/bigcommerce.png')}}" alt="bigcommerce"></a></li>
-                                <li class="user-profile" data-toggle="tooltip" data-placement="top" title="Wish integration"><a href="#"><img src="{{asset('assets/img/hero/wish-logo.png')}}" alt="wish-logo"></a></li>
-                                <li class="user-profile" data-toggle="tooltip" data-placement="top" title="WooCommerce integration"><a href="#"><img src="{{asset('assets/img/hero/WooCommerce_logo.png')}}" alt="WooCommerce_logo "></a></li>
+                                @foreach ($channels as $item)
+                                <li class="user-profile" data-toggle="tooltip" data-placement="top" title="{{ $item->title}} integration">
+                                    <a href="{{route('integration',['slug'=>$item->slug])}}"><img src="{{asset('assets/img/hero/'.$item->icon)}}" alt="{{ $item->title}}"></a>
+                                </li>
+                                @if($loop->iteration  >5)
+                                @break
+                                @endif
+                                @endforeach
                                 <li class="user-profile sign-up" data-toggle="tooltip" data-placement="top" title="More integrations"><a href="#"><i class="fas fa-plus"></i></a></li>
                             </ul>
                         </div>
@@ -149,7 +151,7 @@
     <!--====== End Collaboration Area ======-->
      <!--====== Start Our Services Area ======-->
 
-    @component('frontend.components.channels')
+    @component('frontend.components.channels',['channels'=>$channels])
 
     @endcomponent
     <section class="collaboration-area collaboration-area-v1 pt-130 pb-130">
@@ -208,59 +210,30 @@
                 </div>
 
             <div class="row">
-                <div class="col-lg-3 col-md-6">
+                @foreach ($channels as $item)
+                <div class="col-lg-3 col-md-6 mt-4">
                     <div class="single-iconic-list iconic-list-bg iconic-list-padding wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInUp;">
-
+                        <a href="{{route('integration',['slug'=>$item->slug])}}">
                         <div class="iconic-list-body">
-                            <h5 class="iconic-list-title"><img src="{{asset('assets/img/services/amazon_PNG6.png')}}" alt="icon two"></h5>
-                            <p class="iconic-list-content">
-
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="single-iconic-list iconic-list-bg iconic-list-padding wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInUp;">
-                        <div class="iconic-list-body">
-                            <h5 class="iconic-list-title"><img src="{{asset('assets/img/services/eBay_icon2.png')}}" alt="eBay two" style="height: 55px;
-                                margin-top: 2px;
-                                margin-left: 35px;"></h5>
-                            <p class="iconic-list-content">
-
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="single-iconic-list iconic-list-bg iconic-list-padding wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInUp;">
-                        <div class="iconic-list-body">
-                            <h5 class="iconic-list-title"><img src="{{asset('assets/img/services/shopify_ico.png')}}" alt="eBay two" style="
+                            <h5 class="iconic-list-title">
+                                <img src="{{asset('assets/img/services/'.$item->w_thumbnail)}}" alt="{{$item->title}} channel " style="
                                 height: 55px;
                                 margin-top: 2px;
-                                margin-left: 10px;
+                                margin-left: 5px;
                             "></h5>
-                            <p class="iconic-list-content">
-
-                            </p>
+                            {{-- <p class="iconic-list-content">
+                                integration channel
+                            </p> --}}
+                             </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="single-iconic-list iconic-list-bg iconic-list-padding wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInUp;">
-                        <div class="iconic-list-body">
-                            <h5 class="iconic-list-title"><img src="{{asset('assets/img/services/OnBuy_Logo.png')}}" alt="eBay two" style="
-                                height: 55px;
-                                margin-top: 2px;
-                                margin-left: 10px;
-                            "></h5>
-                            <p class="iconic-list-content">
 
-                            </p>
-                        </div>
-                    </div>
-                </div>
+                @endforeach
+
+
             </div>
-            <div class="row mt-4">
+            {{-- <div class="row mt-4">
                 <div class="col-lg-3 col-md-6">
                     <div class="single-iconic-list iconic-list-bg iconic-list-padding wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInUp;">
                         <div class="iconic-list-body">
@@ -318,7 +291,7 @@
                         </div>
                     </div>
                 </div>
-            </div> <!-- /.row -->
+            </div> <!-- /.row --> --}}
             <div class="view-more-btn-wrapper text-center mt-20 wow fadeInUp" data-wow-delay="0.9s" data-wow-duration="1500ms">
                 <a href="services.html" class="filled-btn btn-bordered bg-clear-blue">
                     View All Services <i class="fas fa-arrow-right"></i>
