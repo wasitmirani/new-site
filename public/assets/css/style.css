@@ -7890,15 +7890,15 @@ button {
 }
 
 .single-iconic-box .iconic-box-icon {
-    height: 60px;
-    width: 60px;
+    height: 100px;
+    width: 100px;
     text-align: center;
     line-height: 60px;
-    background-image: -moz-linear-gradient( -38deg, rgb(120, 57, 243) 0%, rgb(179, 29, 225) 59%, rgb(237, 0, 206) 100%);
+    /* background-image: -moz-linear-gradient( -38deg, rgb(120, 57, 243) 0%, rgb(179, 29, 225) 59%, rgb(237, 0, 206) 100%);
     background-image: -webkit-linear-gradient( -38deg, rgb(120, 57, 243) 0%, rgb(179, 29, 225) 59%, rgb(237, 0, 206) 100%);
-    background-image: -ms-linear-gradient( -38deg, rgb(120, 57, 243) 0%, rgb(179, 29, 225) 59%, rgb(237, 0, 206) 100%);
-    -webkit-box-shadow: 0px 10px 60px 0px rgba(218, 9, 212, 0.28);
-    box-shadow: 0px 10px 60px 0px rgba(218, 9, 212, 0.28);
+    background-image: -ms-linear-gradient( -38deg, rgb(120, 57, 243) 0%, rgb(179, 29, 225) 59%, rgb(237, 0, 206) 100%); */
+    /* -webkit-box-shadow: 0px 10px 60px 0px rgba(218, 9, 212, 0.28); */
+    /* box-shadow: 0px 10px 60px 0px rgba(218, 9, 212, 0.28); */
     border-radius: 50%;
     font-size: 30px;
     color: #fff;

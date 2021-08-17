@@ -1,6 +1,6 @@
 <div class="single-iconic-box iconic-box-v4 wow fadeInDown" data-wow-delay="0.1s" data-wow-duration="2000ms">
     <a href="{{url($url) }}">
-    <div class="iconic-box-icon iconic-box-gradient-{{$color}}">
+    <div class="iconic-box-icon ">
         <img src="{{asset('assets/img/services/'.$image)}}" alt="{{$name}} channels {{config('app.name')}}">
     </div>
     <div class="iconic-box-body">
