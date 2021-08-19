@@ -51,8 +51,11 @@
 
     <!--====== End Footer Area ======-->
     <!--======= Scroll To Top =======-->
-    <a href="#" data-target="html" class="scroll-to-target scroll-to-top bg-red"><i class="fa fa-angle-up"></i></a>
+    <a href="#" data-target="html" class="scroll-to-target scroll-to-top bg-red" style="    margin-bottom: 60px;"><i class="fa fa-angle-up"></i></a>
     @livewireScripts
+    <!-- Start of HubSpot Embed Code -->
+  <script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/20591293.js"></script>
+  <!-- End of HubSpot Embed Code -->
     <!--====== Optional Javascript ======-->
     <script src="{{asset('assets/js/jquery-3.6.0.min.js')}}"></script>
     <!--====== Popper JS ======-->

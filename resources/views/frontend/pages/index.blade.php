@@ -315,6 +315,7 @@
                         </div>
                         <div class="simple-counter-up">
                             <div class="row">
+
                                 <div class="col-md-6">
                                     <div class="single-counter-up single-counter-up-v2">
                                         <div class="counterup-info">
@@ -342,17 +343,22 @@
                     </div>
                 </div>
                 <div class="col-xl-7">
+
                     <div class="pricing-table-wrapper">
+                        @foreach ($pricing_list as $item)
                         <div class="pricing-table pricing-table-v2 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                             <div class="pricing-plan-title">
                                 <div class="pricing-table-icon">
-                                    <h5 class="plan-title bg-burning-orange-gradient">Single Team</h5>
+                                    <h5 class="plan-title {{$item->class}}">{{$item->title}}</h5>
                                 </div>
                                 <div class="pricing-plan-features">
                                     <ul>
-                                        <li class="plan-feature">Social Media Marketing</li>
-                                        <li class="plan-feature">2.100 Keywords</li>
-                                        <li class="plan-feature">One Way Link Building</li>
+                                        @foreach ($item->pricingAddons as $addons)
+                                        <li class="plan-feature">{{$addons->title}}</li>
+                                        @endforeach
+
+                                        {{-- <li class="plan-feature">2.100 Keywords</li>
+                                        <li class="plan-feature">One Way Link Building</li> --}}
                                     </ul>
                                 </div>
                             </div>
@@ -367,7 +373,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="pricing-table pricing-table-v2 wow fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
+                             @endforeach
+                        {{-- <div class="pricing-table pricing-table-v2 wow fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
                             <div class="pricing-plan-title">
                                 <div class="pricing-table-icon">
                                     <h5 class="plan-title bg-ocean-blue-gradient">Professional</h5>
@@ -390,7 +397,7 @@
                                     <a href="service-details.html" class="filled-btn bg-tuna">Select Plan <i class="fas fa-arrow-right"></i></a>
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
             </div> <!-- /.row -->
