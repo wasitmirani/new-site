@@ -40,7 +40,7 @@
                                 @break
                                 @endif
                                 @endforeach
-                                <li class="user-profile sign-up" data-toggle="tooltip" data-placement="top" title="More integrations"><a href="#"><i class="fas fa-plus"></i></a></li>
+                                <li class="user-profile sign-up" data-toggle="tooltip" data-placement="top" title="More integrations"><a href="{{route('integrations')}}"><i class="fas fa-plus"></i></a></li>
                             </ul>
                         </div>
                     </div>

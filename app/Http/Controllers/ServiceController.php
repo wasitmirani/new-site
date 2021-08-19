@@ -2,15 +2,19 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Partner;
+use App\Models\Integration;
 use Illuminate\Http\Request;
 
 class ServiceController extends Controller
 {
     //
     private $filepath="frontend.pages.partners.";
-    public function seller(){
-        $name="Test";
-        return view($this->filepath.'index',compact('name'));
+    public function getPartner(Request $request){
+        $partner=Partner::where('slug',$request->slug)->with('partnerCard','partnerSection','partnerFutures')->first();
+        $channels=Integration::take(8)->get();
+
+        return view($this->filepath.'index',compact('partner','channels'));
     }
     public function exporter(){
         return view($this->filepath.'exporter');

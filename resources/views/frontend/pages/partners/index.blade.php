@@ -22,14 +22,14 @@
                         <img class="particle-4 animate-float-bob-y" src="{{asset('assets/img/particle/particle-5.png')}}" alt="particle Four">
                     </div>
                     <div class="section-title section-title-mandy">
-                        <h5>{{ $name }} Integration </h5>
+                        <h5>{{ $partner->name }} Integration </h5>
 
-                        <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1500ms">Source inventory for your <span>{{ $name }} </span> with @component('frontend.components.appTitle')
+                        <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1500ms">Source inventory for your <span>{{ $partner->name }} </span> with @component('frontend.components.appTitle')
 
                         @endcomponent <div class="brand-logo">
                         <br>
                             <h5 >
-                            Integrate your {{ $name }} store to easily automate your DropShipping order management, payments and shipping
+                            Integrate your {{ $partner->name }} store to easily automate your DropShipping order management, payments and shipping
 
 
                         </h5>
@@ -50,25 +50,27 @@
                     </div>
                     <div class="user-profile-card wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="1500ms">
                         <ul>
-                            <li class="user-profile" data-toggle="tooltip" data-placement="top" title="Amazon integration"><a href="#"><img src="{{asset('assets/img/hero/amazon_ico.png')}}" alt="amazon"></a></li>
-                            <li class="user-profile" data-toggle="tooltip" data-placement="top" title="Ebay integration"><a href="#"><img src="{{asset('assets/img/hero/ebay_icon.png')}}" alt="ebay"></a></li>
-                            <li class="user-profile" data-toggle="tooltip" data-placement="top" title="Shopify integration"><a href="#"><img src="{{asset('assets/img/hero/shopify.png')}}" alt="shopify"></a></li>
-                            <li class="user-profile" data-toggle="tooltip" data-placement="top" title="Bigcommerce  integration"><a href="#"><img src="{{asset('assets/img/hero/bigcommerce.png')}}" alt="bigcommerce"></a></li>
-                            <li class="user-profile" data-toggle="tooltip" data-placement="top" title="Wish integration"><a href="#"><img src="{{asset('assets/img/hero/wish-logo.png')}}" alt="wish-logo"></a></li>
-                            <li class="user-profile" data-toggle="tooltip" data-placement="top" title="WooCommerce integration"><a href="#"><img src="{{asset('assets/img/hero/WooCommerce_logo.png')}}" alt="WooCommerce_logo "></a></li>
-                            <li class="user-profile sign-up" data-toggle="tooltip" data-placement="top" title="More integrations"><a href="#"><i class="fas fa-plus"></i></a></li>
+                            @foreach ($channels as $item)
+                            <li class="user-profile" data-toggle="tooltip" data-placement="top" title="{{ $item->title}} integration">
+                                <a href="{{route('integration',['slug'=>$item->slug])}}"><img src="{{asset('assets/img/hero/'.$item->icon)}}" alt="{{ $item->title}}"></a>
+                            </li>
+                            @if($loop->iteration  >5)
+                            @break
+                            @endif
+                            @endforeach
+                            <li class="user-profile sign-up" data-toggle="tooltip" data-placement="top" title="More integrations"><a href="{{route('integrations')}}"><i class="fas fa-plus"></i></a></li>
                         </ul>
                     </div>
                 </div>
             </div>
             <div class="col-lg-6">
                 <div class="chartboard-image-wrapper">
-                    {{--  <img src="{{asset('assets/img/hero/chartboard-image-main.png')}}" alt="chartboard image one" class="chartboard-image chartboard-image-main wow fadeInDown animate-float-bob-x" data-wow-delay="100ms" data-wow-duration="1500ms">  --}}
+                     <img src="{{asset('assets/img/hero/chartboard-image-main.png')}}" alt="chartboard image one" class="chartboard-image chartboard-image-main wow fadeInDown animate-float-bob-x" data-wow-delay="100ms" data-wow-duration="1500ms">
                     <div class="chartboard-app-preview">
-                        <img src="https://edrop-landingapp.dev/assets/img/seller/Sell%20Giff%20Banner.gif" alt="app preview one" class="chartboard-image chartboard-app-preview-1 wow fadeInDown" data-wow-delay="500ms" data-wow-duration="1500ms">
+                        <img src="{{asset('assets/img/hero/chartboard-app-preview-3.jpg')}}" alt="app preview one" class="chartboard-image chartboard-app-preview-1 wow fadeInDown" data-wow-delay="500ms" data-wow-duration="1500ms">
 
                     </div>
-                    {{--  <img src="{{asset('assets/img/hero/chartboard-image-secondary.png')}}" alt="chartboard image two" class="chartboard-image chartboard-image-secondary wow fadeInRight animate-float-bob-y" data-wow-delay="900ms" data-wow-duration="1500ms">  --}}
+                     <img src="{{asset('assets/img/hero/chartboard-image-secondary.png')}}" alt="chartboard image two" class="chartboard-image chartboard-image-secondary wow fadeInRight animate-float-bob-y" data-wow-delay="900ms" data-wow-duration="1500ms">
                 </div> <!-- /.chart-board-image-wrapper -->
             </div>
         </div> <!-- /.row -->
@@ -87,84 +89,51 @@
             </div>
         </div>
         <div class="row">
+            @foreach ($partner->partnerCard as $item)
             <div class="col-lg-6">
                 <div class="single-service-box single-service-box-v3 wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                     <div class="service-thumbnail">
-                        <img src="{{asset('assets/img/services/service-thumbnail-7.jpg')}}" alt="service thumbnail one">
+                        <img src="{{asset('assets/img/partner/card/'.$item->thumbnail)}}" alt="service {{$item->title}}">
                     </div>
                     <div class="service-box-content">
-                        <h5 class="service-box-title">Smart Softwares</h5>
-                        <p>Quis autem vel eum iure righteous
-                            qui in ea voluptate velit esse.</p>
-                        <div class="service-box-btn">
-                            <a href="service-details.html">Read More <i class="fas fa-arrow-right"></i></a>
-                        </div>
+                        <h5 class="service-box-title">{{$item->title}}</h5>
+                        <p>{{$item->short_description}}</p>
+                        {{-- <div class="service-box-btn">
+                            <a href="{{}}">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div> --}}
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6">
-                <div class="single-service-box single-service-box-v3 wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1500ms">
-                    <div class="service-thumbnail">
-                        <img src="{{asset('assets/img/services/service-thumbnail-8.jpg')}}" alt="service thumbnail two">
-                    </div>
-                    <div class="service-box-content">
-                        <h5 class="service-box-title">Trusted Security</h5>
-                        <p>On the other hand we denounce with righteous indignation dislike</p>
-                        <div class="service-box-btn">
-                            <a href="service-details.html">Read More <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="single-service-box single-service-box-v3 wow fadeInUp" data-wow-delay="0.3s" data-wow-duration="1500ms">
-                    <div class="service-thumbnail">
-                        <img src="{{asset('assets/img/services/service-thumbnail-9.jpg')}}" alt="service thumbnail three">
-                    </div>
-                    <div class="service-box-content">
-                        <h5 class="service-box-title">Awards Winners</h5>
-                        <p>To take trivial example which of ever undertakes laborious physical</p>
-                        <div class="service-box-btn">
-                            <a href="service-details.html">Read More <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="single-service-box single-service-box-v3 wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="1500ms">
-                    <div class="service-thumbnail">
-                        <img src="{{asset('assets/img/services/service-thumbnail-10.jpg')}}" alt="service thumbnail four">
-                    </div>
-                    <div class="service-box-content">
-                        <h5 class="service-box-title">Great Experience</h5>
-                        <p>Ut enim ad minima veniam with indignation  ullam corporis</p>
-                        <div class="service-box-btn">
-                            <a href="service-details.html">Read More <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            @if($loop->iteration  >3)
+            @break
+            @endif
+            @endforeach
+
+
         </div> <!-- /.row -->
     </div> <!-- /.container -->
 </section> <!-- /.our-services -->
-<!--====== End Our Services Area ======-->
-<!--====== Start Our Statistic Area ======-->
+
 <section class="our-statistics-area pt-120 pb-130">
     <div class="container">
-        <div class="row">
+        <div class="row align-items-center">
+            @foreach ($partner->partnerSection as $section)
+
+            @if($loop->iteration==1)
+
             <div class="col-lg-6 order-2 order-lg-1">
                 <div class="our-statistics-content content-right-spacer">
                     <div class="section-title section-title-clear-blue">
                         <div class="section-heading-tag">
-                            <span class="single-heading-tag">Company Statistic</span>
+                            <span class="single-heading-tag">{{$section->subheading}}</span>
                         </div>
-                        <h2>Our Track Record Of Fearless Ventures</h2>
+                        <h2>{{$section->heading}}</h2>
                         <div class="section-title-description">
-                            <p class="mb-10">Sed ut perspiciatis unde omnis iste natus error voluptate accusantium doloremque laudantium, totam rem aperiam eaque ipsa quae abillo inventore.</p>
-                            <p>Quis autem vel eum iure reprehenderit qui ea voluptate velit esse quam nihil molestiae consequatur</p>
+                            <p class="mb-10"> {{$section->short_description}}.</p>
+                            {{-- <p>Quis autem vel eum iure reprehenderit qui ea voluptate velit esse quam nihil molestiae consequatur</p> --}}
                         </div>
                         <div class="section-button-wrapper">
-                            <a href="about.html" class="filled-btn bg-clear-blue">
+                            <a href="{{route('partner.details',['slug'=>$section->slug])}}" class="filled-btn bg-clear-blue">
                                 Learn More <i class="fas fa-arrow-right"></i>
                             </a>
                         </div>
@@ -172,63 +141,64 @@
                 </div>
             </div>
             <div class="col-lg-6 order-1 order-lg-2">
-                <div class="our-statistics-images content-left-spacer content-right-spacer">
-                    <div class="our-statistics-image-relative animate-float-bob-y">
-                        <img src="{{asset('assets/img/app/our-statistic-image-relative.png')}}" alt="our statistic right">
+                <div class="services-law-images content-left-spacer content-right-spacer">
+                    <div class="services-law-image-relative animate-float-bob-x">
+                        <img src="{{asset('assets/img/partner/'.$section->img_1)}}" alt="service law right">
                     </div>
-                    <div class="our-statistics-image-main">
-                        <img src="{{asset('assets/img/app/our-statistic-image-main.png')}}" alt="our statistic main">
+                    <div class="services-law-image-main">
+                        <img src="{{asset('assets/img/partner/'.$section->img_2)}}" alt="service law main">
                     </div>
-                    <div class="our-statistics-image-absolute animate-float-bob-x">
-                        <img src="{{asset('assets/img/app/our-statistic-image-absolute.png')}}" alt="our statistic left">
+                    <div class="services-law-image-absolute animate-float-bob-y">
+                        <img src="{{asset('assets/img/partner/'.$section->img_3)}}" alt="service law left">
                     </div>
                 </div>
             </div>
-        </div> <!-- /.row -->
-    </div> <!-- /.container -->
-</section> <!-- /.our-statistics-area -->
-<!--====== End Our Statistic Area ======-->
-<!--====== Start Services Law Area ======-->
-<section class="services-law-area pb-130">
-    <div class="container">
-        <div class="row align-items-center">
+
+            <br>
+            @else
             <div class="col-lg-6">
                 <div class="services-law-images content-left-spacer content-right-spacer">
                     <div class="services-law-image-relative animate-float-bob-x">
-                        <img src="{{asset('assets/img/services/service-law-relative.png')}}" alt="service law right">
+                        <img src="{{asset('assets/img/partner/'.$section->img_1)}}" alt="service law right">
                     </div>
                     <div class="services-law-image-main">
-                        <img src="{{asset('assets/img/services/service-law-main.jpg')}}" alt="service law main">
+                        <img src="{{asset('assets/img/partner/'.$section->img_2)}}" alt="service law main">
                     </div>
                     <div class="services-law-image-absolute animate-float-bob-y">
-                        <img src="{{asset('assets/img/services/service-law-absolute.png')}}" alt="service law left">
+                        <img src="{{asset('assets/img/partner/'.$section->img_3)}}" alt="service law left">
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6">
+             <div class="col-lg-6">
                 <div class="services-law-content content-left-spacer">
                     <div class="section-title section-title-clear-blue">
                         <div class="section-heading-tag">
-                            <span class="single-heading-tag">Services Power Law</span>
+                            <span class="single-heading-tag">{{$section->subheading}}</span>
                         </div>
-                        <h2>Pace Of Change Is Power Law In Financial Services</h2>
+                        <h2>{{$section->heading}}</h2>
                         <div class="section-title-description mb-0">
-                            <p>Sed ut perspiciatis unde omnis iste natus error voluptate accusantium doloremque laudantium, totam rem aperiam eaque ipsa quae abillo inventore.</p>
+                            <p>
+                                {{$section->short_description}}
+                            </p>
                         </div>
                         <div class="section-list-style list-style-v3 mt-22 mb-35">
-                            <ul>
+                            {{-- <ul>
                                 <li>Create A Compelling Landing Page</li>
                                 <li>Baking Structured Data Into Design Process</li>
-                            </ul>
+                            </ul> --}}
                         </div>
                         <div class="section-button-wrapper">
-                            <a href="about.html" class="filled-btn btn-bordered bg-clear-blue">
+                            <a href="{{route('partner.details',['slug'=>$section->slug])}}" class="filled-btn btn-bordered bg-clear-blue">
                                 Learn More <i class="fas fa-arrow-right"></i>
                             </a>
                         </div>
                     </div>
                 </div>
             </div>
+            @endif
+            @endforeach
+
+
         </div> <!-- /.row -->
     </div> <!-- /.container -->
 </section> <!-- /.services-law-area -->
@@ -311,115 +281,28 @@
 <section class="our-services-area pt-95 pb-130">
     <div class="container">
         <div class="row">
+            @foreach ($partner->partnerFutures as $item)
             <div class="col-lg-3 col-md-6">
                 <div class="single-iconic-box iconic-box-v5 wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                     <div class="iconic-box-icon">
                         <img src="{{asset('assets/img/services/business-analysis.png')}}" alt="icon one">
                     </div>
                     <div class="iconic-box-body">
-                        <h5 class="iconic-box-title">Business Analysis</h5>
+                        <h5 class="iconic-box-title">{{$item->title}}</h5>
                         <p class="iconic-box-content">
-                            Sed perspiciatis unde omnis iste natus error sit voluptatem accusa ntium dolore.
+                          {{$item->short_description}}
                         </p>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6">
-                <div class="single-iconic-box iconic-box-v5 wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1500ms">
-                    <div class="iconic-box-icon">
-                        <img src="{{asset('assets/img/services/consulting.png')}}" alt="icon two">
-                    </div>
-                    <div class="iconic-box-body">
-                        <h5 class="iconic-box-title">Fintech Consulting</h5>
-                        <p class="iconic-box-content">
-                            Sed perspiciatis unde omnis iste natus error sit voluptatem accusa ntium dolore.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <div class="single-iconic-box iconic-box-v5 wow fadeInUp" data-wow-delay="0.3s" data-wow-duration="1500ms">
-                    <div class="iconic-box-icon">
-                        <img src="{{asset('assets/img/services/finance.png')}}" alt="icon three">
-                    </div>
-                    <div class="iconic-box-body">
-                        <h5 class="iconic-box-title">Finance Platforms</h5>
-                        <p class="iconic-box-content">
-                            Sed perspiciatis unde omnis iste natus error sit voluptatem accusa ntium dolore.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <div class="single-iconic-box iconic-box-v5 wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="1500ms">
-                    <div class="iconic-box-icon">
-                        <img src="{{asset('assets/img/services/cog.png')}}" alt="icon four">
-                    </div>
-                    <div class="iconic-box-body">
-                        <h5 class="iconic-box-title">Quality Assurance</h5>
-                        <p class="iconic-box-content">
-                            Sed perspiciatis unde omnis iste natus error sit voluptatem accusa ntium dolore.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <div class="single-iconic-box iconic-box-v5 wow fadeInUp" data-wow-delay="0.5s" data-wow-duration="1500ms">
-                    <div class="iconic-box-icon">
-                        <img src="{{asset('assets/img/services/research.png')}}" alt="icon five">
-                    </div>
-                    <div class="iconic-box-body">
-                        <h5 class="iconic-box-title">Focused Research</h5>
-                        <p class="iconic-box-content">
-                            Sed perspiciatis unde omnis iste natus error sit voluptatem accusa ntium dolore.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <div class="single-iconic-box iconic-box-v5 wow fadeInUp" data-wow-delay="0.6s" data-wow-duration="1500ms">
-                    <div class="iconic-box-icon">
-                        <img src="{{asset('assets/img/services/expense-report.png')}}" alt="icon six">
-                    </div>
-                    <div class="iconic-box-body">
-                        <h5 class="iconic-box-title">Expense Reporting</h5>
-                        <p class="iconic-box-content">
-                            Sed perspiciatis unde omnis iste natus error sit voluptatem accusa ntium dolore.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <div class="single-iconic-box iconic-box-v5 wow fadeInUp" data-wow-delay="0.7s" data-wow-duration="1500ms">
-                    <div class="iconic-box-icon">
-                        <img src="{{asset('assets/img/services/data-verification.png')}}" alt="icon seven">
-                    </div>
-                    <div class="iconic-box-body">
-                        <h5 class="iconic-box-title">Data Verification</h5>
-                        <p class="iconic-box-content">
-                            Sed perspiciatis unde omnis iste natus error sit voluptatem accusa ntium dolore.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <div class="single-iconic-box iconic-box-v5 wow fadeInUp" data-wow-delay="0.8s" data-wow-duration="1500ms">
-                    <div class="iconic-box-icon">
-                        <img src="{{asset('assets/img/services/tax.png')}}" alt="icon eight">
-                    </div>
-                    <div class="iconic-box-body">
-                        <h5 class="iconic-box-title">Tax & Vat Advisory</h5>
-                        <p class="iconic-box-content">
-                            Sed perspiciatis unde omnis iste natus error sit voluptatem accusa ntium dolore.
-                        </p>
-                    </div>
-                </div>
-            </div>
+            @endforeach
+
+
         </div> <!-- /.row -->
         <div class="view-more-btn-wrapper text-center mt-20 wow fadeInUp" data-wow-delay="0.9s" data-wow-duration="1500ms">
-            <a href="services.html" class="filled-btn btn-bordered bg-clear-blue">
+            {{-- <a href="services.html" class="filled-btn btn-bordered bg-clear-blue">
                 View All Services <i class="fas fa-arrow-right"></i>
-            </a>
+            </a> --}}
         </div>
     </div> <!-- /.container -->
 </section> <!-- /.our-services-area -->

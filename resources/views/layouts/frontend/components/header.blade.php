@@ -33,13 +33,19 @@
                                     <li class="menu-item menu-item-has-children">
                                         <a href="#" class="nav-link">Partners</a>
                                         <ul class="sub-menu">
-                                            <li><a href="{{route('partners.seller')}}">Seller </a></li>
-                                        <li><a href="{{route('partners.vendor')}}"> Vendor/Supplier </a></li>
+                                            @php
+                                                $partners=getPartners();
+                                            @endphp
+                                            @foreach ($partners as $item)
+                                            <li><a href="{{route('partner',['slug'=>$item->slug])}}">{{$item->name}} </a></li>
+                                            @endforeach
+
+
                                         <li><a href="https://store.edropship.co.uk/" target=_blank> OnePiece
                                                 Wholesaler</a></li>
                                         <li><a href="https://store.edropship.co.uk/" target=_blank> Bulk Wholesaler</a>
                                         </li>
-                                        <li><a href="{{route('partners.exporter')}}"> Exporter </a></li>
+
                                         <li><a href="{{route('contact')}}"> Franchise </a></li>
                                         <li><a href="{{route('contact')}}"> Whitelable </a></li>
                                         <li><a href="{{route('contact')}}"> Investment </a></li>

@@ -4,6 +4,17 @@
 <style>
     .bg-royal-blue {
     background-color: #473bf0;
+    }
+.pricing-table .pricing-plan-cost .plan-price {
+    font-size: 63px;
+    margin-right: 10px;
+    line-height: 1;
+}
+.pricing-table .pricing-plan-features ul li {
+    color: #606060;
+    font-size: 16px;
+    position: relative;
+    margin-bottom: 8px;
 }
 </style>
 @endpush
@@ -41,11 +52,13 @@
                   </div>
                   <div class="pricing-plan-features">
                       <ul>
-                          <li class="plan-feature">Social Media Marketing</li>
-                          <li class="plan-feature">2.100 Keywords</li>
-                          <li class="plan-feature">One Way Link Building</li>
-                          <li class="plan-feature plan-feature-disabled">5 Free Optimization</li>
-                          <li class="plan-feature plan-feature-disabled">3 Press Releases</li>
+                          @foreach ($item->pricingAddons as $subitem)
+                          <li class="plan-feature">{{$subitem->title}}</li>
+                          @endforeach
+
+
+                          {{-- <li class="plan-feature plan-feature-disabled">5 Free Optimization</li>
+                          <li class="plan-feature plan-feature-disabled">3 Press Releases</li> --}}
                       </ul>
                   </div>
                   <div class="pricing-table-foot">

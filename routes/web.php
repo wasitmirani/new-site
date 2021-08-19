@@ -22,9 +22,10 @@ Route::get('/contact-us',[FrontEndController::class,'contact'])->name('contact')
 Route::get('/about-us',[FrontEndController::class,'about'])->name('about');
 Route::get('/pricing',[FrontEndController::class,'pricing'])->name('pricing');
 Route::get('/integrations',[FrontEndController::class,'integrations'])->name('integrations');
+Route::get('/partner/{slug?}',[ServiceController::class,'getPartner'])->name('partner');
+Route::get('/partner/details/{slug?}',[ServiceController::class,'getPartnerDetails'])->name('partner.details');
+Route::prefix('partner')->name('partner.')->group(function () {
 
-Route::prefix('partners')->name('partners.')->group(function () {
-    Route::get('/seller',[ServiceController::class,'seller'])->name('seller');
     Route::get('/exporter',[ServiceController::class,'exporter'])->name('exporter');
     Route::get('/wholesaler',[ServiceController::class,'wholesaler'])->name('wholesaler');
     Route::get('/bulk-wholesaler',[ServiceController::class,'bulkWholesaler'])->name('bulk.wholesaler');

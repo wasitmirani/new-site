@@ -26,7 +26,8 @@ class FrontEndController extends Controller
     }
 
     public function pricing(){
-        $pricing_list=Pricing::orderBy('sort','ASC')->get();
+        $pricing_list=Pricing::orderBy('sort','ASC')->with('pricingAddons')->get();
+
         return view($this->file_path."pricing",compact('pricing_list'));
     }
     public function integrations(){
