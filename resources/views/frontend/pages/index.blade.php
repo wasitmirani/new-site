@@ -365,7 +365,7 @@
                             <div class="pricing-table-foot">
                                 <div class="pricing-plan-cost">
                                     <span class="payment-currency">$</span>
-                                    <span class="plan-price">29.24</span>
+                                    <span class="plan-price">{{$item->rate}}</span>
                                     <span class="plan-type"> /monthly</span>
                                 </div>
                                 <div class="plan-select">
