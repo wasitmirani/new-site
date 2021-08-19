@@ -29,6 +29,7 @@
     <!-- Place favicon in the root directory -->
     <link rel="icon" type="image/png" href="{{asset('assets/img/favicon.png')}}">
     @stack('styles')
+    @livewireStyles
 </head>
 <body>
     <!--======= Start Preloader =======-->
@@ -38,7 +39,7 @@
     <!--======= End Preloader =======-->
 
     <!--====== Start Header Area ======-->
-        @include('layouts.frontend.components.header')
+    @include('layouts.frontend.components.header')
     <!--====== End Header Area ======-->
     <!--====== Start Hero Area ======-->
       @yield('content')
@@ -51,6 +52,7 @@
     <!--====== End Footer Area ======-->
     <!--======= Scroll To Top =======-->
     <a href="#" data-target="html" class="scroll-to-target scroll-to-top bg-red"><i class="fa fa-angle-up"></i></a>
+    @livewireScripts
     <!--====== Optional Javascript ======-->
     <script src="{{asset('assets/js/jquery-3.6.0.min.js')}}"></script>
     <!--====== Popper JS ======-->
