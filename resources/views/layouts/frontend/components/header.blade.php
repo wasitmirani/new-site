@@ -58,15 +58,15 @@
                                     <li class="menu-item menu-item-has-children">
                                         <a href="#" class="nav-link">Recources</a>
                                         <ul class="sub-menu">
-                                            <li><a href="about.html">Platform Tour</a></li>
-                                            <li><a href="team.html">{{config('app.name')}} Academy</a></li>
-                                            <li><a href="pricing.html">{{config('app.name')}} Guru</a></li>
-                                            <li><a href="coming-soon.html">Mobile App</a></li>
-                                            <li><a href="404.html">Webinars</a></li>
-                                            <li><a href="pricing.html">Blogs</a></li>
-                                            <li><a href="coming-soon.html">Hot Products</a></li>
-                                            <li><a href="404.html">Help Centre</a></li>
-                                            <li><a href="404.html">Free Tools
+                                            <li><a href="{{route('resources.tour')}}">Platform Tour </a></li>
+                                            <li><a href="{{route('resources.academy')}}">{{config('app.name')}} Academy </a></li>
+                                            <li><a href="{{route('resources.guru')}}"> {{config('app.name')}} Guru </a></li>
+                                            <li><a href="{{route('resources.app')}}">Mobile App</a></li>
+                                            <li><a href="{{route('resources.webinars')}}">Webinars </a></li>
+                                            <li><a href="{{route('resources.blogs')}}"> Blogs </a></li>
+                                            <li><a href="{{route('resources.hotproducts')}}"> Hot Products </a></li>
+                                            <li><a href="{{route('contact')}}"> Help Centre </a></li>
+                                            <li><a href="{{route('resources.freetool')}}"> Free Tools </a></li>
                                             </a></li>
                                         </ul>
                                     </li>

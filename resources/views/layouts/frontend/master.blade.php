@@ -29,7 +29,7 @@
     <!-- Place favicon in the root directory -->
     <link rel="icon" type="image/png" href="{{asset('assets/img/favicon.png')}}">
     @stack('styles')
-    @livewireStyles
+    {{--  @livewireStyles  --}}
 </head>
 <body>
     <!--======= Start Preloader =======-->
