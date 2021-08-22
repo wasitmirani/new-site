@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Aug 19, 2021 at 03:36 PM
+-- Generation Time: Aug 22, 2021 at 07:38 PM
 -- Server version: 5.7.33
 -- PHP Version: 7.4.19
 
@@ -75,6 +75,29 @@ INSERT INTO `integrations` (`id`, `title`, `slug`, `icon`, `thumbnail`, `w_thumb
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `integration_cards`
+--
+
+CREATE TABLE `integration_cards` (
+  `id` bigint(20) UNSIGNED NOT NULL,
+  `integration_id` bigint(20) UNSIGNED NOT NULL,
+  `title` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `short_description` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `thumbnail` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `integration_cards`
+--
+
+INSERT INTO `integration_cards` (`id`, `integration_id`, `title`, `short_description`, `thumbnail`, `created_at`, `updated_at`) VALUES
+(1, 1, 'Easy set up\r\n', 'Sed ut perspiciatis unde este error voluptate accus antium doloremque\r\n\r\n', NULL, NULL, NULL);
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `integration_sections`
 --
 
@@ -91,6 +114,13 @@ CREATE TABLE `integration_sections` (
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `integration_sections`
+--
+
+INSERT INTO `integration_sections` (`id`, `integration_id`, `heading`, `subheading`, `thumbnail_1`, `thumbnail_2`, `thumbnail_3`, `description`, `deleted_at`, `created_at`, `updated_at`) VALUES
+(1, 1, 'Source inventory for your Amazon with eDropShip\r\n', 'Source inventory for your Amazon with eDropShip\r\n', 'our-statistic-image-relative.png', 'service3.jpg', 'service4.png', 'Source inventory for your Amazon with eDropShip\r\nSource inventory for your Amazon with eDropShip\r\nSource inventory for your Amazon with eDropShip\r\n', NULL, NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -119,7 +149,8 @@ INSERT INTO `migrations` (`id`, `migration`, `batch`) VALUES
 (8, '2021_08_18_121041_create_partners_table', 3),
 (9, '2021_08_18_121714_create_partner_sections_table', 3),
 (10, '2021_08_18_124930_create_partner_cards_table', 3),
-(11, '2021_08_19_125046_create_partner_futures_table', 4);
+(11, '2021_08_19_125046_create_partner_futures_table', 4),
+(12, '2021_08_22_192547_create_integration_cards_table', 5);
 
 -- --------------------------------------------------------
 
@@ -169,10 +200,11 @@ CREATE TABLE `partner_cards` (
 --
 
 INSERT INTO `partner_cards` (`id`, `partner_id`, `title`, `sort`, `short_description`, `thumbnail`, `created_at`, `updated_at`) VALUES
-(1, 1, 'Smart Software\'s\r\n', 1, 'Quis autem vel eum iure righteous qui in ea voluptate velit esse.', 'service-thumbnail-7.jpg', NULL, NULL),
+(1, 1, 'Smart Software\'s\r\n', 4, 'Quis autem vel eum iure righteous qui in ea voluptate velit esse.', 'service-thumbnail-7.jpg', NULL, NULL),
 (2, 1, 'Trusted Security\r\n', 2, 'On the other hand we denounce with righteous indignation dislike', 'service-thumbnail-8.jpg\r\n', NULL, NULL),
 (3, 1, 'Awards Winners\r\n', 3, 'To take trivial example which of ever undertakes laborious physical', 'service-thumbnail-10.jpg\r\n', NULL, NULL),
-(4, 1, 'Great Experience\r\n', 4, 'To take trivial example which of ever undertakes laborious physical', 'service-thumbnail-9.jpg\r\n', NULL, NULL);
+(4, 1, 'Great Experience\r\n', 1, 'To take trivial example which of ever undertakes laborious physical', 'service-thumbnail-9.jpg\r\n', NULL, NULL),
+(5, 1, 'Great Experience\r\n', 4, 'To take trivial example which of ever undertakes laborious physical', 'service-thumbnail-9.jpg\r\n', NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -271,7 +303,7 @@ INSERT INTO `pricings` (`id`, `title`, `type`, `class`, `btn_class`, `rate`, `de
 (1, 'Free Trial', 'starter', 'bg-burning-orange-gradient', 'bg-burning-orange', 0.00, 'Free TrialFree TrialFree TrialFree TrialFree Trial', NULL, 1, NULL, NULL),
 (2, 'Startups', 'professional', 'bg-ocean-blue-gradient', 'bg-ocean-blue-gradient', 9.99, 'StartupsStartupsStartups', NULL, 2, NULL, NULL),
 (3, 'Business\r\n', 'premium', 'bg-magenta-gradient', ' bg-magenta', 14.99, 'Free TrialFree TrialFree TrialFree TrialFree Trial', NULL, 3, NULL, NULL),
-(4, 'Professional', 'professional', 'bg-ocean-blue-gradient', 'bg-ocean-blue-gradient', 24.99, 'StartupsStartupsStartups', NULL, 4, NULL, NULL),
+(4, 'Professional ', 'professional', 'bg-ocean-blue-gradient', 'bg-ocean-blue-gradient', 24.99, 'StartupsStartupsStartups', NULL, 4, NULL, NULL),
 (5, 'Enterprise', 'starter', 'bg-burning-orange-gradient', 'bg-burning-orange', 49.99, 'StartupsStartupsStartups', NULL, 5, NULL, NULL),
 (6, 'CORPORATE', 'premium', 'bg-magenta-gradient', ' bg-magenta', 99.99, 'StartupsStartupsStartups', NULL, 6, NULL, NULL);
 
@@ -321,7 +353,7 @@ INSERT INTO `pricing_addons` (`id`, `price_id`, `title`, `rate`, `sort`, `create
 (23, 5, '10 user Access\r\n', 0.00, 3, NULL, NULL),
 (24, 5, '1000 Product Listings\r\n', 0.00, 4, NULL, NULL),
 (25, 5, 'Dedicated eGuru\r\n', 0.00, 5, NULL, NULL),
-(26, 4, '400 Product Listings\r\n', 0.00, 5, NULL, NULL),
+(26, 4, '500 Product Listings\r\n', 0.00, 5, NULL, NULL),
 (27, 6, 'Unlimited orders / month\r\n', 0.00, 1, NULL, NULL),
 (28, 6, 'unlimited Payment card Integration\r\n', 0.00, 1, NULL, NULL),
 (29, 6, 'Unlimited Channel Integration\r\n', 0.00, 2, NULL, NULL),
@@ -362,6 +394,13 @@ ALTER TABLE `failed_jobs`
 --
 ALTER TABLE `integrations`
   ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `integration_cards`
+--
+ALTER TABLE `integration_cards`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `integration_cards_integration_id_foreign` (`integration_id`);
 
 --
 -- Indexes for table `integration_sections`
@@ -446,16 +485,22 @@ ALTER TABLE `integrations`
   MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
+-- AUTO_INCREMENT for table `integration_cards`
+--
+ALTER TABLE `integration_cards`
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
 -- AUTO_INCREMENT for table `integration_sections`
 --
 ALTER TABLE `integration_sections`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `migrations`
 --
 ALTER TABLE `migrations`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 
 --
 -- AUTO_INCREMENT for table `partners`
@@ -467,7 +512,7 @@ ALTER TABLE `partners`
 -- AUTO_INCREMENT for table `partner_cards`
 --
 ALTER TABLE `partner_cards`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `partner_futures`
@@ -502,6 +547,12 @@ ALTER TABLE `users`
 --
 -- Constraints for dumped tables
 --
+
+--
+-- Constraints for table `integration_cards`
+--
+ALTER TABLE `integration_cards`
+  ADD CONSTRAINT `integration_cards_integration_id_foreign` FOREIGN KEY (`integration_id`) REFERENCES `integrations` (`id`);
 
 --
 -- Constraints for table `integration_sections`
