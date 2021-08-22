@@ -13,7 +13,7 @@ class IntegrationController extends Controller
 
         $name=$request->slug;
         $channels=Integration::take(8)->get();
-        $channel=Integration::where('slug',$name)->first();
+        $channel=Integration::where('slug',$name)->with('integrationSection','integrationCard')->first();
         if(empty($channel)){
             return back();
         }

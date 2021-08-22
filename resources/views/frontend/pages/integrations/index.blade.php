@@ -80,31 +80,32 @@
 <section class="collaboration-area collaboration-area-v1 pt-130 pb-130">
     <div class="container">
         <div class="row align-items-center">
+
+            @foreach ($channel->integrationSection as $item)
             <div class="col-lg-7">
                 <div class="app-preview-image oval-gradient content-right-spacer">
                     <div class="app-feature-preview-relative animate-float-bob-y wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
-                        <img src="{{asset('assets/img/app/live-chat-activity.jpg')}}" alt="chat activity">
+                        <img src="{{asset('assets/img/integration/'.$item->thumbnail_1)}}" alt="chat activity">
                     </div>
                     <div class="app-feature-preview-main wow fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
-                        <img src="{{asset('assets/img/app/live-chat-preview.png')}}" alt="live collaboration">
+                        <img src="{{asset('assets/img/integration/'.$item->thumbnail_2)}}" alt="live collaboration">
                     </div>
-                    <div class="app-feature-preview-backward animate-float-bob-y wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                        <img src="{{asset('assets/img/app/live-chat-mobile-view.png')}}" alt="mobile view">
-                    </div>
+                    {{-- <div class="app-feature-preview-backward animate-float-bob-y wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                        <img src="{{asset('assets/img/partner/live-chat-mobile-view.png')}}" alt="mobile view">
+                    </div> --}}
                     <div class="app-feature-preview-absolute animate-float-bob-x wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
-                        <img src="{{asset('assets/img/app/live-chat-onboard-clients.jpg')}}" alt="chat onboard">
+                        <img src="{{asset('assets/img/integration/'.$item->thumbnail_3)}}" alt="chat onboard">
                     </div>
                 </div>
             </div>
             <div class="col-lg-5">
                 <div class="section-title section-title-mirage">
                     <div class="section-heading-tag">
-                        <span class="single-heading-tag">Our integration process is straight forward & intuitive                        </span>
+                        <span class="single-heading-tag">{{$item->subheading}}                      </span>
                     </div>
-                    <h2>Source inventory from verified suppliers & <span>sell on</span> {{ $channel->title  }}</h2>
+                    <h2>{{$item->heading}}</h2>
                     <div class="section-title-description">
-                        <p class="mb-13">On the other hand denounce with righteous indignation and dislike men who are beguiled and demoralized by the charms pleasure moment so blindede.</p>
-                        <p>Beguiled and demoralized by charms pleasu moment blinded desire that they cannot foresee.</p>
+                        <p class="mb-13">{{$item->description}}.</p>
                     </div>
                     <div class="section-button-wrapper">
                         <a href="services.html" class="filled-btn bg-mandy button-radius">
@@ -113,9 +114,15 @@
                     </div>
                 </div>
             </div>
+            @if($loop->iteration  >1)
+            @break
+            @endif
+            @endforeach
+
         </div> <!-- /.row -->
     </div> <!-- /.container -->
 </section>
+@if(count($channel->integrationCard)>0)
 <section class="our-services pt-216 pb-130">
     <div class="container">
         <div class="row justify-content-center">
@@ -126,6 +133,7 @@
                 </div>
             </div>
         </div>
+
         <div class="row align-items-center">
             <div class="col-lg-5">
                 <div class="section-right-image text-center animate-float-bob-y wow fadeInDown" data-wow-delay="0ms" data-wow-duration="2000ms">
@@ -134,57 +142,29 @@
             </div>
             <div class="col-lg-7">
                 <div class="icon-boxes-wrapper icon-boxes-grid">
+                    @foreach ($channel->integrationCard as $item)
                     <div class="single-iconic-box iconic-box-v2">
                         <div class="iconic-box-icon iconic-box-gradient-3">
                             <i class="far fa-user-chart"></i>
                         </div>
                         <div class="iconic-box-body">
-                            <h5 class="iconic-box-title">Easy set up</h5>
+                            <h5 class="iconic-box-title">{{ $item->title}}</h5>
                             <p class="iconic-box-content">
-                                Sed ut perspiciatis unde este error voluptate accus antium doloremque
+                                {{ $item->short_description}}
                             </p>
                         </div>
                     </div>
-                    <div class="single-iconic-box iconic-box-v2">
-                        <div class="iconic-box-icon iconic-box-gradient-4">
-                            <i class="far fa-compass"></i>
-                        </div>
-                        <div class="iconic-box-body">
-                            <h5 class="iconic-box-title">Automated product listing</h5>
-                            <p class="iconic-box-content">
-                                But I must explain to you how all this mistaken idea denouncing pleasure
-                            </p>
-                        </div>
-                    </div>
-                    <div class="single-iconic-box iconic-box-v2">
-                        <div class="iconic-box-icon iconic-box-gradient-5">
-                            <i class="far fa-squirrel"></i>
-                        </div>
-                        <div class="iconic-box-body">
-                            <h5 class="iconic-box-title">Order processing
-                            </h5>
-                            <p class="iconic-box-content">
-                                Quis autem vel eum iure reprehe deritea voluptate velit esse quam nihil
-                            </p>
-                        </div>
-                    </div>
-                    <div class="single-iconic-box iconic-box-v2">
-                        <div class="iconic-box-icon iconic-box-gradient-6">
-                            <i class="far fa-fingerprint"></i>
-                        </div>
-                        <div class="iconic-box-body">
-                            <h5 class="iconic-box-title">Inventory synchronisation
-                            </h5>
-                            <p class="iconic-box-content">
-                                At vero eoset accusame et iusto odio dignissimosy ducimus qui bland
-                            </p>
-                        </div>
-                    </div>
+                    @endforeach
+
+
                 </div>
             </div>
-        </div> <!-- /,row -->
+        </div>
+
+        <!-- /,row -->
     </div> <!-- /.container -->
 </section>
+@endif
 @component('frontend.components.testimonial')
 
 @endcomponent

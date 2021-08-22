@@ -8,4 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 class IntegrationSection extends Model
 {
     use HasFactory;
+
+
 }
