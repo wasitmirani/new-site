@@ -27,8 +27,90 @@
                             </div>
                             <nav class="main-menu">
                                 <ul>
-                                    <li class="menu-item ">
+                                    <li class="menu-item menu-item-has-children" >
                                         <a href="{{route('integrations')}}" class="nav-link ">Integrations</a>
+                                        <ul class="sub-menu" style="width:700px" >
+                                            <div style="padding: 25px;" >
+                                                <div class="row" style="padding: 15px; background-color:rgb(245, 215, 215) ; border-radius:10px">
+                                                    <div class="col-11">
+                                                        <h3> Integrations    </h3>
+                                                        <p style="font-size: 15px"> Seamlessly Integarate to your eCommerce store to become a succesfull dropshipping busniess overnight!   </p>
+                                                    </div>
+                                                    <div class="col-1">
+                                                            <a href="{{route('integrations')}}">
+                                                                <i class="fa fa-arrow-right mt-5"></i>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                            </div>
+                                            {{--  <a href="{{route('integrations')}}">  --}}
+                                            {{--  </a>  --}}
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <li>
+                                                        <a href="{{route('integration',['slug'=>'amazon'])}}"> Integration with <span><img src="{{asset('assets/img/services/amazon_ico.png')}}"
+                                                                    width="50px" />
+                                                            </span></a>
+                                                    </li>
+                                                    <li><a href="{{route('integration',['slug'=>'eBay'])}}">Integration with
+                                                            <span><img src="{{asset('assets/img/services/eBay.png')}}"
+                                                                    width="50px" /> </span>
+                                                        </a></li>
+                                                    <li><a href="{{route('integration',['slug'=>'Etsy'])}}">Integration with
+                                                            <span><img src="{{asset('assets/img/services/Etsy.png')}}"
+                                                                    width="50px" /> </span>
+                                                        </a></li>
+                                                    <li><a href="{{route('integration',['slug'=>'OnBuy'])}}">Integration with
+                                                            <span><img src="{{asset('assets/img/services/onbuy.png')}}"
+                                                                    width="70px" /> </span>
+                                                        </a></li>
+                                                    <li><a href="{{route('integration',['slug'=>'shopify'])}}">Integration with
+                                                            <span><img src="{{asset('assets/img/services/shopify.png')}}"
+                                                                    width="70px" /> </span>
+                                                        </a></li>
+                                                    <li><a href="{{route('integration',['slug'=>'fruugo'])}}">Integration with
+                                                            <span><img src="{{asset('assets/img/services/w_fruugo.jpg')}}"
+                                                                    width="70px" /> </span>
+                                                        </a></li>
+                                                    <li><a href="{{route('integration',['slug'=>'wish'])}}">Integration with
+                                                            <span><img src="{{asset('assets/img/services/wish.png')}}"
+                                                                    width="70px" /> </span>
+                                                        </a></li>
+                                                    <li><a href="{{route('integration',['slug'=>'gumtree'])}}">Integration with
+                                                            <span><img src="{{asset('assets/img/services/gumtree.png')}}"
+                                                                    width="90px" /> </span>
+                                                        </a></li>
+
+                                                </div>
+                                                <div class="col-6">
+                                                    <li><a href="{{route('integration',['slug'=>'FacebookShop'])}}">Integration with
+                                                            <span><img src="{{asset('assets/img/services/facebook.png')}}"
+                                                                    width="90px" /> </span>
+                                                        </a></li>
+                                                    <li><a href="{{route('integration',['slug'=>'InstaShop'])}}">Integration with
+                                                            <span><img src="{{asset('assets/img/services/insta_icon.png')}}"
+                                                                    width="30px" /> </span>
+                                                            shop </a></li>
+                                                    <li><a href="{{route('integration',['slug'=>'google'])}}">Integration with
+                                                            <span><img src="{{asset('assets/img/services/google.png')}}"
+                                                                    width="90px" /> </span>
+                                                        </a></li>
+                                                    <li><a href="{{route('integration',['slug'=>'BigCommerce'])}}">Integration with
+                                                            <span><img src="{{asset('assets/img/services/bigcommerce.png')}}"
+                                                                    width="80px" /> </span>
+                                                        </a></li>
+                                                    <li><a href="{{route('integration',['slug'=>'woocommerce'])}}">Integration with
+                                                            <span><img src="{{asset('assets/img/services/woocommerce.png')}}"
+                                                                    width="80px" /> </span>
+                                                        </a></li>
+                                                    <li><a href="{{route('integration',['slug'=>'linnworks'])}}">Integration with
+                                                            <span><img src="{{asset('assets/img/services/Linnworks.png')}}"
+                                                                    width="80px" /> </span>
+                                                        </a></li>
+                                                </div>
+
+                                            </div>
+                                        </ul>
                                     </li>
                                     <li class="menu-item menu-item-has-children">
                                         <a href="#" class="nav-link">Partners</a>

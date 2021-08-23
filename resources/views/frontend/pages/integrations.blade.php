@@ -133,13 +133,13 @@ element.style {
         <div class="our-services-content-wrapper">
             <div class="row">
                 @foreach ($channels as $item)
-                <div class="col-xl-3  col-lg-4 col-sm-6">
+                <div class="col-xl-4  col-lg-4 col-sm-6">
                     @component('frontend.components.IntegrationCard',['image'=> $item->thumbnail,'name'=> $item->title,'color'=>6,'url'=>route('integration',['slug'=> $item->slug])])
                     @endcomponent
                 </div> <!-- /.col-lg-6-->
                 @endforeach
 
-              
+
             </div> <!-- /.row -->
 
         </div> <!-- /.our-services-content-wrapper -->

@@ -1,14 +1,17 @@
 <div class="single-iconic-box iconic-box-v4 wow fadeInDown" data-wow-delay="0.1s" data-wow-duration="2000ms">
-    <a href="{{url($url) }}">
-    <div class="iconic-box-icon ">
+
+    <div class="iconic-img">
         <img src="{{asset('assets/img/services/'.$image)}}" alt="{{$name}} channels {{config('app.name')}}">
     </div>
+        <br/>
+        <br/>
+        <br/>
     <div class="iconic-box-body">
-        <h5 class="iconic-box-title">{{$name}} </h5>
-        <p class="iconic-box-content">
-            Integration
-            {{-- Sed ut perspiciatis unde este error voluptate accus antium doloremque --}}
-        </p>
+        <h3 class="iconic-box-title">{{$name}}  Integration </h3>
+        <br/>
+        <a href="{{url($url) }}" class="filled-btn bg-blue-chalk button-radius">
+            Connect 
+        </a>
     </div>
-</a>
+
 </div>

@@ -40,10 +40,10 @@
                             </a>  --}}
                         </div> </h2>
                         <div class="section-button-wrapper section-dual-button wow fadeInUp" data-wow-delay="0.3s" data-wow-duration="1500ms">
-                            <a href="services.html" class="filled-btn bg-mandy button-radius">
+                            <a href="{{route('pricing')}}" class="filled-btn bg-mandy button-radius">
                                 Get Free Trial <i class="fas fa-arrow-right"></i>
                             </a>
-                            <a href="about.html" class="filled-btn bg-purple button-radius">
+                            <a href="https://portal.edropship.co.uk" class="filled-btn bg-purple button-radius" target="_blank">
                                 Sign in <i class="fas fa-arrow-right"></i>
                             </a>
                         </div>
@@ -77,7 +77,7 @@
         </div> <!-- /.row -->
     </div> <!-- .container -->
 </section>
-<section class="collaboration-area collaboration-area-v1 pt-130 pb-130">
+<section class="collaboration-area collaboration-area-v1 pt-130 pb-130 ">
     <div class="container">
         <div class="row align-items-center">
 
@@ -103,7 +103,8 @@
                     <div class="section-heading-tag">
                         <span class="single-heading-tag">{{$item->subheading}}                      </span>
                     </div>
-                    <h2>{{$item->heading}}</h2>
+                    <h3>{{$item->heading}}</h3>
+                    <br/>
                     <div class="section-title-description">
                         <p class="mb-13">{{$item->description}}.</p>
                     </div>
@@ -144,8 +145,8 @@
                 <div class="icon-boxes-wrapper icon-boxes-grid">
                     @foreach ($channel->integrationCard as $item)
                     <div class="single-iconic-box iconic-box-v2">
-                        <div class="iconic-box-icon iconic-box-gradient-3">
-                            <i class="far fa-user-chart"></i>
+                        <div class="iconic-box-icon">
+                            <i class="far fa-{{ $item->thumbnail }}"></i>
                         </div>
                         <div class="iconic-box-body">
                             <h5 class="iconic-box-title">{{ $item->title}}</h5>
