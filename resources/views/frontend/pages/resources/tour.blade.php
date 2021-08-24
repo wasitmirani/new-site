@@ -15,20 +15,15 @@
                     <div class="section-title section-title-mandy">
                         <h5> Integration </h5>
 
-                        <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1500ms">Source inventory for your <span> </span> with @component('frontend.components.appTitle')
+                        <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1500ms">Everything you need to make DropShipping easier with  <span> </span> with @component('frontend.components.appTitle')
 
                         @endcomponent <div class="brand-logo">
                         <br>
                             <h5 >
-                            Integrate your  store to easily automate your DropShipping order management, payments and shipping
+                               eDropShip provides you with the tools and support you need to scale your DropShipping business
 
 
                         </h5>
-
-
-                            {{--  <a href="index.html">
-                                <img src="{{asset('assets/img/logo-red.png')}}" alt="logo">
-                            </a>  --}}
                         </div> </h2>
                         <div class="section-button-wrapper section-dual-button wow fadeInUp" data-wow-delay="0.3s" data-wow-duration="1500ms">
                             <a href="services.html" class="filled-btn bg-mandy button-radius">
@@ -40,17 +35,7 @@
                         </div>
                     </div>
                     <div class="user-profile-card wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="1500ms">
-                        {{--  <ul>
-                            @foreach ($channels as $item)
-                            <li class="user-profile" data-toggle="tooltip" data-placement="top" title="{{ $item->title}} integration">
-                                <a href="{{route('integration',['slug'=>$item->slug])}}"><img src="{{asset('assets/img/hero/'.$item->icon)}}" alt="{{ $item->title}}"></a>
-                            </li>
-                            @if($loop->iteration  >5)
-                            @break
-                            @endif
-                            @endforeach
-                            <li class="user-profile sign-up" data-toggle="tooltip" data-placement="top" title="More integrations"><a href="#"><i class="fas fa-plus"></i></a></li>
-                        </ul>  --}}
+
                     </div>
                 </div>
             </div>
@@ -67,8 +52,59 @@
             </div>
         </div> <!-- /.row -->
     </div> <!-- .container -->
+
 </section>
 
+<section class="testimonial-area overflow-hidden border-0 pb-120 pt-120">
+    <div class="container">
+        <div class="section-internal">
+            <div class="section-particle-effect d-none d-lg-block section-particle-effect-v2">
+                <img class="particle-1 animate-zoom-fade" src="{{ asset('assets/img/testimonial/testimonial-bg-author-1.png')}}" alt="particle One">
+                <img class="particle-3 animate-float-bob-x" src="{{ asset('assets/img/testimonial/testimonial-bg-author-2.png')}}" alt="particle two">
+                <img class="particle-5 animate-zoom-fade" src="{{ asset('assets/img/testimonial/testimonial-bg-author-3.png')}}" alt="particle three">
+                <img class="particle-7 animate-float-bob-y" src="{{ asset('assets/img/testimonial/testimonial-bg-author-4.png')}}" alt="particle four">
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="section-title text-center section-title-clear-gray mb-33">
+                        <div class="section-heading-tag">
+                            <h2> Product sourcing </h2>
+                        </div>
+                        <span   class="single-heading-tag"> Expand your inventory with our extensive product range</span>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-slider" id="testimonial-slider-v3">
+                <div class="single-testimonial single-testimonial-v6">
+                    <div class="single-testimonial-body">
+                        <img src="{{ asset('assets/img/tour/1.png')}}" alt="testimonial author">
+
+                    </div>
+                </div>
+                <div class="single-testimonial single-testimonial-v6">
+                    <div class="single-testimonial-body">
+                        <img src="{{ asset('assets/img/tour/2.png')}}" alt="testimonial author">
+
+                    </div>
+                </div>
+                <div class="single-testimonial single-testimonial-v6">
+                    <div class="single-testimonial-body">
+                        <img src="{{ asset('assets/img/tour/3.png')}}" alt="testimonial author">
+
+                    </div>
+                </div>
+                <div class="single-testimonial single-testimonial-v6">
+                    <div class="single-testimonial-body">
+                        <img src="{{ asset('assets/img/tour/4.png')}}" alt="testimonial author">
+
+                    </div>
+                </div>
+
+
+            </div> <!-- /.testimonial-slider -->
+        </div> <!-- /.section-internal -->
+    </div> <!-- /.container -->
+</section> <!-- /.testimonial-area -->
 
 
 

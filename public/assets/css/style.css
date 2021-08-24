@@ -170,7 +170,7 @@
 }
 
 body {
-    font-family: 'CircularStdBook';
+    font-family: 'Dax';
     font-size: 17px;
     color: #161c2d;
     line-height: 30px;
@@ -183,7 +183,7 @@ h4,
 h5,
 h6 {
     margin: 0;
-    font-family: 'CircularStdBold';
+    font-family: 'Dax';
     font-weight: 700;
 }
 
@@ -1618,8 +1618,8 @@ button {
 /* List Style */
 
 .section-list-style ul li {
-    font-size: 18px;
-    color: #6e727d;
+    font-size: 15px;
+    color: #000000;
     position: relative;
     z-index: 1;
     padding-left: 30px;
@@ -1645,7 +1645,7 @@ button {
 }
 
 .section-list-style ul li:hover {
-    color: #E25C6A;
+    /* color: #E25C6A; */
 }
 
 
@@ -1674,6 +1674,24 @@ button {
 
 .section-list-style.list-style-v2 ul li:hover {
     color: #161c2d;
+}
+
+.int_nev {
+    padding: 10px !important;
+    -webkit-flex-direction: row;
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-between;
+    flex-wrap: wrap !important;
+    flex-grow: 1px !important;
+    /* width: 90% !important; */
+    /* padding-left: 50px !important; */
+    /* border: 1px solid black; */
+    margin: 0 auto;
+}
+
+.int_nev li {
+    width: 300px;
 }
 
 
@@ -1734,7 +1752,7 @@ button {
     text-transform: capitalize;
     padding: 40px 18px;
     line-height: 1;
-    font-family: 'CircularStdMedium';
+    font-family: 'Dax';
 }
 
 .header-navigation .main-menu ul li>a.nav-link:hover,
@@ -1780,12 +1798,12 @@ button {
     border-radius: 0;
     line-height: 2;
     margin: 0;
-    border-bottom: 1px solid #ececec;
+    /* border-bottom: 1px solid #d30000; */
     color: #1b3255;
 }
 
 .header-navigation .main-menu ul li .sub-menu li a:hover {
-    background-color: #E25C6A;
+    background-color: #eeafb5;
     color: #fff;
     border-color: transparent;
 }
@@ -1800,7 +1818,7 @@ button {
 }
 
 .header-navigation .main-menu ul li:hover.menu-item-has-children>a:after {
-    color: #E25C6A;
+    color: #eeafb5;
 }
 
 .header-navigation .main-menu ul li:hover>.sub-menu {
@@ -7887,7 +7905,7 @@ button {
 
 .single-iconic-box {
     margin-bottom: 40px;
-    text-align:center
+    text-align: center
 }
 
 .single-iconic-box .iconic-box-icon {
@@ -7904,10 +7922,11 @@ button {
     color: #6f667b;
     margin-bottom: 27px;
 }
+
 .single-iconic-box .iconic-img {
     /* width: 200px; */
     height: 100px;
-    text-align:center !important;
+    text-align: center !important;
     line-height: 10px;
     /* background-image: -moz-linear-gradient( -38deg, rgb(120, 57, 243) 0%, rgb(179, 29, 225) 59%, rgb(237, 0, 206) 100%);
     background-image: -webkit-linear-gradient( -38deg, rgb(120, 57, 243) 0%, rgb(179, 29, 225) 59%, rgb(237, 0, 206) 100%);

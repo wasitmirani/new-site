@@ -63,7 +63,7 @@
                   </div>
                   <div class="pricing-table-foot">
                       <div class="plan-select">
-                          <a href="#" class="filled-btn {{$item->btn_class}}">Select Plan <i class="fas fa-arrow-right"></i></a>
+                          <a href="https://portal.edropship.co.uk" class="filled-btn {{$item->btn_class}}" target="_blank">Select Plan <i class="fas fa-arrow-right"></i></a>
                       </div>
                   </div>
               </div>

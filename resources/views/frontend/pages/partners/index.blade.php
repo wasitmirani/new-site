@@ -22,16 +22,15 @@
                         <img class="particle-4 animate-float-bob-y" src="{{asset('assets/img/particle/particle-5.png')}}" alt="particle Four">
                     </div>
                     <div class="section-title section-title-mandy">
-                        <h5>{{ $partner->name }} Integration </h5>
 
-                        <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1500ms">Source inventory for your <span>{{ $partner->name }} </span> with @component('frontend.components.appTitle')
+                        <h5>{{ $partner->name }} Intigartion </h5>
+                        <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1500ms">{{ $partner->title }} </span> with @component('frontend.components.appTitle')
 
-                        @endcomponent <div class="brand-logo">
-                        <br>
-                            <h5 >
-                            Integrate your {{ $partner->name }} store to easily automate your DropShipping order management, payments and shipping
-
-
+                            @endcomponent <div class="brand-logo">
+                                <br>
+                            <h5
+                             >
+                            {{ $partner->short_description }}
                         </h5>
 
 
@@ -81,9 +80,11 @@
         <div class="row justify-content-center">
             <div class="col-lg-7">
                 <div class="section-title text-center mb-45">
-                    <h2>Learn How to Move Faster</h2>
+                    <h2>Get incentives by selling with @component('frontend.components.appTitle')
+
+                        @endcomponent ?</h2>
                     <div class="section-title-description">
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam eaque</p>
+                        {{-- <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam eaque</p> --}}
                     </div>
                 </div>
             </div>
@@ -125,18 +126,27 @@
                 <div class="our-statistics-content content-right-spacer">
                     <div class="section-title section-title-clear-blue">
                         <div class="section-heading-tag">
-                            <span class="single-heading-tag">{{$section->subheading}}</span>
                         </div>
-                        <h2>{{$section->heading}}</h2>
+                        <h2>{{$section->heading}} </h2>
                         <div class="section-title-description">
-                            <p class="mb-10"> {{$section->short_description}}.</p>
-                            {{-- <p>Quis autem vel eum iure reprehenderit qui ea voluptate velit esse quam nihil molestiae consequatur</p> --}}
+                            <span >{{$section->subheading}}</span>
+
                         </div>
-                        <div class="section-button-wrapper">
+                        <div class="section-list-style mt-22 mb-35">
+                            <ul>
+                                <li> {{$section->short_description}}.</li>
+                                <li>{{$section->btn_class}} </li>
+                                <li>{{$section->description}}</li>
+                                <li>{{$section->btn_label}}</li>
+                                <li>{{$section->btn_link}}</li>
+
+                            </ul>
+                        </div>
+                        {{-- <div class="section-button-wrapper">
                             <a href="{{route('partner.details',['slug'=>$section->slug])}}" class="filled-btn bg-clear-blue">
                                 Learn More <i class="fas fa-arrow-right"></i>
                             </a>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
             </div>
@@ -173,29 +183,32 @@
                 <div class="services-law-content content-left-spacer">
                     <div class="section-title section-title-clear-blue">
                         <div class="section-heading-tag">
-                            <span class="single-heading-tag">{{$section->subheading}}</span>
                         </div>
-                        <h2>{{$section->heading}}</h2>
-                        <div class="section-title-description mb-0">
-                            <p>
-                                {{$section->short_description}}
+                        <h2>{{$section->heading}} @component('frontend.components.appTitle')
+
+                            @endcomponent</h2>
+                            <div class="section-title-description mb-0">
+                            <p> {{$section->short_description}}
                             </p>
                         </div>
-                        <div class="section-list-style list-style-v3 mt-22 mb-35">
-                            {{-- <ul>
-                                <li>Create A Compelling Landing Page</li>
-                                <li>Baking Structured Data Into Design Process</li>
-                            </ul> --}}
+                        <div class="section-list-style mt-22 mb-35">
+                            <ul>
+                                <li>{{$section->subheading}} </li>
+                                <li>{{$section->btn_class}} </li>
+                                <li>{{$section->description}}</li>
+                                <li>{{$section->btn_label}}</li>
+                            </ul>
                         </div>
-                        <div class="section-button-wrapper">
+                        {{-- <div class="section-button-wrapper">
                             <a href="{{route('partner.details',['slug'=>$section->slug])}}" class="filled-btn btn-bordered bg-clear-blue">
                                 Learn More <i class="fas fa-arrow-right"></i>
                             </a>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
             </div>
             @endif
+
             @endforeach
 
 
@@ -251,8 +264,8 @@
             <div class="row">
                 <div class="col-xl-8 col-lg-7">
                     <div class="featured-video-area">
-                        <div class="featured-video-content video-overlay bg-cover play-video" style="background-image: url(assets/img/feature/featured-video-cover-2.jpg);">
-                            <a href="https://vimeo.com/87110435" class="play-video-btn play-video-btn-v2"><i class="fas fa-play pulse-animated"></i></a>
+                        <div class="featured-video-content video-overlay bg-cover play-video" style="background-image: url(https://i9.ytimg.com/vi/VeHZb_Xt-Xc/maxresdefault.jpg?time=1629806400000&sqp=CMC-k4kG&rs=AOn4CLAm5Y0Mexr-B28ga9f8INBIALVtUA);">
+                            <a href="https://www.youtube.com/watch?v=VeHZb_Xt-Xc" class="play-video-btn play-video-btn-v2"><i class="fas fa-play pulse-animated"></i></a>
                         </div>
                     </div>
                 </div>
@@ -262,10 +275,10 @@
                             <div class="section-title section-title-white text-center">
                                 <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1500ms">Get Free Consultations</h2>
                                 <div class="section-title-description wow fadeInUp" data-wow-delay="0.3s" data-wow-duration="1500ms">
-                                    <p>Sed ut perspiciatis unde omnis iste  voluptate accusan dolore</p>
+
                                 </div>
                                 <div class="section-button-wrapper text-center wow fadeInUp" data-wow-delay="0.5s" data-wow-duration="1500ms">
-                                    <a href="contact.html" class="filled-btn btn-bordered">
+                                    <a href="{{route('contact')}}" class="filled-btn btn-bordered">
                                         Get A Quote <i class="fas fa-arrow-right"></i>
                                     </a>
                                 </div>
@@ -283,9 +296,9 @@
         <div class="row">
             @foreach ($partner->partnerFutures as $item)
             <div class="col-lg-3 col-md-6">
-                <div class="single-iconic-box iconic-box-v5 wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
+                <div class="single-iconic-box iconic-box-v5 wow fadeInUp text-justify" data-wow-delay="0.1s" data-wow-duration="1500ms">
                     <div class="iconic-box-icon">
-                        <img src="{{asset('assets/img/services/business-analysis.png')}}" alt="icon one">
+                        <img src="{{asset('assets/img/services/'.$item->thumbnail)}}" alt="icon one">
                     </div>
                     <div class="iconic-box-body">
                         <h5 class="iconic-box-title">{{$item->title}}</h5>
@@ -313,14 +326,16 @@
                 <div class="cta-content">
                     <div class="section-title section-title-white text-center">
                         <div class="section-heading-tag wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
-                            <span class="single-heading-tag">Get Free Consultations</span>
+                            <span class="single-heading-tag">Sell your products globally</span>
                         </div>
-                        <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1500ms">Want To Know More Informations <br class="d-none d-md-block"> About Fintech Solutions?</h2>
+                        <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1500ms">Want To Know More Informations <br class="d-none d-md-block"> About @component('frontend.components.appTitle')
+
+                            @endcomponent?</h2>
                         <div class="section-button-wrapper section-dual-button justify-content-center text-center wow fadeInUp" data-wow-delay="0.3s" data-wow-duration="1500ms">
-                            <a href="contact.html" class="filled-btn bg-clear-blue">
+                            <a href="{{route('contact')}}" class="filled-btn bg-clear-blue">
                                 Get Free Quote <i class="fas fa-arrow-right"></i>
                             </a>
-                            <a href="about.html" class="filled-btn btn-bordered">
+                            <a href="{{route('resources.tour')}}" class="filled-btn btn-bordered">
                                 How It Works <i class="fas fa-arrow-right"></i>
                             </a>
                         </div>

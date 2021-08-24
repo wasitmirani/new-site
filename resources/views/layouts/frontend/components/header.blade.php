@@ -45,8 +45,8 @@
                                             </div>
                                             {{--  <a href="{{route('integrations')}}">  --}}
                                             {{--  </a>  --}}
-                                            <div class="row">
-                                                <div class="col-6">
+                                            <div class="int_nev">
+
                                                     <li>
                                                         <a href="{{route('integration',['slug'=>'amazon'])}}"> Integration with <span><img src="{{asset('assets/img/services/amazon_ico.png')}}"
                                                                     width="50px" />
@@ -81,8 +81,7 @@
                                                                     width="90px" /> </span>
                                                         </a></li>
 
-                                                </div>
-                                                <div class="col-6">
+
                                                     <li><a href="{{route('integration',['slug'=>'FacebookShop'])}}">Integration with
                                                             <span><img src="{{asset('assets/img/services/facebook.png')}}"
                                                                     width="90px" /> </span>
@@ -107,7 +106,7 @@
                                                             <span><img src="{{asset('assets/img/services/Linnworks.png')}}"
                                                                     width="80px" /> </span>
                                                         </a></li>
-                                                </div>
+
 
                                             </div>
                                         </ul>
