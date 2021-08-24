@@ -170,7 +170,7 @@
 }
 
 body {
-    font-family: 'Dax';
+    font-family: 'CircularStdBook';
     font-size: 17px;
     color: #161c2d;
     line-height: 30px;
@@ -183,7 +183,7 @@ h4,
 h5,
 h6 {
     margin: 0;
-    font-family: 'Dax';
+    font-family: 'CircularStdBook';
     font-weight: 700;
 }
 
@@ -1752,7 +1752,7 @@ button {
     text-transform: capitalize;
     padding: 40px 18px;
     line-height: 1;
-    font-family: 'Dax';
+    font-family: 'CircularStdBook';
 }
 
 .header-navigation .main-menu ul li>a.nav-link:hover,
