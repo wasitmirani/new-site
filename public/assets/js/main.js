@@ -30,7 +30,11 @@
 
 -----------------------------------------------------------------------------------*/
 
-(function ($) {
+
+
+
+
+(function($) {
     'use strict';
 
     /*---------------------------------------------*
@@ -45,23 +49,23 @@
             navMenuLi = $('.nav-menu ul li ul li'),
             closeIcon = $('.navbar-close');
         // navbar toggler
-        navbarToggler.on('click', function () {
+        navbarToggler.on('click', function() {
             navbarToggler.toggleClass('active');
             navMenu.toggleClass('menu-on');
         });
         // close icon
-        closeIcon.on('click', function () {
+        closeIcon.on('click', function() {
             navMenu.removeClass('menu-on');
             navbarToggler.removeClass('active');
         });
         // adds toggle button to li items that have children
-        navMenu.find('li a').each(function () {
+        navMenu.find('li a').each(function() {
             if ($(this).next().length > 0) {
                 $(this).parent('li').append('<span class="dd-trigger"><i class="fas fa-angle-down"></i></span>');
             }
         });
         // expands the dropdown menu on each click
-        navMenu.find('li .dd-trigger').on('click', function (e) {
+        navMenu.find('li .dd-trigger').on('click', function(e) {
             e.preventDefault();
             $(this).parent('li').children('ul').stop(true, true).slideToggle(350);
             $(this).parent('li').toggleClass('active');
@@ -76,7 +80,7 @@
             }
         }
         breakpointCheck();
-        var_window.on('resize', function () {
+        var_window.on('resize', function() {
             breakpointCheck();
         });
     };
@@ -85,28 +89,75 @@
     /*---------------------------------------------*
      * Header Right Canvas Menu
     ---------------------------------------------*/
+
+    $('.app-active').slick({
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        dots: false,
+        arrows: false,
+        infinite: true,
+        centerMode: true,
+        centerPadding: 0,
+        autoplay: true,
+        responsive: [{
+                breakpoint: 1400,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 1199,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 560,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
+    });
     var panelIcon = $('.off-menu'),
         panelClose = $('.panel-close'),
         panelWrap = $('.offcanvas-panel');
-    panelIcon.on('click', function (e) {
+    panelIcon.on('click', function(e) {
         panelWrap.toggleClass('panel-on');
         e.preventDefault();
     });
-    panelClose.on('click', function (e) {
+    panelClose.on('click', function(e) {
         panelWrap.removeClass('panel-on');
         e.preventDefault();
     });
 
-    $(".nav-toggle, .cross-wrap").on('click', function (e) {
+    $(".nav-toggle, .cross-wrap").on('click', function(e) {
         $(".menu-toggle").toggleClass("active");
     });
-    $(".menu-overlay").on('click', function (e) {
+    $(".menu-overlay").on('click', function(e) {
         e.preventDefault();
         $(".nav-menu").toggleClass("menu-on");
         $(".menu-toggle").toggleClass("active");
         $(".navbar-toggler").toggleClass("active");
     });
-    $(".menu-overlay").on('click', function (e) {
+    $(".menu-overlay").on('click', function(e) {
         e.preventDefault();
         $(".offcanvas-panel").toggleClass("panel-on");
     });
@@ -122,8 +173,7 @@
         speed: 1000,
         slidesToShow: 3,
         slidesToScroll: 1,
-        responsive: [
-            {
+        responsive: [{
                 breakpoint: 991,
                 settings: {
                     arrows: false,
@@ -151,8 +201,7 @@
         speed: 1000,
         slidesToShow: 2,
         slidesToScroll: 1,
-        responsive: [
-            {
+        responsive: [{
                 breakpoint: 991,
                 settings: {
                     arrows: false,
@@ -180,8 +229,7 @@
         speed: 1000,
         slidesToShow: 1,
         slidesToScroll: 1,
-        responsive: [
-            {
+        responsive: [{
                 breakpoint: 991,
                 settings: {
                     arrows: false,
@@ -212,16 +260,14 @@
         variableWidth: false,
         prevArrow: '<span class="prev"><i class="fas fa-arrow-left"></i></span>',
         nextArrow: '<span class="next"><i class="fas fa-arrow-right"></i></span>',
-        responsive: [
-            {
-                breakpoint: 575,
-                settings: {
-                    arrows: false,
-                    autoplay: true,
-                    dots: true
-                }
+        responsive: [{
+            breakpoint: 575,
+            settings: {
+                arrows: false,
+                autoplay: true,
+                dots: true
             }
-        ]
+        }]
     });
 
     /*---------------------------------------------*
@@ -235,15 +281,13 @@
         speed: 1000,
         slidesToShow: 2,
         slidesToScroll: 1,
-        responsive: [
-            {
-                breakpoint: 991,
-                settings: {
-                    arrows: false,
-                    slidesToShow: 1
-                }
+        responsive: [{
+            breakpoint: 991,
+            settings: {
+                arrows: false,
+                slidesToShow: 1
             }
-        ]
+        }]
     });
 
     /*---------------------------------------------*
@@ -251,11 +295,11 @@
     ---------------------------------------------*/
     function heroSliderTwo() {
         var BasicSlider = $('.hero-slider');
-        BasicSlider.on('init', function (e, slick) {
+        BasicSlider.on('init', function(e, slick) {
             var $firstAnimatingElements = $('.hero-slide-single:first-child').find('[data-animation]');
             doAnimations($firstAnimatingElements);
         });
-        BasicSlider.on('beforeChange', function (e, slick, currentSlide, nextSlide) {
+        BasicSlider.on('beforeChange', function(e, slick, currentSlide, nextSlide) {
             var $animatingElements = $('.hero-slide-single[data-slick-index="' + nextSlide + '"]').find('[data-animation]');
             doAnimations($animatingElements);
         });
@@ -270,18 +314,17 @@
             slidesToScroll: 1,
             prevArrow: '<span class="prev"><i class="fas fa-angle-left"></i></span>',
             nextArrow: '<span class="next"><i class="fas fa-angle-right"></i></span>',
-            responsive: [
-                {
-                    breakpoint: 575,
-                    settings: {
-                        arrows: false
-                    }
+            responsive: [{
+                breakpoint: 575,
+                settings: {
+                    arrows: false
                 }
-            ]
+            }]
         });
+
         function doAnimations(elements) {
             var animationEndEvents = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
-            elements.each(function () {
+            elements.each(function() {
                 var $this = $(this);
                 var $animationDelay = $this.data('delay');
                 var $animationType = 'animated ' + $this.data('animation');
@@ -289,7 +332,7 @@
                     'animation-delay': $animationDelay,
                     '-webkit-animation-delay': $animationDelay
                 });
-                $this.addClass($animationType).one(animationEndEvents, function () {
+                $this.addClass($animationType).one(animationEndEvents, function() {
                     $this.removeClass($animationType);
                 });
             });
@@ -308,8 +351,7 @@
         speed: 1000,
         slidesToShow: 5,
         slidesToScroll: 1,
-        responsive: [
-            {
+        responsive: [{
                 breakpoint: 991,
                 settings: {
                     arrows: false,
@@ -344,8 +386,7 @@
         speed: 1000,
         slidesToShow: 6,
         slidesToScroll: 1,
-        responsive: [
-            {
+        responsive: [{
                 breakpoint: 991,
                 settings: {
                     arrows: false,
@@ -379,7 +420,7 @@
     /*---------------------------------------------*
      * Bootstrap Tooltip
     ---------------------------------------------*/
-    $(function () {
+    $(function() {
         $('[data-toggle="tooltip"]').tooltip()
     })
 
@@ -399,7 +440,7 @@
     /*---------------------------------------------*
      * Magnific Popup
     ---------------------------------------------*/
-    $('.play-video').each(function () {
+    $('.play-video').each(function() {
         $(this).magnificPopup({
             delegate: 'a',
             type: 'iframe',
@@ -419,19 +460,19 @@
     ---------------------------------------------*/
     // Scroll Target Animation
     if ($(".scroll-to-target").length) {
-        $(".scroll-to-target").on("click", function () {
+        $(".scroll-to-target").on("click", function() {
             var target = $(this).attr("data-target");
             // animate
             $("html, body").animate({
-                scrollTop: $(target).offset().top,
-            },
+                    scrollTop: $(target).offset().top,
+                },
                 1000
             );
             return false;
         });
     }
     // Window Scroll Event
-    $(window).on("scroll", function () {
+    $(window).on("scroll", function() {
         if ($(".scroll-to-top").length) {
             var strickyScrollPos = 100;
             if ($(window).scrollTop() > strickyScrollPos) {
@@ -445,14 +486,14 @@
     /*---------------------------------------------*
      * Preloader
     ---------------------------------------------*/
-    $(window).on('load', function () {
+    $(window).on('load', function() {
         $('.preloader').delay(500).fadeOut(500);
     })
 
     /*---------------------------------------------*
      * Sticky Menu
     ---------------------------------------------*/
-    $(window).on('scroll', function (event) {
+    $(window).on('scroll', function(event) {
         var scroll = $(window).scrollTop();
         if (scroll < 110) {
             $(".header-navigation").removeClass("sticky");

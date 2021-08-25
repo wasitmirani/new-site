@@ -50,4 +50,7 @@ class ServiceController extends Controller
     public function smartshop(){
         return view($this->filepath.'smartshop');
     }
+    public function seller(){
+        return view($this->filepath.'seller');
+    }
 }

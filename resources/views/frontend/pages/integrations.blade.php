@@ -134,7 +134,7 @@ element.style {
             <div class="row">
                 @foreach ($channels as $item)
                 <div class="col-xl-4  col-lg-4 col-sm-6">
-                    @component('frontend.components.IntegrationCard',['image'=> $item->thumbnail,'name'=> $item->title,'color'=>6,'url'=>route('integration',['slug'=> $item->slug])])
+                    @component('frontend.components.IntegrationCard',['image'=> $item->icon,'name'=> $item->title,'color'=>6,'url'=>route('integration',['slug'=> $item->slug])])
                     @endcomponent
                 </div> <!-- /.col-lg-6-->
                 @endforeach

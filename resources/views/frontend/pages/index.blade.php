@@ -16,11 +16,9 @@
                             <img class="particle-4 animate-float-bob-y" src="{{asset('assets/img/particle/particle-5.png')}}" alt="particle Four">
                         </div>
                         <div class="section-title section-title-mandy">
-                            <h1 class="wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1500ms">See Your Business <span>Scale </span> with   <div class="brand-logo">
-                                <a href="index.html">
-                                    <img src="{{asset('assets/img/logo-red.png')}}" alt="logo">
-                                </a>
-                            </div> </h1>
+                            <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1500ms">Take Charge of Your Business & Make it Grow with <span><img src="{{asset('assets/img/logo-red.png')}}" alt="logo"></span></h2>
+                            <p class="mb-10">We enable you to take control of your business and let it scale by dropshipping. We empower your with all the requisite tools from online store integration, access provision to suppliers, and automated payments, shipping, and orders. </p>
+
                             <div class="section-button-wrapper section-dual-button wow fadeInUp" data-wow-delay="0.3s" data-wow-duration="1500ms">
                                 <a href="services.html" class="filled-btn bg-mandy button-radius">
                                     Get Free Trial <i class="fas fa-arrow-right"></i>
@@ -72,7 +70,7 @@
                 <div class="icon-boxes-wrapper">
                     <div class="row">
                         <div class="col-lg-3 col-md-6">
-                            <div class="single-iconic-box iconic-box-v3 exclusive-iconic-box-1 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="single-iconic-box iconic-box-v3 exclusive-iconic-box-1 wow fadeInUp text-left" data-wow-delay="0.1s">
                                 <div class="iconic-box-icon">
                                     <img src="{{asset('assets/img/feature/flaticon-headphones.png')}}" alt="headphones">
                                 </div>
@@ -83,30 +81,30 @@
                                         You can reach out to us via live chat, text, or email. Our representatives are available round the clock to address your queries and concerns.
                                     </p>
                                     <div class="iconic-box-btn">
-                                        <a href="#"><i class="fas fa-arrow-right"></i></a>
+                                        <a href="{{route('contact')}}"><i class="fas fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6">
-                            <div class="single-iconic-box iconic-box-v3 exclusive-iconic-box-2 wow fadeInUp" data-wow-delay="0.2s">
+                            <div class="single-iconic-box iconic-box-v3 exclusive-iconic-box-2 wow fadeInUp text-left" data-wow-delay="0.2s">
                                 <div class="iconic-box-icon">
                                     <img src="{{asset('assets/img/feature/rising.png')}}" alt="share">
                                 </div>
                                 <div class="iconic-box-body">
                                     <h5 class="iconic-box-title">Progress Reports</h5>
-                                    <p class="iconic-box-content " style="margin-bottom:55px;">
+                                    <p class="iconic-box-content ">
                                         You can check the weekly, monthly, and yearly progress of your
-                                        online store on our dashboard system.
+                                        online store on our dashboard system complete managable and etc.
                                     </p>
                                     <div class="iconic-box-btn ">
-                                        <a href="#"><i class="fas fa-arrow-right"></i></a>
+                                        <a href="{{route('resources.tour')}}"><i class="fas fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6">
-                            <div class="single-iconic-box iconic-box-v3 exclusive-iconic-box-3 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="single-iconic-box iconic-box-v3 exclusive-iconic-box-3 wow fadeInUp text-left" data-wow-delay="0.3s">
                                 <div class="iconic-box-icon">
                                     <img src="{{asset('assets/img/feature/flaticon-share.png')}}" alt="chatting">
                                 </div>
@@ -119,23 +117,23 @@
 
                                     </p>
                                     <div class="iconic-box-btn">
-                                        <a href="#"><i class="fas fa-arrow-right"></i></a>
+                                        <a href="{{route('resources.tour')}}"><i class="fas fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6">
-                            <div class="single-iconic-box iconic-box-v3 exclusive-iconic-box-4 wow fadeInUp" data-wow-delay="0.4s">
+                            <div class="single-iconic-box iconic-box-v3 exclusive-iconic-box-4 wow fadeInUp text-left" data-wow-delay="0.4s">
                                 <div class="iconic-box-icon">
                                     <img src="{{asset('assets/img/feature/flaticon-satisfaction.png')}}" alt="satisfaction">
                                 </div>
                                 <div class="iconic-box-body">
                                     <h5 class="iconic-box-title">Download Apps</h5>
-                                    <p class="iconic-box-content" style="margin-bottom:55px;">
+                                    <p class="iconic-box-content" style="margin-bottom:80px;">
                                         Offering smart mobile application for our customers to shop and sell anywhere around the world.
                                     </p>
                                     <div class="iconic-box-btn">
-                                        <a href="#"><i class="fas fa-arrow-right"></i></a>
+                                        <a href="{{route('resources.app')}}"><i class="fas fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -174,19 +172,162 @@
                     </div>
                 </div>
                 <div class="col-lg-5">
-                    <div class="section-title section-title-mirage">
+                    <div class="section-title section-title-clear-gray">
                         <div class="section-heading-tag">
-                            <span class="single-heading-tag">Collaboration With Chat</span>
+                            <span class="single-heading-tag">Business Scale </span>
                         </div>
-                        <h2>See Your Business
-                            <span> Scale with</span> <img src="{{asset('assets/img/logo-red.png')}}" alt="logo"></h2>
-                        <div class="section-title-description">
-                            <p class="mb-13"> We enable you to take control of your business and let it scale by dropshipping. We empower your with all the requisite tools from online store integration, access provision to suppliers, and automated payments, shipping, and orders.</p>
-                            <p>{{config('app.name')}} offers an intuitive, automated panel to save your time and energy. It keeps track of your store’s day-to-day operations to help you focus on the bigger stuff.</p>
+                        <h3 style="font-size:50px ; line-height:50px" >See Your Business
+                            <span> Scale with <img src="{{asset('assets/img/logo-red.png')}}" alt="logo"></span></h3>
+                            <div class="section-title-description">
+                            <p class="mb-13">Whether you are a supplier, vendor, or seller, dropship via eDropShip and see your business skyrocket. </p>
+                            <p> We enable you to take control of your business and let it scale by dropshipping. We empower your with all the requisite tools from online store integration, access provision to suppliers, and automated payments, shipping, and orders.</p>
+
                         </div>
-                        <div class="section-button-wrapper">
+                        {{--  <div class="section-button-wrapper">
                             <a href="services.html" class="filled-btn bg-mandy button-radius">
                                 Get Stared Now <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>  --}}
+                    </div>
+                </div>
+            </div> <!-- /.row -->
+        </div> <!-- /.container -->
+    </section>
+
+    <section class="blog-and-news-area bg-magnolia pt-130 pb-100" style="background-image: url(assets/img/services/dots-pattern-bg.png);">
+        <div class="container">
+            <div class="section-internal">
+                <div class="section-particle-effect d-none d-md-block section-particle-effect-v2">
+                    <img class="particle-1 animate-zoom-fade" src="{{asset('assets/img/particle/particle-1.png')}}" alt="particle One">
+                    <img class="particle-2 animate-rotate-me" src="{{asset('assets/img/particle/particle-2.png')}}" alt="particle Two">
+                    <img class="particle-3 animate-float-bob-y" src="{{asset('assets/img/particle/particle-3.png')}}" alt="particle Three">
+                    <img class="particle-4 animate-zoominout" src="{{asset('assets/img/particle/particle-4.png')}}" alt="particle Four">
+                    <img class="particle-5 animate-zoominout" src="{{asset('assets/img/particle/particle-5.png')}}" alt="particle Five">
+                    <img class="particle-7 animate-float-bob-x" src="{{asset('assets/img/particle/particle-7.png')}}" alt="particle Seven">
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="blog-news-content">
+                            <div class="section-title section-title-ocean-blue">
+                                <div class="section-heading-tag">
+                                    <span class="single-heading-tag">Inventory Detail  </span>
+                                </div>
+                                <h2>Manage your
+                                    <span>  Orders & Inventory</span>
+                                    Without Fuss
+                                </h2>
+                                <div class="section-title-description">
+                                    <p>Whether you are a seller or supplier, keep track of your orders and manage your inventory without much effort through our automated panel. </p>
+                                </div>
+                                <div class="section-button-wrapper">
+                                    <a href="blog-standard.html" class="filled-btn">
+                                        View All News <i class="fas fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 order-1 order-lg-2">
+                        <div class="our-statistics-images content-left-spacer content-right-spacer">
+                            <div class="our-statistics-image-relative animate-float-bob-y">
+                                <img src="{{ asset('assets/img/app/our-statistic-image-relative.png')}}" alt="our statistic right">
+                            </div>
+                            <div class="our-statistics-image-main">
+                                <img src="{{ asset('assets/img/app/our-statistic-image-main.png')}}" alt="our statistic main">
+                            </div>
+                            <div class="our-statistics-image-absolute animate-float-bob-x">
+                                <img src="{{ asset('assets/img/app/our-statistic-image-absolute.png')}}" alt="our statistic left">
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- /.row -->
+            </div> <!-- /.section-internal -->
+        </div> <!-- /.container -->
+    </section> <!-- /.blog-and-news-area -->
+    <section class="our-statistics-area pt-120 pb-130">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 order-2 order-lg-1">
+                    <div class="our-statistics-content content-right-spacer">
+                        <div class="section-title section-title-clear-gray">
+                            <div class="section-heading-tag">
+                                <span class="single-heading-tag">Vendor / supplier</span>
+                            </div>
+                            <h2>Sign up as a Vendor/Supplier </h2>
+                            <div class="section-title-description">
+                                <p class="mb-10">Enhance your clientele through eDropShip’s wide customer’s base. Find potential customers to expand the market for your products. Minimize the workload through our automated portal that offers: </p>
+                                <div class="section-list-style list-style-v2 mt-22 mb-35">
+                                    <ul>
+                                        <li>Accelerated order management </li>
+                                        <li>Secured and automated payments </li>
+                                        <li>Synchronized inventory </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="section-button-wrapper">
+                                <a href="{{route('partner.vendor')}}" class="filled-btn bg-mandy button-radius">
+                                    Learn More <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 order-1 order-lg-2">
+                    <div class="our-statistics-images content-left-spacer content-right-spacer">
+                        <div class="our-statistics-image-relative animate-float-bob-y">
+                            <img src="{{ asset('assets/img/app/our-statistic-image-relative.png')}}" alt="our statistic right">
+                        </div>
+                        <div class="our-statistics-image-main">
+                            <img src="{{ asset('assets/img/app/our-statistic-image-main.png')}}" alt="our statistic main">
+                        </div>
+                        <div class="our-statistics-image-absolute animate-float-bob-x">
+                            <img src="{{ asset('assets/img/app/our-statistic-image-absolute.png')}}" alt="our statistic left">
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- /.row -->
+        </div> <!-- /.container -->
+    </section> <!-- /.our-statistics-area -->
+    <!-- /.our-services -->
+    <section class="collaboration-area collaboration-area-v1 pt-130 pb-130">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7">
+                    <div class="app-preview-image oval-gradient content-right-spacer">
+                        <div class="app-feature-preview-relative animate-float-bob-y wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
+                            <img src="{{asset('assets/img/app/live-chat-activity.jpg')}}" alt="chat activity">
+                        </div>
+                        <div class="app-feature-preview-main wow fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
+                            <img src="{{asset('assets/img/app/live-chat-preview.png')}}" alt="live collaboration">
+                        </div>
+                        <div class="app-feature-preview-backward animate-float-bob-y wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                            <img src="{{asset('assets/img/app/live-chat-mobile-view.png')}}" alt="mobile view">
+                        </div>
+                        <div class="app-feature-preview-absolute animate-float-bob-x wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
+                            <img src="{{asset('assets/img/app/live-chat-onboard-clients.jpg')}}" alt="chat onboard">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="section-title section-title-clear-gray">
+                        <div class="section-heading-tag">
+                            <span class="single-heading-tag">Selling online  </span>
+                        </div>
+                        <h2>Sign up as a Seller</h2>
+                            <div class="section-title-description">
+                            <p class="mb-13">Minimize the trouble and eliminate the worry of managing inventory and focus on attaining more customers. Receive orders, acquire the products from eDropShip’s suppliers and get them shipped off to the buyers. Automate the entire process to reduce cost and effort through our portal. </p>
+                            <div class="section-list-style list-style-v2 mt-22 mb-35">
+                                <ul>
+                                    <li>30+ integration channels to optimize selling </li>
+                                    <li>Reduced cost, as only 10 percent commission is required with zero risk. </li>
+                                    <li>Automated invoicing</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="section-button-wrapper">
+                            <a href="{{route('partner.seller')}}" class="filled-btn bg-mandy button-radius">
+                                Learn More <i class="fas fa-arrow-right"></i>
                             </a>
                         </div>
                     </div>
@@ -194,7 +335,6 @@
             </div> <!-- /.row -->
         </div> <!-- /.container -->
     </section>
-    <!-- /.our-services -->
 
 
     <section class="blog-and-news-area bg-magnolia pt-130 pb-100" style="background-image: url(assets/img/services/dots-pattern-bg.png);">
@@ -233,65 +373,7 @@
 
 
             </div>
-            {{-- <div class="row mt-4">
-                <div class="col-lg-3 col-md-6">
-                    <div class="single-iconic-list iconic-list-bg iconic-list-padding wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInUp;">
-                        <div class="iconic-list-body">
-                            <h5 class="iconic-list-title"><img src="{{asset('assets/img/services/Linnworks.png')}}" alt="Linnworks " style="
-                                height: 55px;
-                                margin-top: 2px;
-                                margin-left: 5px;
-                            "></h5>
-                            <p class="iconic-list-content">
 
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="single-iconic-list iconic-list-bg iconic-list-padding wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInUp;">
-                        <div class="iconic-list-body">
-                            <h5 class="iconic-list-title"><img src="{{asset('assets/img/services/bigcommerce.png')}}" alt="bigcommerce" style="
-                                height: 55px;
-                                margin-top: 2px;
-                                margin-left: 5px;
-                            "></h5>
-                            <p class="iconic-list-content">
-
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="single-iconic-list iconic-list-bg iconic-list-padding wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInUp;">
-                        <div class="iconic-list-body">
-                            <h5 class="iconic-list-title"><img src="{{asset('assets/img/services/fruugo.svg')}}" alt="bigcommerce" style="
-                                    height: 55px;
-                            margin-top: 2px;
-                            margin-left: 31px;
-                            background-color: rgb(2 140 235);
-                            "></h5>
-                            <p class="iconic-list-content">
-
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="single-iconic-list iconic-list-bg iconic-list-padding wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInUp;">
-                        <div class="iconic-list-body">
-                            <h5 class="iconic-list-title"><img src="{{asset('assets/img/services/wish-logo.png')}}" alt="wish" style="
-                                height: 55px;
-                                margin-top: 2px;
-                                margin-left: 5px;
-                            "></h5>
-                            <p class="iconic-list-content">
-
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div> <!-- /.row --> --}}
             <div class="view-more-btn-wrapper text-center mt-20 wow fadeInUp" data-wow-delay="0.9s" data-wow-duration="1500ms">
                 <a href="{{route('integrations')}}" class="filled-btn btn-bordered bg-clear-blue">
                     View All Integrations <i class="fas fa-arrow-right"></i>
@@ -310,7 +392,7 @@
                                 <span>Applications</span>
                             </h2>
                             <div class="section-title-description">
-                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremq ue laudante totam rem aperiam</p>
+                                <p>Sign up on eDropShip by entering the required information and allow your online store to flourish. Create product listings and be visible to grab potential clients.     </p>
                             </div>
                         </div>
                         <div class="simple-counter-up">
@@ -418,65 +500,79 @@
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="faq-content content-right-spacer">
-                        <div class="section-title section-title-ocean-blue">
+                        <div class="section-title section-title-ocean-gray">
                             <div class="section-heading-tag">
                                 <span class="single-heading-tag">Our Approch</span>
                             </div>
-                            <h2>Grow Your Business With
-                                <span>  <div class="brand-logo">
+                            <h2>
+                                You Name It, We got It
+                                {{--  <span>  <div class="brand-logo">
                                     <a href="{{route('home')}}">
                                         <img src="{{asset('assets/img/logo-red.png')}}" alt="logo">
                                     </a>
-                                </div></span>
+                                </div></span>  --}}
                             </h2>
+                            <p class="mb-15">From diversifying your sales, sourcing quality suppliers to expanding your clientele for your exports or wholesale enterprise, we have a plethora of options for you.</p>
                         </div>
                         <div class="section-accordion">
                             <div class="accordion" id="accordionFAQ">
                                 <div class="accordion-item">
                                     <h5 class="accordion-header" id="headingOne">
                                         <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                            Choose Work With MintTwist SEO Agency?
+                                            Simple Setup
                                         </button>
                                     </h5>
                                     <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionFAQ">
                                         <div class="accordion-body">
-                                            <p>We are confident in our SEO strategies and in general we will start to see organic traffic and conversions growing after approximately 4-6 months.</p>
+                                            <p>Just sign up on our one-window portal and start selling. </p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="accordion-item">
                                     <h5 class="accordion-header" id="headingTwo">
                                         <button class="accordion-button" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-                                            How Long Does It Take to Start Ranking?
+                                            Verified Uk Suppliers
                                         </button>
                                     </h5>
                                     <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionFAQ">
                                         <div class="accordion-body">
-                                            <p>We are confident in our SEO strategies and in general we will start to see organic traffic and conversions growing after approximately 4-6 months.</p>
+                                            <p>Our wide base of suppliers go through a vetting process to ensure high quality products with fast response and delivery. </p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="accordion-item">
                                     <h5 class="accordion-header" id="headingThree">
                                         <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                            Can You Guarantee Results?
+                                            {{ "Easy-to-use Interface" }}
                                         </button>
                                     </h5>
                                     <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionFAQ">
                                         <div class="accordion-body">
-                                            <p>We are confident in our SEO strategies and in general we will start to see organic traffic and conversions growing after approximately 4-6 months.</p>
+                                            <p>{{" Use our simple, intuitive interface to undertake your business operations. Be it creating product listings or checking your weekly progress, you can easily manage it with a few taps. "}}</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="accordion-item">
                                     <h5 class="accordion-header" id="headingFour">
                                         <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                            Do You Only Work Within The UK?
+                                            Automated Processing
                                         </button>
                                     </h5>
                                     <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionFAQ">
                                         <div class="accordion-body">
-                                            <p>We are confident in our SEO strategies and in general we will start to see organic traffic and conversions growing after approximately 4-6 months.</p>
+                                            <p>Everything from orders and payments to shipping and updating stocks is automated on our portal. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h5 class="accordion-header" id="headingFive">
+                                        <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                            Easy Access
+                                        </button>
+                                    </h5>
+                                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionFAQ">
+                                        <div class="accordion-body">
+                                            <p>Whether you are looking for suppliers or grab customers, our portal provides you the due access. We enable you to reach out to the suppliers or be visible to potential customers—all at one platform.  </p>
                                         </div>
                                     </div>
                                 </div>
@@ -510,97 +606,7 @@
     @endcomponent
     <!--====== End Contact Area ======-->
      <!--====== Start Blog or News Area ======-->
-     <section class="blog-and-news-area bg-magnolia pt-130 pb-100" style="background-image: url(assets/img/services/dots-pattern-bg.png);">
-        <div class="container">
-            <div class="section-internal">
-                <div class="section-particle-effect d-none d-md-block section-particle-effect-v2">
-                    <img class="particle-1 animate-zoom-fade" src="{{asset('assets/img/particle/particle-1.png')}}" alt="particle One">
-                    <img class="particle-2 animate-rotate-me" src="{{asset('assets/img/particle/particle-2.png')}}" alt="particle Two">
-                    <img class="particle-3 animate-float-bob-y" src="{{asset('assets/img/particle/particle-3.png')}}" alt="particle Three">
-                    <img class="particle-4 animate-zoominout" src="{{asset('assets/img/particle/particle-4.png')}}" alt="particle Four">
-                    <img class="particle-5 animate-zoominout" src="{{asset('assets/img/particle/particle-5.png')}}" alt="particle Five">
-                    <img class="particle-7 animate-float-bob-x" src="{{asset('assets/img/particle/particle-7.png')}}" alt="particle Seven">
-                </div>
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="blog-news-content">
-                            <div class="section-title section-title-ocean-blue">
-                                <div class="section-heading-tag">
-                                    <span class="single-heading-tag">Blog & News</span>
-                                </div>
-                                <h2>Get Every Single
-                                    <span>Update</span>
-                                    & Tips
-                                </h2>
-                                <div class="section-title-description">
-                                    <p>Sed ut perspiciatis unde omnis iste natus error voluptate accus oloremqu laudantium totam aperiam</p>
-                                </div>
-                                <div class="section-button-wrapper">
-                                    <a href="blog-standard.html" class="filled-btn">
-                                        View All News <i class="fas fa-arrow-right"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-8">
-                        <div class="row">
-                            <!-- Single Blog Post -->
-                            <div class="col-lg-6">
-                                <div class="blog-post-item wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                    <div class="post-thumbnail">
-                                        <a href="blog-details.html">
-                                            <img src="{{asset('assets/img/blog/blog-thumbnail-1.jpg')}}" alt="blog thumbnail one">
-                                        </a>
-                                        <div class="post-tag">
-                                            <a href="#">SEO</a>
-                                        </div>
-                                    </div>
-                                    <div class="blog-post-entry-content">
-                                        <div class="post-meta-wrapper">
-                                            <ul>
-                                                <li><a href="#" class="post-meta"><i class="far fa-calendar-alt"></i>25 May 2021</a></li>
-                                                <li><a href="#" class="post-meta"><i class="fas fa-comment-dots"></i>Com (05)</a></li>
-                                            </ul>
-                                        </div>
-                                        <h4 class="post-title"><a href="blog-details.html">Data Visualization Improve Mobile Experience.</a></h4>
-                                        <div class="post-read-more">
-                                            <a href="blog-details.html" class="filled-btn bg-blue-chalk">Read more <i class="fas fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Single Blog Post -->
-                            <div class="col-lg-6">
-                                <div class="blog-post-item wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                                    <div class="post-thumbnail">
-                                        <a href="blog-details.html">
-                                            <img src="{{asset('assets/img/blog/blog-thumbnail-2.jpg')}}" alt="blog thumbnail twp">
-                                        </a>
-                                        <div class="post-tag bg-purple">
-                                            <a href="#">Marketing</a>
-                                        </div>
-                                    </div>
-                                    <div class="blog-post-entry-content">
-                                        <div class="post-meta-wrapper">
-                                            <ul>
-                                                <li><a href="#" class="post-meta"><i class="far fa-calendar-alt"></i>25 May 2021</a></li>
-                                                <li><a href="#" class="post-meta"><i class="fas fa-comment-dots"></i>Com (05)</a></li>
-                                            </ul>
-                                        </div>
-                                        <h4 class="post-title"><a href="blog-details.html">Make Honest Design Work Digital Business Ways.</a></h4>
-                                        <div class="post-read-more">
-                                            <a href="blog-details.html" class="filled-btn bg-blue-chalk">Read more <i class="fas fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> <!-- /.row -->
-            </div> <!-- /.section-internal -->
-        </div> <!-- /.container -->
-    </section> <!-- /.blog-and-news-area -->
+
     <!--====== End Blog or News Area ======-->
     <!--====== End Testimonial Area ======-->
         <!--====== Start Call to Action Area ======-->
@@ -620,10 +626,10 @@
                                     </div>
                                     <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1500ms">Get our apps very easily, we’re <br class="d-none d-md-block"> available on store</h2>
                                     <div class="section-button-wrapper section-dual-button justify-content-center text-center wow fadeInUp" data-wow-delay="0.3s" data-wow-duration="1500ms">
-                                        <a href="service-details.html" class="filled-btn">
+                                        <a href="https://apps.apple.com/us/app/edropship/id1538316367" class="filled-btn" target="_blank">
                                             Apple Store <i class="fab fa-apple"></i>
                                         </a>
-                                        <a href="service-details.html" class="filled-btn bg-blue-chalk">
+                                        <a href="https://play.google.com/store/apps/details?id=com.edropshipstore.app" target="_blank" class="filled-btn bg-blue-chalk">
                                             Google Play <i class="fab fa-google-play"></i>
                                         </a>
                                     </div>

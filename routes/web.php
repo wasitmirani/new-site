@@ -52,6 +52,7 @@ Route::prefix('partner')->name('partner.')->group(function () {
     Route::get('/whitelabel',[ServiceController::class,'whitelabel'])->name('whitelabel');
     Route::get('/investment',[ServiceController::class,'investment'])->name('investment');
     Route::get('/smartshop',[ServiceController::class,'smartshop'])->name('smartshop');
+    Route::get('/seller',[ServiceController::class,'seller'])->name('seller');
 
 });
 

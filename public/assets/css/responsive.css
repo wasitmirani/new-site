@@ -333,7 +333,7 @@
         margin-left: 5px;
     }
     .header-area .header-navigation.breakpoint-on {
-        height: 85px;
+        height: 100px;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -559,6 +559,15 @@
     .single-footer-widget.footer-text-widget img {
         margin-bottom: 10px;
     }
+    .screeenshot-area {
+        padding-top: 55px;
+    }
+    .screeenshot-area.second-screenshot-area {
+        padding-top: 110px;
+    }
+    .app-padding {
+        padding: 0 210px;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1399px) {
@@ -570,6 +579,9 @@
     }
     .section-particle-effect.section-particle-effect-v4 .particle-3 {
         left: -65px;
+    }
+    .app-padding {
+        padding: 0 25px;
     }
 }
 
@@ -585,6 +597,9 @@
     }
     .single-service-box.single-service-box-v2 {
         padding: 40px 35px;
+    }
+    .app-padding {
+        padding: 0;
     }
 }
 
@@ -602,7 +617,7 @@
         margin-left: 8px;
     }
     .header-area .header-navigation.breakpoint-on {
-        height: 70px;
+        height: 100px;
     }
     .hero-area .section-title h1,
     .hero-area.hero-v2 .section-title h1,
@@ -637,6 +652,9 @@
     }
     .hero-area.hero-v4 .chartboard-image-wrapper .chartboard-app-preview .chartboard-app-preview-1 {
         left: 300px;
+    }
+    .app-padding {
+        padding: 0;
     }
     .hero-area.hero-v4 {
         background-size: contain;
@@ -1034,6 +1052,9 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .app-padding {
+        padding: 0;
+    }
     .hero-area.hero-v4 .chartboard-image-wrapper .chartboard-app-preview .chartboard-app-preview-1 {
         top: 10px;
         left: auto;
@@ -1401,7 +1422,7 @@
         display: none;
     }
     .header-area .header-navigation.breakpoint-on {
-        height: 60px;
+        height: 100px;
     }
     .hero-area .section-title h1,
     .hero-area.hero-v2 .section-title h1,
@@ -2268,6 +2289,9 @@
 /* Mobile Device */
 
 @media only screen and (max-width: 300px) {
+    .app-padding {
+        padding: 0;
+    }
     .hero-area .section-title .section-heading-tag .single-heading-tag.bordered-tag {
         margin-top: 10px;
     }
