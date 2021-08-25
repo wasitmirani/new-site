@@ -170,8 +170,13 @@
 }
 
 body {
+<<<<<<< HEAD
     font-family: 'dax', sans-serif;
     font-size: 15px;
+=======
+    font-family: 'CircularStdBook';
+    font-size: 17px;
+>>>>>>> 898460929a1b67312350cb2a0123df1fcfea6e76
     color: #161c2d;
     line-height: 30px;
 }
@@ -183,8 +188,12 @@ h4,
 h5,
 h6 {
     margin: 0;
+<<<<<<< HEAD
     font-family: 'dax', sans-serif;
     ;
+=======
+    font-family: 'CircularStdBook';
+>>>>>>> 898460929a1b67312350cb2a0123df1fcfea6e76
     font-weight: 700;
 }
 
@@ -1756,8 +1765,12 @@ button {
     text-transform: capitalize;
     padding: 40px 18px;
     line-height: 1;
+<<<<<<< HEAD
     font-family: 'dax', sans-serif;
     ;
+=======
+    font-family: 'CircularStdBook';
+>>>>>>> 898460929a1b67312350cb2a0123df1fcfea6e76
 }
 
 .header-navigation .main-menu ul li>a.nav-link:hover,
