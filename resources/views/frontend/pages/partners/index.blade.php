@@ -94,7 +94,7 @@
             <div class="col-lg-6">
                 <div class="single-service-box single-service-box-v3 wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                     <div class="service-thumbnail">
-                        <img src="{{asset('assets/img/partner/card/'.$item->thumbnail)}}" alt="service {{$item->title}}">
+                        <img src="{{asset('assets/img/'.$item->thumbnail)}}" alt="service {{$item->title}}">
                     </div>
                     <div class="service-box-content">
                         <h5 class="service-box-title">{{$item->title}}</h5>
@@ -296,9 +296,9 @@
         <div class="row">
             @foreach ($partner->partnerFutures as $item)
             <div class="col-lg-3 col-md-6">
-                <div class="single-iconic-box iconic-box-v5 wow fadeInUp text-justify" data-wow-delay="0.1s" data-wow-duration="1500ms">
+                <div class="single-iconic-box iconic-box-v5 wow fadeInUp text-left" data-wow-delay="0.1s" data-wow-duration="1500ms">
                     <div class="iconic-box-icon">
-                        <img src="{{asset('assets/img/services/'.$item->thumbnail)}}" alt="icon one">
+                        <img src="{{asset('assets/img/'.$item->thumbnail)}}" alt="icon one"  >
                     </div>
                     <div class="iconic-box-body">
                         <h5 class="iconic-box-title">{{$item->title}}</h5>

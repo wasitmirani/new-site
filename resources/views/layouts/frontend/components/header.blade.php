@@ -48,59 +48,59 @@
                                             <div class="int_nev">
                                                     <li><a href="https://store.edropship.co.uk/collections/adult" target="_blank">
                                                             <span><img src="https://cdn.shopify.com/s/files/1/0274/7308/4531/collections/ElGZyY_large.jpg?v=1598944881"
-                                                                    width="50px" style="border-radius: 50%" /> <span class="ml-10 " style="font-size: 20px"> Adult </span>   </span>
+                                                                    width="40px" style="border-radius: 50%" /> <span class="ml-10 " style="font-size: 15px"> Adult </span>   </span>
                                                         </a></li>
                                                         <li><a href="https://store.edropship.co.uk/collections/Automotive" target="_blank">
                                                             <span><img src="https://cdn.shopify.com/s/files/1/0274/7308/4531/collections/Automotive_large.jpg?v=1598944879"
-                                                                    width="50px" style="border-radius: 50%" /> <span class="ml-10 " style="font-size: 20px"> Automotive </span>   </span>
+                                                                    width="40px" style="border-radius: 50%" /> <span class="ml-10 " style="font-size: 15px"> Automotive </span>   </span>
                                                         </a></li>
                                                         <li><a href="https://store.edropship.co.uk/collections/Baby-Children" target="_blank">
                                                             <span><img src="https://cdn.shopify.com/s/files/1/0274/7308/4531/collections/Baby_Children_large.jpg?v=1598944849"
-                                                                    width="50px" style="border-radius: 50%" /> <span class="ml-10 " style="font-size: 20px"> Baby & Children </span>   </span>
+                                                                    width="40px" style="border-radius: 50%" /> <span class="ml-10 " style="font-size: 15px"> Baby & Children </span>   </span>
                                                         </a></li>
                                                         <li><a href="https://store.edropship.co.uk/collections/Books" target="_blank">
                                                             <span><img src="https://cdn.shopify.com/s/files/1/0274/7308/4531/collections/books_large.jpg?v=1598944884"
-                                                                    width="50px" style="border-radius: 50%" /> <span class="ml-10 " style="font-size: 20px"> Books </span>   </span>
+                                                                    width="40px" style="border-radius: 50%" /> <span class="ml-10 " style="font-size: 15px"> Books </span>   </span>
                                                         </a></li>
                                                         <li><a href="https://store.edropship.co.uk/collections/Computers-Electronics" target="_blank">
                                                             <span><img src="https://cdn.shopify.com/s/files/1/0274/7308/4531/collections/computers_electronics_large.jpg?v=1598944841"
-                                                                    width="50px" style="border-radius: 50%" /> <span class="ml-10 " style="font-size: 20px"> Computers & Electronics </span>   </span>
+                                                                    width="40px" style="border-radius: 50%" /> <span class="ml-10 " style="font-size: 15px"> Computers & Electronics </span>   </span>
                                                         </a></li>
                                                         <li><a href="https://store.edropship.co.uk/collections/DIY-Tools" target="_blank">
                                                             <span><img src="https://cdn.shopify.com/s/files/1/0274/7308/4531/collections/DIY_TOOLS_large.jpg?v=1598944889"
-                                                                    width="50px" style="border-radius: 50%" /> <span class="ml-10 " style="font-size: 20px"> DIY & Tools </span>   </span>
+                                                                    width="40px" style="border-radius: 50%" /> <span class="ml-10 " style="font-size: 15px"> DIY & Tools </span>   </span>
                                                         </a></li>
                                                         <li><a href="https://store.edropship.co.uk/collections/Fashion-Lifestyle" target="_blank">
                                                             <span><img src="https://cdn.shopify.com/s/files/1/0274/7308/4531/collections/Fashion_Lifestyle_large.jpg?v=1598944891"
-                                                                    width="50px" style="border-radius: 50%" /> <span class="ml-10 " style="font-size: 20px"> Fashion & Lifestyle </span>   </span>
+                                                                    width="40px" style="border-radius: 50%" /> <span class="ml-10 " style="font-size: 15px"> Fashion & Lifestyle </span>   </span>
                                                         </a></li>
                                                         <li><a href="https://store.edropship.co.uk/collections/Food-Drink" target="_blank">
                                                             <span><img src="https://cdn.shopify.com/s/files/1/0274/7308/4531/collections/Food_Drink_large.png?v=1598944894"
-                                                                    width="50px" style="border-radius: 50%" /> <span class="ml-10 " style="font-size: 20px"> Food & Drink </span>   </span>
+                                                                    width="40px" style="border-radius: 50%" /> <span class="ml-10 " style="font-size: 15px"> Food & Drink </span>   </span>
                                                         </a></li>
                                                         <li><a href="https://store.edropship.co.uk/collections/Health-Beauty" target="_blank">
                                                             <span><img src="https://cdn.shopify.com/s/files/1/0274/7308/4531/collections/Health_Beauty_large.jpg?v=1598944795"
-                                                                    width="50px" style="border-radius: 50%" /> <span class="ml-10 " style="font-size: 20px"> Health & Beauty </span>   </span>
+                                                                    width="40px" style="border-radius: 50%" /> <span class="ml-10 " style="font-size: 15px"> Health & Beauty </span>   </span>
                                                         </a></li>
                                                         <li><a href="https://store.edropship.co.uk/collections/home-garden" target="_blank">
                                                             <span><img src="https://cdn.shopify.com/s/files/1/0274/7308/4531/collections/Home_Garden_large.jpg?v=1598944878"
-                                                                    width="50px" style="border-radius: 50%" /> <span class="ml-10 " style="font-size: 20px"> Home & Garden </span>   </span>
+                                                                    width="40px" style="border-radius: 50%" /> <span class="ml-10 " style="font-size: 15px"> Home & Garden </span>   </span>
                                                         </a></li>
                                                         <li><a href="https://store.edropship.co.uk/collections/Jewellery-Accessories" target="_blank">
                                                             <span><img src="https://cdn.shopify.com/s/files/1/0274/7308/4531/collections/Jewellery_Accessories_large.jpg?v=1598944798"
-                                                                    width="50px" style="border-radius: 50%" /> <span class="ml-10 " style="font-size: 20px"> Jewellery & Accessories </span>   </span>
+                                                                    width="40px" style="border-radius: 50%" /> <span class="ml-10 " style="font-size: 15px"> Jewellery & Accessories </span>   </span>
                                                         </a></li>
                                                         <li><a href="https://store.edropship.co.uk/collections/Sports & Outdoors" target="_blank">
                                                             <span><img src="https://cdn.shopify.com/s/files/1/0274/7308/4531/collections/sports_Outdoors_large.png?v=1598944743"
-                                                                    width="50px" style="border-radius: 50%" /> <span class="ml-10 " style="font-size: 20px"> Sports & Outdoors </span>   </span>
+                                                                    width="40px" style="border-radius: 50%" /> <span class="ml-10 " style="font-size: 15px"> Sports & Outdoors </span>   </span>
                                                         </a></li>
                                                         <li><a href="https://store.edropship.co.uk/collections/Stationery & Office Supplies" target="_blank">
                                                             <span><img src="https://cdn.shopify.com/s/files/1/0274/7308/4531/collections/STATIONERY_OFFICE_SUPPLIES_large.jpg?v=1598944732"
-                                                                    width="50px" style="border-radius: 50%" /> <span class="ml-10 " style="font-size: 20px"> Stationery & Office     </span>   </span>
+                                                                    width="40px" style="border-radius: 50%" /> <span class="ml-10 " style="font-size: 15px"> Stationery & Office     </span>   </span>
                                                         </a></li>
                                                         <li><a href="https://store.edropship.co.uk/collections/Pet Suppliess" target="_blank">
                                                             <span><img src="https://cdn.shopify.com/s/files/1/0274/7308/4531/collections/Pet_Supplies_large.png?v=1598944767"
-                                                                    width="50px" style="border-radius: 50%" /> <span class="ml-10 " style="font-size: 20px"> Pet Suppliess </span>   </span>
+                                                                    width="40px" style="border-radius: 50%" /> <span class="ml-10 " style="font-size: 15px"> Pet Suppliess </span>   </span>
                                                         </a></li>
 
 
@@ -129,61 +129,61 @@
 
                                                     <li>
                                                         <a href="{{route('integration',['slug'=>'amazon'])}}">  <span><img src="{{asset('assets/img/hero/amazon_icon.png')}}"
-                                                                    width="50px" style="border-radius: 50%" /><span class="ml-10 " style="font-size: 20px"> Amazon </span>
+                                                                    width="40px" style="border-radius: 50%" /><span class="ml-10 " style="font-size: 15px"> Amazon </span>
                                                             </span></a>
                                                     </li>
                                                     <li><a href="{{route('integration',['slug'=>'eBay'])}}">
                                                             <span><img src="{{asset('assets/img/hero/eBay_icon.png')}}"
-                                                                    width="50px" style="border-radius: 50%" /> <span class="ml-10 " style="font-size: 20px"> ebay </span> </span>
+                                                                    width="40px" style="border-radius: 50%" /> <span class="ml-10 " style="font-size: 15px"> ebay </span> </span>
                                                         </a></li>
                                                     <li><a href="{{route('integration',['slug'=>'Etsy'])}}">
                                                             <span><img src="{{asset('assets/img/hero/Etsy_icon.png')}}"
-                                                                    width="50px" style="border-radius: 50%" /> <span class="ml-10 " style="font-size: 20px"> Etsy </span> </span>
+                                                                    width="40px" style="border-radius: 50%" /> <span class="ml-10 " style="font-size: 15px"> Etsy </span> </span>
                                                         </a></li>
                                                     <li><a href="{{route('integration',['slug'=>'OnBuy'])}}">
                                                             <span><img src="{{asset('assets/img/hero/onbuy_icon.png')}}"
-                                                                    width="50px" style="border-radius: 50%" /> <span class="ml-10 " style="font-size: 20px"> OnBuy </span> </span>
+                                                                    width="40px" style="border-radius: 50%" /> <span class="ml-10 " style="font-size: 15px"> OnBuy </span> </span>
                                                         </a></li>
                                                     <li><a href="{{route('integration',['slug'=>'shopify'])}}">
                                                             <span><img src="{{asset('assets/img/hero/shopify_icon.png')}}"
-                                                                    width="50px" style="border-radius: 50%" /> <span class="ml-10 " style="font-size: 20px"> Shopify  </span>  </span>
+                                                                    width="40px" style="border-radius: 50%" /> <span class="ml-10 " style="font-size: 15px"> Shopify  </span>  </span>
                                                         </a></li>
                                                     <li><a href="{{route('integration',['slug'=>'fruugo'])}}">
                                                             <span><img src="{{asset('assets/img/hero/fruugo_icon.png')}}"
-                                                                    width="50px" style="border-radius: 50%" /> <span class="ml-10 " style="font-size: 20px"> Fruugo </span> </span>
+                                                                    width="40px" style="border-radius: 50%" /> <span class="ml-10 " style="font-size: 15px"> Fruugo </span> </span>
                                                         </a></li>
                                                     <li><a href="{{route('integration',['slug'=>'wish'])}}">
                                                             <span><img src="{{asset('assets/img/hero/wish_icon.png')}}"
-                                                                    width="50px" style="border-radius: 50%" /> <span class="ml-10 " style="font-size: 20px"> wish </span> </span>
+                                                                    width="40px" style="border-radius: 50%" /> <span class="ml-10 " style="font-size: 15px"> wish </span> </span>
                                                         </a></li>
                                                     <li><a href="{{route('integration',['slug'=>'gumtree'])}}">
                                                             <span><img src="{{asset('assets/img/hero/gumtree_icon.png')}}"
-                                                                    width="50px" style="border-radius: 50%" /> <span class="ml-10 " style="font-size: 20px"> gumtree </span> </span>
+                                                                    width="40px" style="border-radius: 50%" /> <span class="ml-10 " style="font-size: 15px"> gumtree </span> </span>
                                                         </a></li>
 
 
                                                     <li><a href="{{route('integration',['slug'=>'FacebookShop'])}}">
                                                             <span><img src="{{asset('assets/img/hero/facebook_icon.png')}}"
-                                                                    width="50px" style="border-radius: 50%" /> <span class="ml-10 " style="font-size: 20px"> FacebookShop  </span> </span>
+                                                                    width="40px" style="border-radius: 50%" /> <span class="ml-10 " style="font-size: 15px"> FacebookShop  </span> </span>
                                                         </a></li>
                                                     <li><a href="{{route('integration',['slug'=>'InstaShop'])}}">
                                                             <span><img src="{{asset('assets/img/hero/insta_icon.png')}}"
-                                                                    width="50px" style="border-radius: 50%" /> <span class="ml-10 " style="font-size: 20px"> InstaShop </span> </span> </a></li>
+                                                                    width="40px" style="border-radius: 50%" /> <span class="ml-10 " style="font-size: 15px"> InstaShop </span> </span> </a></li>
                                                     <li><a href="{{route('integration',['slug'=>'google'])}}">
                                                             <span><img src="{{asset('assets/img/hero/google_icon.png')}}"
-                                                                    width="50px" style="border-radius: 50%" /> <span class="ml-10 " style="font-size: 20px"> GoogleShop </span> </span>
+                                                                    width="40px" style="border-radius: 50%" /> <span class="ml-10 " style="font-size: 15px"> GoogleShop </span> </span>
                                                         </a></li>
                                                     <li><a href="{{route('integration',['slug'=>'BigCommerce'])}}">
                                                             <span><img src="{{asset('assets/img/hero/bigcommerce_icon.png')}}"
-                                                                    width="50px" style="border-radius: 50%" /> <span class="ml-10 " style="font-size: 20px"> BigCommerce </span> </span>
+                                                                    width="40px" style="border-radius: 50%" /> <span class="ml-10 " style="font-size: 15px"> BigCommerce </span> </span>
                                                         </a></li>
                                                     <li><a href="{{route('integration',['slug'=>'woocommerce'])}}">
                                                             <span><img src="{{asset('assets/img/hero/woocommerce_icon.png')}}"
-                                                                    width="50px" style="border-radius: 50%" /> <span class="ml-10 " style="font-size: 20px"> WooCommerce </span> </span>
+                                                                    width="40px" style="border-radius: 50%" /> <span class="ml-10 " style="font-size: 15px"> WooCommerce </span> </span>
                                                         </a></li>
                                                     <li><a href="{{route('integration',['slug'=>'linnworks'])}}">
                                                             <span><img src="{{asset('assets/img/hero/Linnworks_icon.png')}}"
-                                                                    width="50px" style="border-radius: 50%" /> <span class="ml-10 " style="font-size: 20px"> Linnworks </span> </span>
+                                                                    width="40px" style="border-radius: 50%" /> <span class="ml-10 " style="font-size: 15px"> Linnworks </span> </span>
                                                         </a></li>
                                             </div>
                                         </ul>

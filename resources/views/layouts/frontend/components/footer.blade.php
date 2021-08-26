@@ -42,9 +42,9 @@
                             <ul>
                                 <li><a href="{{route('about')}}">About {{config('app.name')}}</a></li>
                                 <li><a href="{{route('contact')}}">Contact & Support</a></li>
-                                <li><a href="about.html">Success History</a></li>
-                                <li><a href="service.html">Setting & Privacy</a></li>
-                                <li><a href="about.html">Company History</a></li>
+                                <li><a href="about.html">Step-by-Step Guaide</a></li>
+                                <li><a href="{{ route('privacy-policy') }}">Privacy-Policy</a></li>
+                                <li><a href="{{ route('terms-and-Conditions') }}">Trems & Conditions </a></li>
                             </ul>
                         </div>
                     </div>

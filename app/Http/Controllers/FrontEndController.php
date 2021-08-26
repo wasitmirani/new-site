@@ -25,6 +25,14 @@ class FrontEndController extends Controller
     public function about(){
         return view($this->file_path."about");
     }
+    public function privacy(){
+        return view($this->file_path."privacy-policy");
+    }
+    public function terms(){
+        return view($this->file_path."terms-and-Conditions");
+    }
+
+
 
     public function pricing(){
         $pricing_list=Pricing::orderBy('sort','ASC')->with('pricingAddons')->get();
