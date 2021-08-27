@@ -170,7 +170,7 @@
 }
 
 body {
-    font-family: 'dax', sans-serif;
+    font-family: 'dax', sans-serif !important;
     font-size: 15px;
     color: #161c2d;
     line-height: 30px;
@@ -10605,6 +10605,10 @@ button {
 .footer-area {
     border-top: 1px solid rgb(71 59 240 / 10%);
     border-bottom: 5px solid #E25C6A;
+    /* background-image: url(../img/footer-bg.png); */
+    background-color: #00B9EE;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .footer-area.bg-white-lilac {
@@ -10629,7 +10633,7 @@ button {
 }
 
 .single-footer-widget.footer-text-widget p {
-    color: #6e727d;
+    color: white;
     font-size: 17px;
     line-height: 32px;
     margin-bottom: 20px;
@@ -10656,7 +10660,7 @@ button {
 .footer-contact-link {
     font-size: 18px;
     color: #161c2d;
-    font-family: 'CircularStdMedium';
+    font-family: 'dax' sans-serif;
 }
 
 .footer-contact-link:hover {
@@ -10665,7 +10669,7 @@ button {
 
 .footer-widget-menu ul li a {
     margin-bottom: 10px;
-    color: #6e727d;
+    color: white;
     font-size: 17px;
     position: relative;
 }
@@ -10874,7 +10878,7 @@ button {
 }
 
 .footer-area.footer-area-v3 .footer-copyright a:hover {
-    color: #8208FE;
+    color: #E25C6A;
 }
 
 .footer-area.footer-area-v3 .footer-app-download .filled-btn {
@@ -11137,7 +11141,7 @@ button {
 
 .faq-menu ul li a {
     padding: 8px 0;
-    color: white;
+    color: gray;
     position: relative
 }
 
@@ -11148,7 +11152,7 @@ button {
     font-family: "Font Awesome 5 Pro";
     left: 12px;
     top: 10px;
-    opacity: 0
+    opacity: 0;
 }
 
 .faq-menu ul li a.active,
@@ -11156,8 +11160,9 @@ button {
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
-    background: rgba(255, 255, 255, .2);
-    padding-left: 30px
+    background: rgba(224, 98, 98, 0.2);
+    padding-left: 30px;
+    color: rgba(196, 52, 52, 0.911);
 }
 
 .faq-menu ul li a.active::before,
@@ -11209,7 +11214,7 @@ button {
 }
 
 .bg_img {
-    background-image: url(../img/new.png);
+    background-image: url(../img/footer-bg.png);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat
