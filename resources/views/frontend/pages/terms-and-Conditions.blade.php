@@ -30,31 +30,34 @@
                                 <a class="nav-link" href="#collect">FEES, PAYMENTS, AND INVOICING</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#link">RULES OF CONDUCT</a>
+                                <a class="nav-link" href="#rule">RULES OF CONDUCT</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#sec">DESCRIPTION OF SERVICES</a>
+                                <a class="nav-link" href="#desc">DESCRIPTION OF SERVICES</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#acc">OFFICIAL WEBSITE OF EDROPSHIP</a>
+                                <a class="nav-link" href="#official">OFFICIAL WEBSITE OF EDROPSHIP</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#email">MESSAGING SYSTEM</a>
+                                <a class="nav-link" href="#msg">MESSAGING SYSTEM</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#ext">USER CONTENT</a>
+                                <a class="nav-link" href="#user">USER CONTENT</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#social">THIRD PARTY IP</a>
+                                <a class="nav-link" href="#thrid">THIRD PARTY IP</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#opt">AVAILABILITY OF SERVICES</a>
+                                <a class="nav-link" href="#avail">AVAILABILITY OF SERVICES</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#update">DISPUTE RESOLUTION</a>
+                                <a class="nav-link" href="#dispute">DISPUTE RESOLUTION</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#right">RIGHT OF REFUSAL, SUSPENSION AND TERMINATION POLICY</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#int">INTELLECTUAL PROPERTY RIGHTS</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#dis">DISCLAIMER OF REPRESENTATIONS AND WARRANTIES</a>
@@ -367,7 +370,7 @@
                         </div>
 
                     </div>
-                    <div class="privacy-item" id="personal">
+                    <div class="privacy-item" id="rule">
                         <h3 class="title">RULES OF CONDUCT</h3>
                         <div class="section-list-style mt-22 mb-35">
                             <ul>
@@ -469,7 +472,7 @@
                         </div>
 
                     </div>
-                    <div class="privacy-item" id="link">
+                    <div class="privacy-item" id="desc">
                         <h3 class="title">DESCRIPTION OF SERVICES</h3>
                         <div class="section-list-style mt-22 mb-35">
                             <ul>
@@ -541,7 +544,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="privacy-item" id="sec">
+                    <div class="privacy-item" id="official">
                         <h3 class="title">OFFICIAL WEBSITE OF EDROPSHIP</h3>
                         <div class="section-list-style mt-22 mb-35">
                             <ul>
@@ -577,7 +580,7 @@
                             </ul>
                             </div>
                     </div>
-                    <div class="privacy-item" id="acc">
+                    <div class="privacy-item" id="msg">
                         <h3 class="title">MESSAGING SYSTEM</h3>
                         <div class="section-list-style mt-22 mb-35">
                             <ul>
@@ -586,7 +589,7 @@
                                 <li>You should immediately notify us if any other User attempts to contact you outside of the eDropShip Messaging System.</li>
                             </ul></div>
                     </div>
-                    <div class="privacy-item" id="email">
+                    <div class="privacy-item" id="user">
                         <h3 class="title">USER CONTENT</h3>
                         <div class="section-list-style mt-22 mb-35">
                             <ul>
@@ -608,7 +611,7 @@
                     </div>
 
 
-                    <div class="privacy-item" id="ext">
+                    <div class="privacy-item" id="thrid">
                         <h3 class="title">THIRD PARTY IP</h3>
                         <div class="section-list-style mt-22 mb-35">
                             <ul>
@@ -629,7 +632,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="privacy-item" id="social">
+                    <div class="privacy-item" id="avail">
                         <h3 class="title">AVAILABILITY OF SERVICES</h3>
                         <div class="section-list-style mt-22 mb-35">
                             <ul>
@@ -643,7 +646,7 @@
                         </div>
 
                     </div>
-                    <div class="privacy-item" id="opt">
+                    <div class="privacy-item" id="dispute">
                         <h3 class="title">DISPUTE RESOLUTION</h3>
                         <div class="section-list-style mt-22 mb-35">
                             <ul>
@@ -659,7 +662,7 @@
 
 
                     </div>
-                    <div class="privacy-item" id="update">
+                    <div class="privacy-item" id="right">
                         <h3 class="title">RIGHT OF REFUSAL, SUSPENSION AND TERMINATION POLICY</h3>
                         <div class="section-list-style mt-22 mb-35">
                             <ul>
@@ -677,8 +680,8 @@
                     </div>
 
 
-                    <div class="privacy-item" id="update">
-                        <h3 class="title">RIGHT OF REFUSAL, SUSPENSION AND TERMINATION POLICY</h3>
+                    <div class="privacy-item" id="int">
+                        <h3 class="title">INTELLECTUAL PROPERTY RIGHTS</h3>
                         <div class="section-list-style mt-22 mb-35">
                             <ul>
                                 <li>We own or have the licensee of all intellectual property rights on the material contained or published on our Website(s). All works are protected by copyright laws and treaties around the world. All rights are reserved by eDropShip.</li>
@@ -690,7 +693,7 @@
 
                     </div>
 
-                    <div class="privacy-item" id="update">
+                    <div class="privacy-item" id="dis">
                         <h3 class="title">DISCLAIMER OF REPRESENTATIONS AND WARRANTIES</h3>
                         <div class="section-list-style mt-22 mb-35">
                             <ul>
@@ -704,7 +707,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="privacy-item" id="update">
+                    <div class="privacy-item" id="feed">
                         <h3 class="title">FEEDBACK & REVIEWS</h3>
                         <div class="section-list-style mt-22 mb-35">
                             <ul>
@@ -720,7 +723,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="privacy-item" id="update">
+                    <div class="privacy-item" id="limit">
                         <h3 class="title">LIMITATION OF LIABILITY
                         </h3>
                         <div class="section-list-style mt-22 mb-35">
@@ -754,7 +757,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="privacy-item" id="update">
+                    <div class="privacy-item" id="inde">
                         <h3 class="title">INDEMNITY</h3>
                         <div class="section-list-style mt-22 mb-35">
                             <ul>
@@ -771,7 +774,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="privacy-item" id="update">
+                    <div class="privacy-item" id="data">
                         <h3 class="title">DATA PROTECTION, USER DATA AND COOKIES</h3>
                         <div class="section-list-style mt-22 mb-35">
                             <ul>
@@ -782,7 +785,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="privacy-item" id="update">
+                    <div class="privacy-item" id="success">
                         <h3 class="title">SUCCESSORS AND ASSIGNS</h3>
                         <div class="section-list-style mt-22 mb-35">
                             <ul>
@@ -790,7 +793,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="privacy-item" id="update">
+                    <div class="privacy-item" id="no">
                         <h3 class="title">NO THIRD-PARTY BENEFICIARIES</h3>
                         <div class="section-list-style mt-22 mb-35">
                             <ul>
@@ -798,7 +801,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="privacy-item" id="update">
+                    <div class="privacy-item" id="governing">
                         <h3 class="title">GOVERNING LAW</h3>
                         <div class="section-list-style mt-22 mb-35">
                             <ul>
@@ -807,7 +810,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="privacy-item" id="update">
+                    <div class="privacy-item" id="server">
                         <h3 class="title">SEVERABILITY</h3>
                         <div class="section-list-style mt-22 mb-35">
                             <ul>
@@ -817,7 +820,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="privacy-item" id="update">
+                    <div class="privacy-item" id="miscel">
                         <h3 class="title">MISCELLANEOUS
                         </h3>
                         <div class="section-list-style mt-22 mb-35">
@@ -828,7 +831,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="privacy-item" id="update">
+                    <div class="privacy-item" id="title">
                         <h3 class="title">TITLES AND HEADINGS</h3>
                         <div class="section-list-style mt-22 mb-35">
                             <ul>
@@ -837,7 +840,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="privacy-item" id="update">
+                    <div class="privacy-item" id="contact">
                         <h3 class="title">CONTACT DETAILS</h3>
                         <div class="section-list-style mt-22 mb-35">
                             <ul>
@@ -852,7 +855,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="privacy-item" id="update">
+                    <div class="privacy-item" id="seller">
                         <h3 class="title">SELLER SPECIFIC TERMS AND CONDITIONS</h3>
                         <div class="section-list-style mt-22 mb-35">
                             <ul>
@@ -1145,273 +1148,4 @@
         </div>
     </div>
 </section>
-{{--
-<section class="faq-section padding-top padding-bottom">
-    <div class="container">
-        <div class="row justify-content-between">
-            <div class="col-lg-4">
-                <aside class="sticky-menu">
-                    <div class="faq-menu bg_img mb-30">
-                        <ul id="faq-menu">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#get">Getting Started</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#how">How Mosto works</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#plugin">Plugins</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#pricing">Pricing Plans</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#update">Updating the App</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#security">Security</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="faq-video">
-                        <a href="https://www.youtube.com/watch?v=ObZwFExwzOo" class="video-area popup">
-                            <img src="assets\images\faq\video.png" alt="faq">
-                            <div class="video-button-2">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                                <i class="flaticon-play"></i>
-                            </div>
-                        </a>
-                        <h5 class="title">Watch Video Tour</h5>
-                    </div>
-                </aside>
-            </div>
-            <div class="col-lg-8 col-xl-7">
-                <article class="mt-70 mt-lg-0">
-                    <div class="faq--wrapper" id="get">
-                        <h3 class="main-title">Getting Started</h3>
-                        <div class="faq--area">
-                            <div class="faq--item">
-                                <div class="faq-title">
-                                    <h6 class="title">Who is Mosto for?</h6>
-                                    <span class="icon"></span>
-                                </div>
-                                <div class="faq-content">
-                                    <p>A successful marketing plan relies heavily on the pulling-power of advertising copy. Writing result-oriented ad copy is difficult, as it must appeal to, entice, and convince consumers to take action. There is no magic
-                                        formula to write perfect ad copy.</p>
-                                </div>
-                            </div>
-                            <div class="faq--item">
-                                <div class="faq-title">
-                                    <h6 class="title">How do I get the Mobile App for my phone?</h6>
-                                    <span class="icon"></span>
-                                </div>
-                                <div class="faq-content">
-                                    <p>A successful marketing plan relies heavily on the pulling-power of advertising copy. Writing result-oriented ad copy is difficult, as it must appeal to, entice, and convince consumers to take action. There is no magic
-                                        formula to write perfect ad copy.</p>
-                                </div>
-                            </div>
-                            <div class="faq--item">
-                                <div class="faq-title">
-                                    <h6 class="title">What features does the Mobile App have?</h6>
-                                    <span class="icon"></span>
-                                </div>
-                                <div class="faq-content">
-                                    <p>A successful marketing plan relies heavily on the pulling-power of advertising copy. Writing result-oriented ad copy is difficult, as it must appeal to, entice, and convince consumers to take action. There is no magic
-                                        formula to write perfect ad copy.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="faq--wrapper" id="how">
-                        <h3 class="main-title">How Mosto works</h3>
-                        <div class="faq--area">
-                            <div class="faq--item">
-                                <div class="faq-title">
-                                    <h6 class="title">What’s special about Mosto?</h6>
-                                    <span class="icon"></span>
-                                </div>
-                                <div class="faq-content">
-                                    <p>A successful marketing plan relies heavily on the pulling-power of advertising copy. Writing result-oriented ad copy is difficult, as it must appeal to, entice, and convince consumers to take action. There is no magic
-                                        formula to write perfect ad copy.</p>
-                                </div>
-                            </div>
-                            <div class="faq--item">
-                                <div class="faq-title">
-                                    <h6 class="title">What problem does Mosto solve?</h6>
-                                    <span class="icon"></span>
-                                </div>
-                                <div class="faq-content">
-                                    <p>A successful marketing plan relies heavily on the pulling-power of advertising copy. Writing result-oriented ad copy is difficult, as it must appeal to, entice, and convince consumers to take action. There is no magic
-                                        formula to write perfect ad copy.</p>
-                                </div>
-                            </div>
-                            <div class="faq--item">
-                                <div class="faq-title">
-                                    <h6 class="title">How does Mostos differ from usual apps?</h6>
-                                    <span class="icon"></span>
-                                </div>
-                                <div class="faq-content">
-                                    <p>A successful marketing plan relies heavily on the pulling-power of advertising copy. Writing result-oriented ad copy is difficult, as it must appeal to, entice, and convince consumers to take action. There is no magic
-                                        formula to write perfect ad copy.</p>
-                                </div>
-                            </div>
-                            <div class="faq--item">
-                                <div class="faq-title">
-                                    <h6 class="title">More about early access</h6>
-                                    <span class="icon"></span>
-                                </div>
-                                <div class="faq-content">
-                                    <p>A successful marketing plan relies heavily on the pulling-power of advertising copy. Writing result-oriented ad copy is difficult, as it must appeal to, entice, and convince consumers to take action. There is no magic
-                                        formula to write perfect ad copy.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="faq--wrapper" id="plugin">
-                        <h3 class="main-title">Plugins</h3>
-                        <div class="faq--area">
-                            <div class="faq--item">
-                                <div class="faq-title">
-                                    <h6 class="title">How does integration works?</h6>
-                                    <span class="icon"></span>
-                                </div>
-                                <div class="faq-content">
-                                    <p>A successful marketing plan relies heavily on the pulling-power of advertising copy. Writing result-oriented ad copy is difficult, as it must appeal to, entice, and convince consumers to take action. There is no magic
-                                        formula to write perfect ad copy.</p>
-                                </div>
-                            </div>
-                            <div class="faq--item open active">
-                                <div class="faq-title">
-                                    <h6 class="title">How to use Mosto API?</h6>
-                                    <span class="icon"></span>
-                                </div>
-                                <div class="faq-content">
-                                    <p>A successful marketing plan relies heavily on the pulling-power of advertising copy. Writing result-oriented ad copy is difficult, as it must appeal to, entice, and convince consumers to take action. There is no magic
-                                        formula to write perfect ad copy.</p>
-                                </div>
-                            </div>
-                            <div class="faq--item">
-                                <div class="faq-title">
-                                    <h6 class="title">How do plugins work?</h6>
-                                    <span class="icon"></span>
-                                </div>
-                                <div class="faq-content">
-                                    <p>A successful marketing plan relies heavily on the pulling-power of advertising copy. Writing result-oriented ad copy is difficult, as it must appeal to, entice, and convince consumers to take action. There is no magic
-                                        formula to write perfect ad copy.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="faq--wrapper" id="pricing">
-                        <h3 class="main-title">Pricing Plans</h3>
-                        <div class="faq--area">
-                            <div class="faq--item">
-                                <div class="faq-title">
-                                    <h6 class="title">How much does Mosto cost?</h6>
-                                    <span class="icon"></span>
-                                </div>
-                                <div class="faq-content">
-                                    <p>A successful marketing plan relies heavily on the pulling-power of advertising copy. Writing result-oriented ad copy is difficult, as it must appeal to, entice, and convince consumers to take action. There is no magic
-                                        formula to write perfect ad copy.</p>
-                                </div>
-                            </div>
-                            <div class="faq--item">
-                                <div class="faq-title">
-                                    <h6 class="title">How I can get Mosto for free?</h6>
-                                    <span class="icon"></span>
-                                </div>
-                                <div class="faq-content">
-                                    <p>A successful marketing plan relies heavily on the pulling-power of advertising copy. Writing result-oriented ad copy is difficult, as it must appeal to, entice, and convince consumers to take action. There is no magic
-                                        formula to write perfect ad copy.</p>
-                                </div>
-                            </div>
-                            <div class="faq--item">
-                                <div class="faq-title">
-                                    <h6 class="title">Can I cancel my account plan at any time?</h6>
-                                    <span class="icon"></span>
-                                </div>
-                                <div class="faq-content">
-                                    <p>A successful marketing plan relies heavily on the pulling-power of advertising copy. Writing result-oriented ad copy is difficult, as it must appeal to, entice, and convince consumers to take action. There is no magic
-                                        formula to write perfect ad copy.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="faq--wrapper" id="update">
-                        <h3 class="main-title">Updating the App</h3>
-                        <div class="faq--area">
-                            <div class="faq--item">
-                                <div class="faq-title">
-                                    <h6 class="title">How can I edit my personal information?</h6>
-                                    <span class="icon"></span>
-                                </div>
-                                <div class="faq-content">
-                                    <p>A successful marketing plan relies heavily on the pulling-power of advertising copy. Writing result-oriented ad copy is difficult, as it must appeal to, entice, and convince consumers to take action. There is no magic
-                                        formula to write perfect ad copy.</p>
-                                </div>
-                            </div>
-                            <div class="faq--item">
-                                <div class="faq-title">
-                                    <h6 class="title">How do I disable installed apps?</h6>
-                                    <span class="icon"></span>
-                                </div>
-                                <div class="faq-content">
-                                    <p>A successful marketing plan relies heavily on the pulling-power of advertising copy. Writing result-oriented ad copy is difficult, as it must appeal to, entice, and convince consumers to take action. There is no magic
-                                        formula to write perfect ad copy.</p>
-                                </div>
-                            </div>
-                            <div class="faq--item">
-                                <div class="faq-title">
-                                    <h6 class="title">How do I disable installed apps?</h6>
-                                    <span class="icon"></span>
-                                </div>
-                                <div class="faq-content">
-                                    <p>A successful marketing plan relies heavily on the pulling-power of advertising copy. Writing result-oriented ad copy is difficult, as it must appeal to, entice, and convince consumers to take action. There is no magic
-                                        formula to write perfect ad copy.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="faq--wrapper" id="security">
-                        <h3 class="main-title">Security</h3>
-                        <div class="faq--area">
-                            <div class="faq--item">
-                                <div class="faq-title">
-                                    <h6 class="title">How do I switch to a different price plan?</h6>
-                                    <span class="icon"></span>
-                                </div>
-                                <div class="faq-content">
-                                    <p>A successful marketing plan relies heavily on the pulling-power of advertising copy. Writing result-oriented ad copy is difficult, as it must appeal to, entice, and convince consumers to take action. There is no magic
-                                        formula to write perfect ad copy.</p>
-                                </div>
-                            </div>
-                            <div class="faq--item">
-                                <div class="faq-title">
-                                    <h6 class="title">How can I get my money back?</h6>
-                                    <span class="icon"></span>
-                                </div>
-                                <div class="faq-content">
-                                    <p>A successful marketing plan relies heavily on the pulling-power of advertising copy. Writing result-oriented ad copy is difficult, as it must appeal to, entice, and convince consumers to take action. There is no magic
-                                        formula to write perfect ad copy.</p>
-                                </div>
-                            </div>
-                            <div class="faq--item">
-                                <div class="faq-title">
-                                    <h6 class="title">What about the security of my payments?</h6>
-                                    <span class="icon"></span>
-                                </div>
-                                <div class="faq-content">
-                                    <p>A successful marketing plan relies heavily on the pulling-power of advertising copy. Writing result-oriented ad copy is difficult, as it must appeal to, entice, and convince consumers to take action. There is no magic
-                                        formula to write perfect ad copy.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-            </div>
-        </div>
-    </div>
-</section> --}} @component('frontend.components.brandsSlider') @endcomponent @endsection
+ @component('frontend.components.brandsSlider') @endcomponent @endsection
