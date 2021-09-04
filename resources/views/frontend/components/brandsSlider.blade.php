@@ -4,34 +4,34 @@
             <div class="col-12">
                 <div class="brands-slider" id="brands-slider-v2">
                     <div class="brands-item">
-                        <img src="{{asset('assets/img/brand/brand-6.png')}}" alt="brand one">
+                        <img src="{{asset('assets/img/services/amazon.png')}}"  style=" padding:10px; width:160px" alt="brand one">
                     </div>
                     <div class="brands-item">
-                        <img src="{{asset('assets/img/brand/brand-7.png')}}" alt="brand two">
+                        <img src="{{asset('assets/img/services/ebay.png')}}"  style=" padding:10px; width:160px" alt="brand two">
                     </div>
                     <div class="brands-item">
-                        <img src="{{asset('assets/img/brand/brand-8.png')}}" alt="brand three">
+                        <img src="{{asset('assets/img/services/bigcommerce.png')}}"  style=" padding:10px; width:160px" alt="brand three">
                     </div>
                     <div class="brands-item">
-                        <img src="{{asset('assets/img/brand/brand-9.png')}}" alt="brand four">
+                        <img src="{{asset('assets/img/services/onbuy.png')}}"  style=" padding:10px; width:160px" alt="brand four">
                     </div>
                     <div class="brands-item">
-                        <img src="{{asset('assets/img/brand/brand-10.png')}}" alt="brand five">
+                        <img src="{{asset('assets/img/services/Etsy.png')}}"  style=" padding:10px; width:160px" alt="brand five">
                     </div>
                     <div class="brands-item">
-                        <img src="{{asset('assets/img/brand/brand-11.png')}}" alt="brand six">
+                        <img src="{{asset('assets/img/services/insta.png')}}"  style=" padding:10px; width:160px" alt="brand six">
                     </div>
                     <div class="brands-item">
-                        <img src="{{asset('assets/img/brand/brand-8.png')}}" alt="brand seven">
+                        <img src="{{asset('assets/img/services/gumtree.png')}}"  style=" padding:10px; width:160px" alt="brand seven">
                     </div>
                     <div class="brands-item">
-                        <img src="{{asset('assets/img/brand/brand-7.png')}}" alt="brand eight">
+                        <img src="{{asset('assets/img/services/Linnworks.png')}}"  style=" padding:10px; width:160px" alt="brand eight">
                     </div>
                     <div class="brands-item">
-                        <img src="{{asset('assets/img/brand/brand-9.png')}}" alt="brand nine">
+                        <img src="{{asset('assets/img/services/woocommerce.png')}}"  style=" padding:10px; width:160px" alt="brand nine">
                     </div>
                     <div class="brands-item">
-                        <img src="{{asset('assets/img/brand/brand-11.png')}}" alt="brand ten">
+                        <img src="{{asset('assets/img/services/facebook.png')}}"  style=" padding:10px; width:160px" alt="brand ten">
                     </div>
                 </div>
             </div>

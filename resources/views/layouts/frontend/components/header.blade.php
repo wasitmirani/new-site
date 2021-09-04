@@ -29,9 +29,9 @@
                                 <ul>
                                     <li class="menu-item menu-item-has-children" >
                                         <a href="{{route('integrations')}}" class="nav-link ">Products</a>
-                                        <ul class="sub-menu" style="width:700px" >
-                                            <div style="padding: 25px;" >
-                                                <div class="row" style="padding: 15px; background-color:rgb(245, 215, 215) ; border-radius:10px">
+                                        <ul class="sub-menu collection_menu" >
+                                            <div >
+                                                <div class="row">
                                                     <div class="col-11">
                                                         <h3> Products you Need    </h3>
                                                         <p style="font-size: 15px"> To see the product you need and may more new  collections  are there tap to go all collection   </p>
@@ -109,9 +109,9 @@
                                     </li>
                                     <li class="menu-item menu-item-has-children" >
                                         <a href="{{route('integrations')}}" class="nav-link ">Integrations</a>
-                                        <ul class="sub-menu" style="width:700px" >
-                                            <div style="padding: 25px;" >
-                                                <div class="row" style="padding: 15px; background-color:rgb(245, 215, 215) ; border-radius:10px">
+                                        <ul class="sub-menu collection_menu" >
+                                            <div  >
+                                                <div class="row" >
                                                     <div class="col-11">
                                                         <h3> Integrations    </h3>
                                                         <p style="font-size: 15px"> Seamlessly Integarate to your eCommerce store to become a succesfull dropshipping busniess overnight!   </p>

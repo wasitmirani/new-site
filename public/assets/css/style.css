@@ -320,7 +320,7 @@ button {
 }
 
 .bg-dark-black-v2 {
-    background-color: #1B202F;
+    background-color: #00b9ee;
 }
 
 .bg-white-lilac {
@@ -1779,6 +1779,7 @@ button {
     text-align: left;
     -webkit-box-shadow: 0 8px 20px rgb(55 125 255 / 8%);
     box-shadow: 0 8px 20px rgb(55 125 255 / 8%);
+    border-radius: 10px;
 }
 
 .header-navigation .main-menu ul li .sub-menu li {
@@ -6750,6 +6751,7 @@ button {
     overflow: hidden;
     position: relative;
     z-index: 1;
+    background-color: #F4F7FA;
 }
 
 .newsletter-search-area .newsletter-search-internal {
@@ -11343,4 +11345,18 @@ button {
     .privacy-item p {
         margin-bottom: 30px
     }
+}
+
+.collection_menu {
+    width: 700px !important;
+}
+
+.collection_menu .row {
+    padding: 5px;
+    background-color: rgb(245, 215, 215);
+    border-radius: 10px
+}
+
+.collection_menu div {
+    padding: 25px
 }
