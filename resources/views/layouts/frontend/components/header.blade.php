@@ -191,24 +191,33 @@
 
                                     <li class="menu-item menu-item-has-children">
                                         <a href="#" class="nav-link">Partners</a>
-                                        <ul class="sub-menu">
-                                            @php
-                                                $partners=getPartners();
-                                            @endphp
-                                            @foreach ($partners as $item)
-                                            <li><a href="{{route('partner',['slug'=>$item->slug])}}">{{$item->name}} </a></li>
-                                            @endforeach
+                                        <ul class="sub-menu partner_menu">
+                                                {{--  <div class="row">
+                                                    <div class="col-6">
+                                                        <img src="https://assets.website-files.com/5b3213161e5234bf1cfff9e1/5f21eb4cedf09d631827b06f_affiliates.jpg" alt="">
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <img src="https://assets.website-files.com/5b3213161e5234bf1cfff9e1/5f21eb4cedf09d631827b06f_affiliates.jpg" alt="">
+                                                    </div>
+                                                </div>  --}}
 
 
-                                        <li><a href="https://store.edropship.co.uk/" target=_blank> OnePiece
-                                                Wholesaler</a></li>
-                                        <li><a href="https://store.edropship.co.uk/" target=_blank> Bulk Wholesaler</a>
-                                        </li>
+                                                @php
+                                                    $partners=getPartners();
+                                                @endphp
+                                                @foreach ($partners as $item)
+                                                <li><a href="{{route('partner',['slug'=>$item->slug])}}"><i class="fas fa-user"></i> &nbsp {{$item->name}} </a></li>
+                                                @endforeach
+                                                <li><a href="https://store.edropship.co.uk/" target=_blank><i class="fas fa-shopping-bag"></i> &nbsp OnePiece
+                                                        Wholesaler</a></li>
+                                                <li><a href="https://store.edropship.co.uk/" target=_blank><i class="fas fa-layer-group"></i> &nbsp Bulk Wholesaler</a>
+                                                </li>
 
-                                        <li><a href="{{route('contact')}}"> Franchise </a></li>
-                                        <li><a href="{{route('contact')}}"> Whitelable </a></li>
-                                        <li><a href="{{route('contact')}}"> Investment </a></li>
-                                        <li><a href="{{route('contact')}}"> Smartshop </a></li>
+                                                <li><a href="{{route('contact')}}"> <i class="fas fa-home"></i> &nbsp Franchise </a></li>
+                                                <li><a href="{{route('contact')}}"> <i class="fas fa-check-double"></i> &nbsp Whitelable </a></li>
+                                                <li><a href="{{route('contact')}}"> <i class="fas fa-plus"></i> &nbspInvestment </a></li>
+                                                <li><a href="{{route('contact')}}"> <i class="fas fa-school"></i> &nbspSmartshop </a></li>
+
                                         </ul>
                                     </li>
                                     <li class="menu-item">
@@ -216,24 +225,24 @@
                                     </li>
                                     <li class="menu-item menu-item-has-children">
                                         <a href="#" class="nav-link">Recources</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="{{route('resources.tour')}}">Platform Tour </a></li>
-                                            <li><a href="{{route('resources.academy')}}">{{config('app.name')}} Academy </a></li>
-                                            <li><a href="{{route('resources.guru')}}"> {{config('app.name')}} Guru </a></li>
-                                            <li><a href="{{route('resources.app')}}">Mobile App</a></li>
-                                            <li><a href="{{route('resources.webinars')}}">Webinars </a></li>
-                                            <li><a href="{{route('resources.blogs')}}"> Blogs </a></li>
-                                            <li><a href="{{route('resources.hotproducts')}}"> Hot Products </a></li>
-                                            <li><a href="{{route('contact')}}"> Help Centre </a></li>
-                                            <li><a href="{{route('resources.freetool')}}"> Free Tools </a></li>
+                                        <ul class="sub-menu partner_menu">
+                                            <li><a href="{{route('resources.tour')}}"><i class="fas fa-layer-group"></i> &nbsp Platform Tour </a></li>
+                                            <li><a href="{{route('resources.academy')}}"> <i class="fas fa-book-open"></i> &nbsp {{config('app.name')}} Academy </a></li>
+                                            <li><a href="{{route('resources.guru')}}"> <i class="fas fa-user-crown"></i> &nbsp {{config('app.name')}} Guru </a></li>
+                                            <li><a href="{{route('resources.app')}}"> <i class="fas fa-mobile-android"></i> &nbsp Mobile App</a></li>
+                                            <li><a href="{{route('resources.webinars')}}"> <i class="fas fa-file-certificate"></i> &nbsp Webinars </a></li>
+                                            <li><a href="{{route('resources.blogs')}}"> <i class="fas fa-blog"></i> &nbsp Blogs </a></li>
+                                            <li><a href="{{route('resources.hotproducts')}}"> <i class="fas fa-shopping-cart"></i> &nbsp Hot Products </a></li>
+                                            <li><a href="{{route('contact')}}"> <i class="fas fa-headset"></i> &nbsp Contact </a></li>
+                                            <li><a href="{{route('resources.freetool')}}"> <i class="fas fa-tools"></i> &nbsp Free Tools </a></li>
                                             </a></li>
                                         </ul>
                                     </li>
 
-
+{{--
                                     <li class="menu-item">
                                         <a href="{{route('contact')}}" class="nav-link">Contact</a>
-                                    </li>
+                                    </li>  --}}
 
                                 </ul>
                             </nav>

@@ -121,7 +121,7 @@
     }
 }
 
-@media only screen and (min-width: 1400px) and (max-width: 1870px) {
+@media only screen and (min-width: 1200px) and (max-width: 1870px) {
     .header-navigation .container-fluid,
     .hero-area .hero-infobox-area .container-fluid,
     .counter-up-area .container-fluid {

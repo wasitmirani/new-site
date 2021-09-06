@@ -3084,7 +3084,7 @@ button {
 .header-area.header-v4 .header-navigation.breakpoint-on .main-menu ul li a.nav-link.active,
 .header-area.header-v4 .header-navigation.breakpoint-on .nav-menu .main-menu ul li .sub-menu li a.nav-link.active,
 .header-area.header-v4 .header-navigation.breakpoint-on .nav-menu .main-menu ul li .sub-menu li a:hover {
-    color: #e25c6a;
+    color: #e24958;
 }
 
 .header-area.header-v4 .header-navigation.breakpoint-on .nav-menu .main-menu ul li .sub-menu li a:hover {
@@ -3094,11 +3094,19 @@ button {
 .header-area.header-v4 .header-navigation .main-menu>ul>li>a:after,
 .header-area.header-v4 .header-navigation .main-menu ul li .sub-menu li a:hover,
 .header-area.header-v4 .header-navigation .navbar-close {
-    background-color: #e25c6a;
+    background-color: #ffb6bd;
 }
 
 .header-area.header-v4 .header-navigation .main-menu ul li .sub-menu li a:hover {
-    color: #fff;
+    color: black;
+}
+
+.header-area.header-v4 .header-navigation .main-menu ul li .sub-menu li a i:hover {
+    color: white !important;
+}
+
+.header-area.header-v4 .header-navigation .main-menu ul li .sub-menu li a {
+    border-radius: 10px;
 }
 
 
@@ -11351,6 +11359,11 @@ button {
     width: 700px !important;
 }
 
+.partner_menu {
+    width: 250px !important;
+    padding: 10px;
+}
+
 .collection_menu .row {
     padding: 5px;
     background-color: rgb(245, 215, 215);
@@ -11360,3 +11373,9 @@ button {
 .collection_menu div {
     padding: 25px
 }
+
+.partner_menu div {
+    padding: 20px
+}
+
+0

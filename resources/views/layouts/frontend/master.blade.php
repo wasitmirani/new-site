@@ -28,6 +28,7 @@
     <link rel="stylesheet" href="{{asset('assets/css/responsive.css')}}">
     <!-- Place favicon in the root directory -->
     <link rel="icon" type="image/png" href="{{asset('assets/img/favicon.png')}}">
+
     @stack('styles')
     {{--  @livewireStyles  --}}
 </head>
