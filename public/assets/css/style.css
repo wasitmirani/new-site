@@ -11139,7 +11139,22 @@ button {
 
 .sticky-menu {
     position: sticky;
-    top: 120px
+    top: 120px;
+    overflow-y: scroll !important;
+    height: 700px;
+}
+
+.sticky-menu::-webkit-scrollbar {
+    width: 0.2em;
+}
+
+.sticky-menu::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgb(255, 255, 255);
+}
+
+.sticky-menu::-webkit-scrollbar-thumb {
+    background-color: rgb(221, 54, 54);
+    outline: 1px solid slategrey;
 }
 
 .faq-menu {
