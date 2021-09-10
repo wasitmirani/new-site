@@ -235,6 +235,7 @@
                                             <li><a href="{{route('resources.hotproducts')}}"> <i class="fas fa-shopping-cart"></i> &nbsp Hot Products </a></li>
                                             <li><a href="{{route('contact')}}"> <i class="fas fa-headset"></i> &nbsp Contact </a></li>
                                             <li><a href="{{route('resources.freetool')}}"> <i class="fas fa-tools"></i> &nbsp Free Tools </a></li>
+                                            <li><a href="{{route('about')}}"> <i class="fas fa-tools"></i> &nbsp About us </a></li>
                                             </a></li>
                                         </ul>
                                     </li>

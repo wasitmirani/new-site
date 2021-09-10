@@ -20,18 +20,18 @@
                     <div class="row">
                         <div class="col-sm-6">
                             <div class="animate-square-zoom wow fadeInDown" data-wow-delay="0.1s">
-                                <img class="about-thumbnail about-thumbnail-1" src="assets/img/about/about-thumbnail-1.jpg" alt="about thumbnail one">
+                                <img class="about-thumbnail about-thumbnail-1" src="assets/img/hero/amazon_icon.png" alt="about thumbnail one">
                             </div>
                             <div class="animate-square-zoom wow fadeInUp" data-wow-delay="0.3s">
-                                <img class="about-thumbnail about-thumbnail-3" src="assets/img/about/about-thumbnail-3.jpg" alt="about thumbnail three">
+                                <img class="about-thumbnail about-thumbnail-3" src="assets/img/hero/bigcommerce_icon.png" alt="about thumbnail three">
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="animate-square-zoom wow fadeInDown" data-wow-delay="0.2s">
-                                <img class="about-thumbnail about-thumbnail-2" src="assets/img/about/about-thumbnail-2.jpg" alt="about thumbnail two">
+                                <img class="about-thumbnail about-thumbnail-2" src="assets/img/hero/gumtree_icon.png" alt="about thumbnail two">
                             </div>
                             <div class="animate-square-zoom wow fadeInUp" data-wow-delay="0.5s">
-                                <img class="about-thumbnail about-thumbnail-4" src="assets/img/about/about-thumbnail-4.jpg" alt="about thumbnail four">
+                                <img class="about-thumbnail about-thumbnail-4" src="assets/img/hero/etsy_icon.png" alt="about thumbnail four">
                             </div>
                         </div>
                     </div>
@@ -86,54 +86,56 @@
         </div> <!-- /.row -->
         <div class="our-services-content-wrapper">
             <div class="row">
-                <div class="col-xl-3 col-lg-6">
+                <div class="col-xl-6 col-lg-6">
                     <div class="single-iconic-box iconic-box-v4 wow fadeInDown" data-wow-delay="0.1s" data-wow-duration="2000ms">
-                        <div class="iconic-box-icon iconic-box-gradient-3">
-                            <i class="far fa-user-chart"></i>
+                        <div class="iconic-box-icon ">
+                            <img class="about-thumbnail about-thumbnail-1" src="assets/img/hero/amazon_icon.png" alt="about thumbnail one">
                         </div>
                         <div class="iconic-box-body">
-                            <h5 class="iconic-box-title">Team Management</h5>
+                            <h5 class="iconic-box-title">Amazon DropShipping
+                            </h5>
                             <p class="iconic-box-content">
-                                Sed ut perspiciatis unde este error voluptate accus antium doloremque
+                                List your Amazon store with thousands of products from our verified suppliers from the UK, Europe and Worldwide, with complete automation to manage inventory, orders and shipping that will help you sell without any boundary or limit.
                             </p>
                         </div>
                     </div>
                 </div> <!-- /.col-lg-6-->
-                <div class="col-xl-3 col-lg-6">
+                <div class="col-xl-6 col-lg-6">
                     <div class="single-iconic-box iconic-box-v4 wow fadeInDown" data-wow-delay="0.3s" data-wow-duration="2000ms">
-                        <div class="iconic-box-icon iconic-box-gradient-4">
-                            <i class="far fa-compass"></i>
+                        <div class="iconic-box-icon">
+                            <img class="about-thumbnail about-thumbnail-1" src="assets/img/hero/ebay_icon.png" alt="about thumbnail one">
                         </div>
                         <div class="iconic-box-body">
-                            <h5 class="iconic-box-title">Time Tracking</h5>
+                            <h5 class="iconic-box-title">ebay DropShipping
+                            </h5>
                             <p class="iconic-box-content">
-                                But I must explain to you how all this mistaken idea denouncing pleasure
+                                List your eBay store with thousands of products from our verified suppliers from the UK, Europe and Worldwide, with complete automation to manage inventory, orders and shipping that will help you sell without any boundary or limit.
                             </p>
                         </div>
                     </div>
                 </div> <!-- /.col-lg-6-->
-                <div class="col-xl-3 col-lg-6">
+                <div class="col-xl-6 col-lg-6">
                     <div class="single-iconic-box iconic-box-v4 wow fadeInDown" data-wow-delay="0.5s" data-wow-duration="2000ms">
-                        <div class="iconic-box-icon iconic-box-gradient-5">
-                            <i class="far fa-squirrel"></i>
+                        <div class="iconic-box-icon ">
+                            <img class="about-thumbnail about-thumbnail-1" src="assets/img/hero/shopify_icon.png" alt="about thumbnail one">
                         </div>
                         <div class="iconic-box-body">
-                            <h5 class="iconic-box-title">Payment System</h5>
+                            <h5 class="iconic-box-title">Shopify DropShipping</h5>
                             <p class="iconic-box-content">
-                                Quis autem vel eum iure reprehe deritea voluptate velit esse quam nihil
+                                List your Shopify store with thousands of products from our verified suppliers from the UK, Europe and Worldwide, with complete automation to manage inventory, orders and shipping that will help you sell without any boundary or limit.
                             </p>
                         </div>
                     </div>
                 </div> <!-- /.col-lg-6-->
-                <div class="col-xl-3 col-lg-6">
+                <div class="col-xl-6 col-lg-6">
                     <div class="single-iconic-box iconic-box-v4 wow fadeInDown" data-wow-delay="0.7s" data-wow-duration="2000ms">
-                        <div class="iconic-box-icon iconic-box-gradient-6">
-                            <i class="far fa-fingerprint"></i>
+                        <div class="iconic-box-icon ">
+                            <img class="about-thumbnail about-thumbnail-1" src="assets/img/hero/woocommerce_icon.png" alt="about thumbnail one">
                         </div>
                         <div class="iconic-box-body">
-                            <h5 class="iconic-box-title">High Security</h5>
+                            <h5 class="iconic-box-title">WooCommerce DropShipping</h5>
                             <p class="iconic-box-content">
-                                At vero eoset accusame et iusto odio dignissimosy ducimus qui bland
+                                List your WooCommerce store with thousands of products from our verified suppliers from the UK, Europe and Worldwide, complete automation to manage inventory, orders and shipping that will help you sell without any boundary.
                             </p>
                         </div>
                     </div>
