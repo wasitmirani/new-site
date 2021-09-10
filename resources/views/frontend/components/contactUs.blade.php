@@ -45,6 +45,7 @@
                         <h2>Have Any Questions ? <br class="d-none d-md-block"> Let’s Start to Talk</h2>
                     </div>
                     <div class="contact-respond">
+                    
                         @component('frontend.components.contactForm')
 
                         @endcomponent

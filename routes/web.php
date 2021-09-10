@@ -6,6 +6,8 @@ use App\Http\Controllers\FrontEndController;
 use App\Http\Controllers\IntegrationController;
 use League\CommonMark\Extension\FrontMatter\FrontMatterParser;
 use App\Http\Controllers\ResourcesController;
+use App\Http\Controllers\PartnerController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -65,3 +67,6 @@ Route::prefix('partner')->name('partner.')->group(function () {
 });
 
 Route::get('/integration/{slug?}',[IntegrationController::class,'index'])->name('integration');
+
+Route::post('/contact',[PartnerController::class,'store'])->name('contact.store');
+

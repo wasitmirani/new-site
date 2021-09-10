@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Models\Partner;
+use App\Models\Contact;
+
 use Illuminate\Http\Request;
 
 class PartnerController extends Controller
@@ -35,7 +37,17 @@ class PartnerController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $data = array(
+            'name'=>$request->name,
+            'phone'=>$request->phone,
+            'email'=>$request->email,
+            'subject'=>$request->subject,
+            'message'=>$request->message
+        );
+        
+
+   $create = Contact::create($data);
+        return redirect()->back()->with('message','your message has been sent successfully');
     }
 
     /**
