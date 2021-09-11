@@ -41,10 +41,11 @@ class PartnerController extends Controller
             'name'=>$request->name,
             'phone'=>$request->phone,
             'email'=>$request->email,
+            'source'=>$request->source,
             'subject'=>$request->subject,
             'message'=>$request->message
         );
-        
+  
 
    $create = Contact::create($data);
         return redirect()->back()->with('message','your message has been sent successfully');

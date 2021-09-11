@@ -76,9 +76,9 @@
                         <div class="footer-widget-menu">
                             <ul>
                                 <li><a href="{{route('about')}}">About {{config('app.name')}}</a></li>
-                                <li><a href="{{route('contact')}}">Contact & Support</a></li>
-                                <li><a href="{{route('contact')}}">Help Center</a></li>
-                                <li><a href="{{route('contact')}}"> Franchise </a></li>
+                                <li><a href="{{route('contact.contactus')}}">Contact & Support</a></li>
+                                <li><a href="{{route('contact.contactus')}}">Help Center</a></li>
+                                <li><a href="{{route('contact.contactus')}}"> Franchise </a></li>
 
                             </ul>
                         </div>
@@ -121,7 +121,7 @@
                         <div class="text">
                             <span><br/><p style="font-weight:800;font-size:30px ">Virtue Ventures Limited</p>
                                 <br/>
-                            <a href="{{route('contact')}}" class="Blondie">
+                            <a href="{{route('contact.contactus')}}" class="Blondie">
                             4 Old Park Lane
                             London
                             W1K 1QW</a></span>

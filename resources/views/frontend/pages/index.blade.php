@@ -81,7 +81,7 @@
                                         You can reach out to us via live chat, text, or email. Our representatives are available round the clock to address your queries and concerns.
                                     </p>
                                     <div class="iconic-box-btn">
-                                        <a href="{{route('contact')}}"><i class="fas fa-arrow-right"></i></a>
+                                        <a href="{{route('contact.contactus')}}"><i class="fas fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -601,7 +601,7 @@
             @endcomponent
     <!--======= End Brands Slider =======-->
     <!--====== Start Contact Area ======-->
-    @component('frontend.components.contactUs')
+    @component('frontend.components.contactUs',['source'=>'landing'])
 
     @endcomponent
     <!--====== End Contact Area ======-->

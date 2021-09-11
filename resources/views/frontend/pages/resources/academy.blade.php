@@ -123,7 +123,7 @@
             <div class="col-xl-10">
                 <div class="simple-cta-content">
                     <h4>Organize Your Business, Your Way, All In One Place</h4>
-                    <a href="{{ route('contact') }}" class="filled-btn btn-bordered btn-off-white">
+                    <a href="{{route('contact.contactus')}}" class="filled-btn btn-bordered btn-off-white">
                         Contact Us <i class="fas fa-arrow-right"></i>
                     </a>
                 </div>
@@ -149,14 +149,14 @@
                             <div class="single-contact-box wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1500ms">
                                 <h4>Ecommerce Marketplaces  </h4>
                                 <p>Learn to set up your store on the major ecommerce platforms like Amazon, Shopify, eBay, and others to render your sales shoot up. </p>
-                                <a href="{{ route('contact') }}" class="filled-btn btn-bordered bg-royal-blue">
+                                <a href="{{route('contact.contactus')}}" class="filled-btn btn-bordered bg-royal-blue">
                                     Join with us <i class="fas fa-arrow-right"></i>
                                 </a>
                             </div>
                             <div class="single-contact-box wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1500ms">
                                 <h4>Dropshipping </h4>
                                 <p>Make selling easier by eliminating the need of a warehouse or storage space with dropshipping. Our team of experts will teach you to make your business cost and resource-effective.</p>
-                                <a href="{{ route('contact') }}" class="filled-btn btn-bordered bg-royal-blue">
+                                <a href="{{route('contact.contactus')}}" class="filled-btn btn-bordered bg-royal-blue">
                                     Join with us <i class="fas fa-arrow-right"></i>
                                 </a>
                             </div>
