@@ -6,6 +6,8 @@ use App\Http\Controllers\FrontEndController;
 use App\Http\Controllers\IntegrationController;
 use League\CommonMark\Extension\FrontMatter\FrontMatterParser;
 use App\Http\Controllers\ResourcesController;
+use App\Http\Controllers\PartnerController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -19,7 +21,17 @@ use App\Http\Controllers\ResourcesController;
 */
 
 Route::get('/',[FrontEndController::class,'index'])->name('home');
-Route::get('/contact-us',[FrontEndController::class,'contact'])->name('contact');
+
+Route::prefix('contact-us')->name('contact.')->group(function () {
+    Route::get('/',[FrontEndController::class,'contact'])->name('contactus');
+    Route::get('/franchise',[FrontEndController::class,'franchise'])->name('franchise');
+    Route::get('/smartshop',[FrontEndController::class,'smartshop'])->name('smartshop');
+    Route::get('/whiteable',[FrontEndController::class,'whiteable'])->name('whiteable');
+    Route::get('/investment',[FrontEndController::class,'investment'])->name('investment');
+
+});
+
+
 Route::get('/about-us',[FrontEndController::class,'about'])->name('about');
 Route::get('/privacy-policy',[FrontEndController::class,'privacy'])->name('privacy-policy');
 Route::get('/GuideStepbyStep',[FrontEndController::class,'step'])->name('GuideStepbyStep');
@@ -65,3 +77,6 @@ Route::prefix('partner')->name('partner.')->group(function () {
 });
 
 Route::get('/integration/{slug?}',[IntegrationController::class,'index'])->name('integration');
+
+Route::post('/contact',[PartnerController::class,'store'])->name('contact.store');
+

@@ -1,8 +1,19 @@
-<form>
+@if(session()->has('message'))
+                    <div class="alert alert-success">
+                    <button type="button" class="close" data-dismiss="alert"></button>
+         {{session()->get('message')}}
+         </div>
+        @endif
+<form action="{{ route('contact.store')}}" method="post">
+    @csrf
+
+    <input type="hidden" name="source" value="{{$source}}">
     <div class="input-group">
         <input type="text" class="form-control" id="fullName" placeholder="Full Name" name="name" required="">
         <label for="fullName">Name</label>
     </div>
+
+
     <div class="input-group">
         <input type="text" class="form-control" id="phoneNumber" placeholder="Phone Number" name="phone" required="">
         <label for="phoneNumber">Phone</label>

@@ -1,4 +1,3 @@
-
 @extends('layouts.frontend.master')
 
 @section('content')
@@ -6,7 +5,7 @@
 
 @endcomponent
 <!--====== Start Contact Area ======-->
-    @component('frontend.components.contactUs',['source'=>'contactus'])
+    @component('frontend.components.contactUs',['source'=>'investment'])
     @endcomponent
 <!--====== End Contact Area ======-->
 <!--====== Start Map Area ======-->

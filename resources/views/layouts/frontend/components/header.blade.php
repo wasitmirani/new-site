@@ -213,10 +213,10 @@
                                                 <li><a href="https://store.edropship.co.uk/" target=_blank><i class="fas fa-layer-group"></i> &nbsp Bulk Wholesaler</a>
                                                 </li>
 
-                                                <li><a href="{{route('contact')}}"> <i class="fas fa-home"></i> &nbsp Franchise </a></li>
-                                                <li><a href="{{route('contact')}}"> <i class="fas fa-check-double"></i> &nbsp Whitelable </a></li>
-                                                <li><a href="{{route('contact')}}"> <i class="fas fa-plus"></i> &nbspInvestment </a></li>
-                                                <li><a href="{{route('contact')}}"> <i class="fas fa-school"></i> &nbspSmartshop </a></li>
+                                                <li><a href="{{route('contact.franchise')}}"> <i class="fas fa-home"></i> &nbsp Franchise </a></li>
+                                                <li><a href="{{route('contact.whiteable')}}"> <i class="fas fa-check-double"></i> &nbsp Whitelable </a></li>
+                                                <li><a href="{{route('contact.investment')}}"> <i class="fas fa-plus"></i> &nbspInvestment </a></li>
+                                                <li><a href="{{route('contact.smartshop')}}"> <i class="fas fa-school"></i> &nbspSmartshop </a></li>
 
                                         </ul>
                                     </li>
@@ -233,7 +233,7 @@
                                             <li><a href="{{route('resources.webinars')}}"> <i class="fas fa-file-certificate"></i> &nbsp Webinars </a></li>
                                             <li><a href="{{route('resources.blogs')}}"> <i class="fas fa-blog"></i> &nbsp Blogs </a></li>
                                             <li><a href="{{route('resources.hotproducts')}}"> <i class="fas fa-shopping-cart"></i> &nbsp Hot Products </a></li>
-                                            <li><a href="{{route('contact')}}"> <i class="fas fa-headset"></i> &nbsp Contact </a></li>
+                                            <li><a href="{{route('contact.contactus')}}"> <i class="fas fa-headset"></i> &nbsp Contact </a></li>
                                             <li><a href="{{route('resources.freetool')}}"> <i class="fas fa-tools"></i> &nbsp Free Tools </a></li>
                                             <li><a href="{{route('about')}}"> <i class="fas fa-tools"></i> &nbsp About us </a></li>
                                             </a></li>

@@ -278,7 +278,7 @@
 
                                 </div>
                                 <div class="section-button-wrapper text-center wow fadeInUp" data-wow-delay="0.5s" data-wow-duration="1500ms">
-                                    <a href="{{route('contact')}}" class="filled-btn btn-bordered">
+                                    <a href="{{route('contact.contactus')}}" class="filled-btn btn-bordered">
                                         Get A Quote <i class="fas fa-arrow-right"></i>
                                     </a>
                                 </div>
@@ -332,7 +332,7 @@
 
                             @endcomponent?</h2>
                         <div class="section-button-wrapper section-dual-button justify-content-center text-center wow fadeInUp" data-wow-delay="0.3s" data-wow-duration="1500ms">
-                            <a href="{{route('contact')}}" class="filled-btn bg-clear-blue">
+                            <a href="{{route('contact.contactus')}}" class="filled-btn bg-clear-blue">
                                 Get Free Quote <i class="fas fa-arrow-right"></i>
                             </a>
                             <a href="{{route('resources.tour')}}" class="filled-btn btn-bordered">

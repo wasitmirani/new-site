@@ -6,7 +6,7 @@
 
 @endcomponent
 <!--====== Start Contact Area ======-->
-    @component('frontend.components.contactUs',['source'=>'contactus'])
+    @component('frontend.components.contactUs',['source'=>'whiteable'])
     @endcomponent
 <!--====== End Contact Area ======-->
 <!--====== Start Map Area ======-->

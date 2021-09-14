@@ -24,6 +24,30 @@ class FrontEndController extends Controller
         return view($this->file_path . "contact");
     }
 
+    public function smartshop()
+    {
+
+        return view($this->file_path . "smartshop");
+    }
+
+    public function whiteable()
+    {
+
+        return view($this->file_path . "whiteable");
+    }
+
+    public function investment()
+    {
+
+        return view($this->file_path . "investment");
+    }
+
+
+    public function franchise()
+    {
+
+        return view($this->file_path . "franchise");
+    }
     public function about()
     {
         return view($this->file_path . "about");
