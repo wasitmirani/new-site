@@ -129,7 +129,7 @@
         <div class="row justify-content-center">
             <div class="col-12">
                 <div class="section-title mb-135 text-center section-title-tuna">
-                    <h2>eDropShip features for {{ $channel->title }} store owners
+                    <h2>eDropShip features for {{ $channel->title }} Store Owners
                         <br class="d-none d-md-block"> With <span>Our Solutions</span></h2>
                 </div>
             </div>

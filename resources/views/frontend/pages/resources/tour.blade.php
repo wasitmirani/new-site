@@ -15,7 +15,7 @@
                     <div class="section-title section-title-mandy">
                         <h5> Integration </h5>
 
-                        <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1500ms">Everything you need to make DropShipping easier with  <span> </span> with @component('frontend.components.appTitle')
+                        <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1500ms">Everything you need to make DropShipping easier with @component('frontend.components.appTitle')
 
                         @endcomponent <div class="brand-logo">
                         <br>

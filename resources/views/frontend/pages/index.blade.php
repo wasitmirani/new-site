@@ -17,7 +17,7 @@
                         </div>
                         <div class="section-title section-title-mandy">
                             <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1500ms">Take Charge of Your Business & Make it Grow with <span><img src="{{asset('assets/img/logo-red.png')}}" alt="logo"></span></h2>
-                            <p class="mb-10">We enable you to take control of your business and let it scale by dropshipping. We empower your with all the requisite tools from online store integration, access provision to suppliers, and automated payments, shipping, and orders. </p>
+                            <p class="mb-10">Manage your business with eDropShip and let it scale by dropshipping. We empower your business with all the requisite tools for online store integration, access provision to suppliers, automated payments, shipping, and order management.</p>
 
                             <div class="section-button-wrapper section-dual-button wow fadeInUp" data-wow-delay="0.3s" data-wow-duration="1500ms">
                                 <a href="services.html" class="filled-btn bg-mandy button-radius">
@@ -65,7 +65,7 @@
                     <div class="section-heading-tag">
                         <span class="single-heading-tag">How Can Help You</span>
                     </div>
-                    <h2>Check Out <span>Exclusive</span> Features</h2>
+                    <h2>Check Out Our  <span>Exclusive</span> Features</h2>
                 </div>
                 <div class="icon-boxes-wrapper">
                     <div class="row">
@@ -77,7 +77,6 @@
                                 <div class="iconic-box-body">
                                     <h5 class="iconic-box-title">24/7 Live Support</h5>
                                     <p class="iconic-box-content">
-
                                         You can reach out to us via live chat, text, or email. Our representatives are available round the clock to address your queries and concerns.
                                     </p>
                                     <div class="iconic-box-btn">
@@ -94,8 +93,7 @@
                                 <div class="iconic-box-body">
                                     <h5 class="iconic-box-title">Progress Reports</h5>
                                     <p class="iconic-box-content ">
-                                        You can check the weekly, monthly, and yearly progress of your
-                                        online store on our dashboard system complete managable and etc.
+                                        You can check the weekly, monthly, and yearly progress of your online store on our dashboard system, which is easily manageable and provides functionality.
                                     </p>
                                     <div class="iconic-box-btn ">
                                         <a href="{{route('resources.tour')}}"><i class="fas fa-arrow-right"></i></a>
@@ -255,7 +253,7 @@
                             </div>
                             <h2>Sign up as a Vendor/Supplier </h2>
                             <div class="section-title-description">
-                                <p class="mb-10">Enhance your clientele through eDropShip’s wide customer’s base. Find potential customers to expand the market for your products. Minimize the workload through our automated portal that offers: </p>
+                                <p class="mb-10">Enhance your clientele through eDropShip’s wide customer base. Find potential customers to expand the market for your products. Minimize the workload through our automated portal that offers: </p>
                                 <div class="section-list-style list-style-v2 mt-22 mb-35">
                                     <ul>
                                         <li>Accelerated order management </li>

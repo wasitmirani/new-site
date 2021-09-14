@@ -70,8 +70,6 @@
         </div> <!-- /.row -->
     </div> <!-- /.container -->
 </section> <!-- /.about-us-area -->
-<!--====== End About Us Area ======-->
-<!--====== Start Services Area ======-->
 <section class="our-services border-top-blue pt-130 pb-90">
     <div class="container">
         <div class="row justify-content-center">

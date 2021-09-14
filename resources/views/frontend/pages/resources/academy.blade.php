@@ -9,7 +9,7 @@
                         <div class="section-title section-title-white">
                             <h1 class="wow fadeInUp" data-wow-delay="0.3s" data-wow-duration="1500ms">Get Started With Our Expert </h1>
                             <div class="section-title-quote wow fadeInUp" data-wow-delay="0.5s" data-wow-duration="1500ms">
-                                <p>Sed ut perspiciatis unde omnis iste natus error voluptatem accusanti doloremque laudantium totam rem aperiam</p>
+                                <h3>Learn doing business from our experts and let your digital enterprise thrive! </h3>
                             </div>
                             <div class="section-button-wrapper section-dual-button wow fadeInUp" data-wow-delay="0.7s" data-wow-duration="1500ms">
                                 <span>

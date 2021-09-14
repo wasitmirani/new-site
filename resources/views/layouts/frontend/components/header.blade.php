@@ -34,7 +34,7 @@
                                                 <div class="row">
                                                     <div class="col-11">
                                                         <h3> Products you Need    </h3>
-                                                        <p style="font-size: 15px"> To see the product you need and may more new  collections  are there tap to go all collection   </p>
+                                                        <p style="font-size: 15px"> All the product you need and many more in the new collections are just a tap away!   </p>
                                                     </div>
                                                     <div class="col-1">
                                                             <a href="https://store.edropship.co.uk/collections/new-in" target="_blank">
@@ -114,7 +114,7 @@
                                                 <div class="row" >
                                                     <div class="col-11">
                                                         <h3> Integrations    </h3>
-                                                        <p style="font-size: 15px"> Seamlessly Integarate to your eCommerce store to become a succesfull dropshipping busniess overnight!   </p>
+                                                        <p style="font-size: 15px"> Seamlessly integrate to your eCommerce store and render your dropshipping business a success overnight!   </p>
                                                     </div>
                                                     <div class="col-1">
                                                             <a href="{{route('integrations')}}">
@@ -224,7 +224,7 @@
                                         <a href="{{route('pricing')}}" class="nav-link">Pricing</a>
                                     </li>
                                     <li class="menu-item menu-item-has-children">
-                                        <a href="#" class="nav-link">Recources</a>
+                                        <a href="#" class="nav-link">Resources</a>
                                         <ul class="sub-menu partner_menu">
                                             <li><a href="{{route('resources.tour')}}"><i class="fas fa-layer-group"></i> &nbsp Platform Tour </a></li>
                                             <li><a href="{{route('resources.academy')}}"> <i class="fas fa-book-open"></i> &nbsp {{config('app.name')}} Academy </a></li>

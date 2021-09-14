@@ -11,7 +11,7 @@
                         <div class="section-heading-tag">
                             <span class="single-heading-tag">Most popular selling channels</span>
                         </div>
-                        <h2>We Offer Channels  <br class="d-none d-md-block">
+                        <h2>We Offer Channel <br class="d-none d-md-block">
                             <span>Integrations</span>
                             Across
                         </h2>

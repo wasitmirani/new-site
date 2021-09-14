@@ -126,7 +126,7 @@ element.style {
                     <div class="section-heading-tag">
                         <span class="single-heading-tag">Popular Integrations</span>
                     </div>
-                    <h2>Made Amazing Integrations Application <br class="d-none d-md-block"> With Our Solutions</h2>
+                    <h2>Integrations Now Amazingly Easier With   <br class="d-none d-md-block"> Our Innovative Solutions</h2>
                 </div>
             </div> <!-- /.col-lg-8 -->
         </div> <!-- /.row -->

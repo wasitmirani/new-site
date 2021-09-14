@@ -82,7 +82,7 @@
                 <div class="section-title text-center mb-45">
                     <h2>Get incentives by selling with @component('frontend.components.appTitle')
 
-                        @endcomponent ?</h2>
+                        @endcomponent </h2>
                     <div class="section-title-description">
                         {{-- <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam eaque</p> --}}
                     </div>
@@ -328,7 +328,7 @@
                         <div class="section-heading-tag wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                             <span class="single-heading-tag">Sell your products globally</span>
                         </div>
-                        <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1500ms">Want To Know More Informations <br class="d-none d-md-block"> About @component('frontend.components.appTitle')
+                        <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1500ms">Want To Know More Information   <br class="d-none d-md-block"> About @component('frontend.components.appTitle')?
 
                             @endcomponent?</h2>
                         <div class="section-button-wrapper section-dual-button justify-content-center text-center wow fadeInUp" data-wow-delay="0.3s" data-wow-duration="1500ms">
