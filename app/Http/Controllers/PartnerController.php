@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Partner;
 use App\Models\Contact;
+use App\Models\Blog;
 
 use Illuminate\Http\Request;
 
@@ -16,7 +17,8 @@ class PartnerController extends Controller
      */
     public function index()
     {
-        //
+       return view('frontend.pages.resources.blog');
+
     }
 
     /**
@@ -24,10 +26,24 @@ class PartnerController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function create(Request $request)
     {
-        //
+        $data = array
+        (
+            'title'=>$request->title,
+            'description'=>$request->description,
+        );
+        if($request->hasFile('image'))
+        {
+            $image = $request->file('image');
+            $fileName = date('dmY').time(). '.'.$image->getClientOriginalExtension();
+            $image->move(public_path("/uploads"), $fileName);
+            $data['image'] = $fileName;
+        }
+        $create = Blog::create($data);
+        return redirect()->back()->with('message','your message has been sent successfully');
     }
+
 
     /**
      * Store a newly created resource in storage.
@@ -45,7 +61,7 @@ class PartnerController extends Controller
             'subject'=>$request->subject,
             'message'=>$request->message
         );
-  
+
 
    $create = Contact::create($data);
         return redirect()->back()->with('message','your message has been sent successfully');

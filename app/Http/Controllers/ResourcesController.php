@@ -20,6 +20,7 @@ class ResourcesController extends Controller
         return view($this->file_path.'blogs');
     }
 
+
     public function webinars(){
 
         return view($this->file_path.'webinars');

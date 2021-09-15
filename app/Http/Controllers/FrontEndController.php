@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Models\Pricing;
 use App\Models\Integration;
+use App\Models\Blog;
+
 use Illuminate\Http\Request;
 
 class FrontEndController extends Controller
@@ -42,7 +44,7 @@ class FrontEndController extends Controller
         return view($this->file_path . "investment");
     }
 
-
+    
     public function franchise()
     {
 
