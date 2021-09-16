@@ -32,6 +32,7 @@ class PartnerController extends Controller
         (
             'title'=>$request->title,
             'description'=>$request->description,
+
         );
         if($request->hasFile('image'))
         {

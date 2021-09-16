@@ -2,6 +2,8 @@
 
 use App\Models\Partner;
 
+use App\Models\Blogs;
+
 
 
 
@@ -9,4 +11,9 @@ use App\Models\Partner;
 function getPartners(){
 
     return Partner::with('partnerSection')->get();
+}
+
+function getBlogs(){
+
+    return Blogs::with('blogs')->get();
 }

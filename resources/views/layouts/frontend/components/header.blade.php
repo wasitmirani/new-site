@@ -206,17 +206,17 @@
                                                     $partners=getPartners();
                                                 @endphp
                                                 @foreach ($partners as $item)
-                                                <li><a href="{{route('partner',['slug'=>$item->slug])}}"><i class="fas fa-user"></i> &nbsp {{$item->name}} </a></li>
+                                                <li><a href="{{route('partner',['slug'=>$item->slug])}}"><img src="https://img.icons8.com/bubbles/30/000000/user.png"/> &nbsp {{$item->name}} </a></li>
                                                 @endforeach
-                                                <li><a href="https://store.edropship.co.uk/" target=_blank><i class="fas fa-shopping-bag"></i> &nbsp OnePiece
+                                                <li><a href="https://store.edropship.co.uk/" target=_blank><img src="https://img.icons8.com/external-vitaliy-gorbachev-flat-vitaly-gorbachev/30/000000/external-layers-graphic-design-vitaliy-gorbachev-flat-vitaly-gorbachev.png"/></i> &nbsp OnePiece
                                                         Wholesaler</a></li>
-                                                <li><a href="https://store.edropship.co.uk/" target=_blank><i class="fas fa-layer-group"></i> &nbsp Bulk Wholesaler</a>
+                                                <li><a href="https://store.edropship.co.uk/" target=_blank><img src="https://img.icons8.com/external-vitaliy-gorbachev-flat-vitaly-gorbachev/30/000000/external-layers-graphic-design-vitaliy-gorbachev-flat-vitaly-gorbachev.png"/> &nbsp Bulk Wholesaler</a>
                                                 </li>
 
-                                                <li><a href="{{route('contact.franchise')}}"> <i class="fas fa-home"></i> &nbsp Franchise </a></li>
-                                                <li><a href="{{route('contact.whiteable')}}"> <i class="fas fa-check-double"></i> &nbsp Whitelable </a></li>
-                                                <li><a href="{{route('contact.investment')}}"> <i class="fas fa-plus"></i> &nbspInvestment </a></li>
-                                                <li><a href="{{route('contact.smartshop')}}"> <i class="fas fa-school"></i> &nbspSmartshop </a></li>
+                                                <li><a href="{{route('contact.franchise')}}"> <img src="https://img.icons8.com/cute-clipart/30/000000/home.png"/> &nbsp Franchise </a></li>
+                                                <li><a href="{{route('contact.whiteable')}}"> <img src="https://img.icons8.com/material-sharp/30/000000/double-tick.png"/> &nbsp Whitelable </a></li>
+                                                <li><a href="{{route('contact.investment')}}"> <img src="https://img.icons8.com/cotton/30/000000/investment--v1.png"/> &nbspInvestment </a></li>
+                                                <li><a href="{{route('contact.smartshop')}}"> <img src="https://img.icons8.com/fluency/30/000000/bookmark-ribbon.png"/> &nbspSmartshop </a></li>
 
                                         </ul>
                                     </li>
@@ -226,16 +226,16 @@
                                     <li class="menu-item menu-item-has-children">
                                         <a href="#" class="nav-link">Resources</a>
                                         <ul class="sub-menu partner_menu">
-                                            <li><a href="{{route('resources.tour')}}"><i class="fas fa-layer-group"></i> &nbsp Platform Tour </a></li>
-                                            <li><a href="{{route('resources.academy')}}"> <i class="fas fa-book-open"></i> &nbsp {{config('app.name')}} Academy </a></li>
-                                            <li><a href="{{route('resources.guru')}}"> <i class="fas fa-user-crown"></i> &nbsp {{config('app.name')}} Guru </a></li>
-                                            <li><a href="{{route('resources.app')}}"> <i class="fas fa-mobile-android"></i> &nbsp Mobile App</a></li>
-                                            <li><a href="{{route('resources.webinars')}}"> <i class="fas fa-file-certificate"></i> &nbsp Webinars </a></li>
-                                            <li><a href="{{route('resources.blogs')}}"> <i class="fas fa-blog"></i> &nbsp Blogs </a></li>
-                                            <li><a href="{{route('resources.hotproducts')}}"> <i class="fas fa-shopping-cart"></i> &nbsp Hot Products </a></li>
-                                            <li><a href="{{route('contact.contactus')}}"> <i class="fas fa-headset"></i> &nbsp Contact </a></li>
-                                            <li><a href="{{route('resources.freetool')}}"> <i class="fas fa-tools"></i> &nbsp Free Tools </a></li>
-                                            <li><a href="{{route('about')}}"> <i class="fas fa-tools"></i> &nbsp About us </a></li>
+                                            <li><a href="{{route('resources.tour')}}"><img src="https://img.icons8.com/nolan/30/google-cloud-platform.png"/> &nbsp Platform Tour </a></li>
+                                            <li><a href="{{route('resources.academy')}}"> <img src="https://img.icons8.com/external-vitaliy-gorbachev-flat-vitaly-gorbachev/30/000000/external-book-back-to-school-vitaliy-gorbachev-flat-vitaly-gorbachev.png"/> &nbsp {{config('app.name')}} Academy </a></li>
+                                            <li><a href="{{route('resources.guru')}}"> <img src="https://img.icons8.com/color/30/000000/checked-user-male--v1.png"/> &nbsp {{config('app.name')}} Guru </a></li>
+                                            <li><a href="{{route('resources.app')}}"> <img src="https://img.icons8.com/emoji/30/000000/mobile-phone.png"/> &nbsp Mobile App</a></li>
+                                            <li><a href="{{route('resources.webinars')}}"> <img src="https://img.icons8.com/fluency/30/000000/video-call.png"/> &nbsp Webinars </a></li>
+                                            <li><a href="{{route('resources.blogs')}}"> <img src="https://img.icons8.com/fluency/30/000000/bebo.png"/> &nbsp Blogs </a></li>
+                                            <li><a href="{{route('resources.hotproducts')}}"> <img src="https://img.icons8.com/color/30/000000/shopping-cart--v2.png"/> &nbsp Hot Products </a></li>
+                                            <li><a href="{{route('contact.contactus')}}"> <img src="https://img.icons8.com/external-flatart-icons-flat-flatarticons/30/000000/external-contact-contact-us-flatart-icons-flat-flatarticons-1.png"/> &nbsp Contact </a></li>
+                                            <li><a href="{{route('resources.freetool')}}"> <img src="https://img.icons8.com/external-prettycons-flat-prettycons/30/000000/external-design-tools-design-prettycons-flat-prettycons.png"/> &nbsp Free Tools </a></li>
+                                            <li><a href="{{route('about')}}"> <img src="https://img.icons8.com/cute-clipart/30/000000/about.png"/> &nbsp About us </a></li>
                                             </a></li>
                                         </ul>
                                     </li>
