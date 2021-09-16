@@ -79,4 +79,7 @@ Route::prefix('partner')->name('partner.')->group(function () {
 Route::get('/integration/{slug?}',[IntegrationController::class,'index'])->name('integration');
 
 Route::post('/contact',[PartnerController::class,'store'])->name('contact.store');
+Route::get('/blog',[PartnerController::class,'index'])->name('contact.blog');
+Route::post('/blog/create',[PartnerController::class,'create'])->name('blog.create');
+
 

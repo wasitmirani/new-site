@@ -1,4 +1,4 @@
-@if(session()->has('message'))
+{{-- @if(session()->has('message'))
  <div class="alert alert-success">
  <button type="button" class="close" data-dismiss="alert"></button>
  {{session()->get('message')}}
@@ -7,7 +7,7 @@
 <form action="{{ route('contact.store')}}" method="post">
     @csrf
 
-    <input type="hidden" name="source" value="{{$source}}">
+    <input type="hidden" name="source" value="">
     <div class="input-group">
         <input type="text" class="form-control" id="fullName" placeholder="Full Name" name="name" required="">
         <label for="fullName">Name</label>
@@ -33,4 +33,21 @@
     <div class="input-group">
         <button type="submit" class="filled-btn">Send Message <i class="fas fa-arrow-right"></i></button>
     </div>
-</form>
+</form> --}}
+
+
+
+@extends('layouts.frontend.master')
+
+@section('content')
+@component('frontend.components.breadcrumb',['title'=>"Add Blogs "])
+
+@endcomponent
+<!--====== Start Contact Area ======-->
+    @component('frontend.components.blogForm',['source'=>'franchise'])
+    @endcomponent
+
+@endsection
+
+
+

@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Partner extends Model
 {
     use HasFactory;
-
+    
     public function partnerSection(){
         return $this->hasMany(PartnerSection::class, 'partner_id', 'id');
     }

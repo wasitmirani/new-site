@@ -114,8 +114,17 @@
                     </nav>
                 </div> <!-- /.blog-list-content -->
             </div>
+
+
             <div class="col-lg-4">
                 <div class="posts-sidebar">
+
+                    {{-- blog area starts --}}
+                    <div  data-wow-delay="0.1s" data-wow-duration="1200ms">
+                        <h4><button class=" btn btn-danger"><a href="{{ route('contact.blog')}}">Add Blog</a></button></h4>
+                    </div>
+                    <br><br>
+                    {{-- blog area ends --}}
                     <div class="widget search-widget wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1200ms">
                         <h4>Search Here</h4>
                         <form>
