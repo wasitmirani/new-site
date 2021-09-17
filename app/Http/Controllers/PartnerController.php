@@ -31,6 +31,7 @@ class PartnerController extends Controller
         $data = array
         (
             'title'=>$request->title,
+            'name'=>$request->name,
             'description'=>$request->description,
 
         );
@@ -42,7 +43,7 @@ class PartnerController extends Controller
             $data['image'] = $fileName;
         }
         $create = Blog::create($data);
-        return redirect()->back()->with('message','your message has been sent successfully');
+        return redirect()->route('resources.blogs');
     }
 
 

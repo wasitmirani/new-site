@@ -18,7 +18,9 @@
                         <div class="blog-post-item blog-post-item-v3 post-offwhite">
                             <div class="blog-post-entry-content">
                                 <div class="post-meta-wrapper"><ul>
-                                    <li><a href="#" class="post-meta"><i class="far fa-user"></i>{{ $item->name }}</a></li>
+                                    <img src="{{ asset('uploads/$item->image') }}"
+                                                alt="latest post one">
+                                    <li><a href="#" class="post-meta"><i class="far fa-user"></i>{{ $item->image }}</a></li>
                                     <li><a href="#" class="post-meta"><i class="far fa-calendar-alt"></i>{{ $item->created_at }}</a></li>
                                     <li><a href="#" class="post-meta"><i class="fas fa-comment-dots"></i>Comments (05)</a></li></ul>
                                 </div>
