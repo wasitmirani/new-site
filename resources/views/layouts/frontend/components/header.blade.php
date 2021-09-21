@@ -28,7 +28,7 @@
                             <nav class="main-menu">
                                 <ul>
                                     <li class="menu-item menu-item-has-children" >
-                                        <a href="{{route('integrations')}}" class="nav-link ">Products</a>
+                                        <a href="https://store.edropship.co.uk/collections/new-in" class="nav-link ">Products</a>
                                         <ul class="sub-menu collection_menu" >
                                             <div >
                                                 <div class="row">
