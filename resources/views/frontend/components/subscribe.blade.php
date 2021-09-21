@@ -6,7 +6,7 @@
                 <div class="col-xl-8 col-lg-10">
                     <div class="section-title section-title-white">
                         <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Subscribe Newsletters</h2>
-                        <p class="wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">Empower SEO teams to find the best growth opportunities</p>
+                        <p class="wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">Start your trial today! Hit us up if need any guidance or assistance. </p>
                     </div>
                     <div class="newsletter-search-form wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                         <form>

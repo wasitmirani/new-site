@@ -11381,7 +11381,7 @@ button {
 
 .collection_menu .row {
     padding: 5px;
-    background-color: rgb(245, 215, 215);
+    background-color: #f1c3c8;
     border-radius: 10px
 }
 
@@ -11392,5 +11392,3 @@ button {
 .partner_menu div {
     padding: 20px
 }
-
-0
