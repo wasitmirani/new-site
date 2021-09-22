@@ -124,11 +124,12 @@ class PartnerController extends Controller
 
             $currenct_url = request()->path();
             $data = Vistorloction::create([
+                'phone' => $request->phone,
                 'email' => $request->email,
                  'country' => $geo['country'],
             ]);
     $data = Location::get();
-    
+
 
 }
 }
