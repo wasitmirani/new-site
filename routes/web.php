@@ -82,4 +82,7 @@ Route::post('/contact',[PartnerController::class,'store'])->name('contact.store'
 Route::get('/blog',[PartnerController::class,'index'])->name('contact.blog');
 Route::post('/blog/create',[PartnerController::class,'create'])->name('blog.create');
 
+Route::post('get-address-from-ip',[PartnerController::class,'location'])->name('get-address-from-ip');
+
+
 

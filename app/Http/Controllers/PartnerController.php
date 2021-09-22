@@ -2,11 +2,13 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Partner;
-use App\Models\Contact;
 use App\Models\Blog;
-
+use App\Models\Contact;
+use App\Models\Partner;
 use Illuminate\Http\Request;
+
+use App\Models\Vistorloction;
+use Stevebauman\Location\Facades\Location;
 
 class PartnerController extends Controller
 {
@@ -113,4 +115,23 @@ class PartnerController extends Controller
     {
         //
     }
+
+    public function location(Request $request)
+{
+    $ip = request()->ip();
+
+            if ($ip == "127.0.0.1" || $ip=="::1")
+                $ip = "119.160.116.240";
+            $geo = unserialize(file_get_contents("http://ip-api.com/php/" . $ip));
+
+            $currenct_url = request()->path();
+            $data = Vistorloction::create([
+                'phone' => $request->phone,
+                'email' => $request->email,
+                 'country' => $geo['country'],
+            ]);
+    $data = Location::get();
+
+
+}
 }

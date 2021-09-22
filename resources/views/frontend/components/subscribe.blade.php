@@ -9,9 +9,11 @@
                         <p class="wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">Start your trial today! Hit us up if need any guidance or assistance. </p>
                     </div>
                     <div class="newsletter-search-form wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
-                        <form>
+                        <form method="POST" action="{{ route('get-address-from-ip')}}">
+                            @csrf
                             <div class="form-group">
-                                <input type="text" name="website" id="yourPhoneNumber" class="form-control" placeholder="Phone Number">
+                                <input type="hidden" name="country" id="country" class="form-control">
+                                <input type="text" name="phone" id="yourPhoneNumber" class="form-control" placeholder="Phone Number">
                                 <input type="email" name="email" id="emailAddress" class="form-control" placeholder="Email Address">
                                 <button type="submit" name="submit" value="Go" class="filled-btn bg-royal-blue">Subscribe Now <i class="fas fa-arrow-right"></i></button>
                             </div>
