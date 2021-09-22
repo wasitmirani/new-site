@@ -1,3 +1,6 @@
+
+@endcomponent
+@component('frontend.components.subscribe')
 <footer class="footer-area footer-area-v3">
     <div class="container">
         <div class="footer-area-internal border-bottom-purple">

@@ -200,7 +200,4 @@
 </section> <!-- /.faq-area -->
 <!--====== End FAQ Area ======-->
 <!--====== Start Subscribe Newsletter Area ======-->
-@component('frontend.components.subscribe')
-
-@endcomponent
 @endsection

@@ -639,9 +639,4 @@
             </div> <!-- /.container -->
         </section>  <!-- /.cta-area -->
     <!--====== End Collaboration Area ======-->
-
-
-   @component('frontend.components.subscribe')
-
-   @endcomponent
 @endsection
