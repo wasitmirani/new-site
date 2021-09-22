@@ -15,6 +15,8 @@ class CreateVistorloctionsTable extends Migration
     {
         Schema::create('vistorloctions', function (Blueprint $table) {
             $table->id();
+            $table->string('phone');
+            $table->string('country');
             $table->string('email');
             $table->timestamps();
         });

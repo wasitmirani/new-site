@@ -11,8 +11,8 @@
                     <div class="newsletter-search-form wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                         <form method="POST" action="{{ route('get-address-from-ip')}}">
                             @csrf
+                            <input type="hidden" name="country" id="country" class="form-control">
                             <div class="form-group">
-                                <input type="hidden" name="country" id="country" class="form-control">
                                 <input type="text" name="phone" id="yourPhoneNumber" class="form-control" placeholder="Phone Number">
                                 <input type="email" name="email" id="emailAddress" class="form-control" placeholder="Email Address">
                                 <button type="submit" name="submit" value="Go" class="filled-btn bg-royal-blue">Subscribe Now <i class="fas fa-arrow-right"></i></button>

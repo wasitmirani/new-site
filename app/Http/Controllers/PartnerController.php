@@ -128,9 +128,10 @@ class PartnerController extends Controller
             $data = Vistorloction::create([
                 'phone' => $request->phone,
                 'email' => $request->email,
-                 'country' => $geo['country'],
+                'country' => $geo['country'],
             ]);
     $data = Location::get();
+    return redirect()->route('home');
 
 
 }
