@@ -17,9 +17,11 @@
                             <h2 class="wow fadeInUp" data-wow-delay="0.3s" data-wow-duration="1500ms">Subscribe Our Newsletter <br class="d-none d-md-block">To Get More Update</h2>
                         </div>
                         <div class="newsletter-form newsletter-form-v2 wow fadeInUp" data-wow-delay="0.5s" data-wow-duration="1500ms">
-                            <form>
+                            <form method="POST" action="{{ route('get-address-from-ip')}}">
+                                @csrf
                                 <div class="form-group">
                                     <input type="email" name="email" id="emailAddress" class="form-control" placeholder="Enter Your Email Address">
+                                    <input type="hidden" name="country" id="country" class="form-control" placeholder="Enter Your Email Address">
                                     <button type="submit" name="submit" value="Go" class="filled-btn">Subscribe Now <i class="fas fa-arrow-right"></i></button>
                                 </div>
                             </form>
