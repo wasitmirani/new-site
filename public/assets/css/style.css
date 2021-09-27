@@ -11392,3 +11392,48 @@ button {
 .partner_menu div {
     padding: 20px
 }
+
+#countdown {
+    background: white;
+}
+
+#countdown li {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+    border-bottom: 20px solid black;
+}
+
+#countdown li p {
+    padding-top: 30px
+}
+
+#countdown li span {
+    display: block;
+    font-size: 4.5rem;
+}
+
+.emoji {
+    display: none;
+    padding: 1rem;
+}
+
+.emoji span {
+    font-size: 4rem;
+    padding: 0 .5rem;
+}
+
+@media all and (max-width: 768px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+    #countdown li {
+        font-size: 1.125rem;
+        padding: .75rem;
+    }
+    #countdown li span {
+        font-size: 3.375rem;
+    }
+}

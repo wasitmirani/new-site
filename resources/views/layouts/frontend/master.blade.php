@@ -40,7 +40,7 @@
     <!--======= End Preloader =======-->
 
     <!--====== Start Header Area ======-->
-    @include('layouts.frontend.components.header')
+    {{--  @include('layouts.frontend.components.header')  --}}
     <!--====== End Header Area ======-->
     <!--====== Start Hero Area ======-->
       @yield('content')

@@ -17,7 +17,7 @@ class FrontEndController extends Controller
         $channels = Integration::take(8)->get();
         $pricing_list = Pricing::orderBy('sort', 'ASC')->take(2)->with('pricingAddons')->get();
 
-        return view($this->file_path . 'index', compact('channels', 'pricing_list'));
+        return view($this->file_path . 'commingsoon', compact('channels', 'pricing_list'));
     }
 
     public function contact()
@@ -44,7 +44,7 @@ class FrontEndController extends Controller
         return view($this->file_path . "investment");
     }
 
-    
+
     public function franchise()
     {
 
