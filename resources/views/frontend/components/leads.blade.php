@@ -55,34 +55,34 @@
                                 {{ session()->get('message') }}
                             </div>
                         @endif
-                        <form action="{{ route('contact.store') }}" method="post">
+                        <form action="{{ route('form.submit') }}" method="post">
                             @csrf
                             <input type="hidden" name="source" value="{{ $source }}">
                             <div class="input-group">
-                                <input type="text" class="form-control" id="fullName" placeholder="Full Name"
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Full Name"
                                     name="name" required="">
-                                <label for="fullName">Name</label>
+                                <label for="Name">Name</label>
                             </div>
                             <div class="input-group">
-                                <input type="email" class="form-control" id="emailAddress" placeholder="Email Address"
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Email Address"
                                 name="email" required="">
-                                <label for="emailAddress">Email</label>
+                                <label for="email">Email</label>
                             </div>
                             <div class="input-group">
-                                <select class="form-select" aria-label="Default select example">
-                                      <option value="seller" selected> Seller </option>
+                                <select class="form-select" name="client" aria-label="Default select example">
+                                    <option value="client" selected> Client </option>
                                       <option value="vendor"> Vendor/suppler </option>
                                       <option value="wholeseller"> Wholeseller </option>
                                       <option value="exporter"> Exporter </option>
                                 </select>
                             </div>
                             <div class="input-group">
-                                <input type="text" class="form-control" id="phoneNumber" placeholder="Phone Number"
+                                <input type="text" class="form-control" id="phone" name="phone" placeholder="Phone Number"
                                     name="phone" required="">
-                                <label for="phoneNumber">Phone</label>
+                                <label for="phone">Phone</label>
                             </div>
                             <div class="input-group form-textarea">
-                                <textarea class="form-control" id="message" placeholder="Message"
+                                <textarea class="form-control" id="message" name="message" placeholder="Message"
                                     name="message"></textarea>
                                 <label for="message">Message</label>
                             </div>
