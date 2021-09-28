@@ -44,7 +44,7 @@
                         </div>
                         <div >
                         <h2> Send your Intrest  </h2>
-                        <h5> If you are SELLER , VENDOR , EXPORTER , WHOLESELLER & etc... plz fill the form .</h5>
+                        
                     </div>
                 </div>
                     <div class="contact-respond">
