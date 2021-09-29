@@ -43,8 +43,7 @@
                             <span class="single-heading-tag">Send Us Message</span>
                         </div>
                         <div >
-                        <h2> Send your Intrest  </h2>
-                        <h5> If you are SELLER , VENDOR , EXPORTER , WHOLESELLER & etc... plz fill the form .</h5>
+                        <h2> Send your inquiries *</h2>
                     </div>
                 </div>
                     <div class="contact-respond">

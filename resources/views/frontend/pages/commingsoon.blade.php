@@ -17,8 +17,10 @@
                                 <option value="en">English</option>
                             </select>
                         </div> --}}
+
                         </div>
                     </div>
+
                     <!-- Desktop and Mobile Menu -->
                     <div class="col-xl-8 col-md-6 col-4 text-center">
                         <div class="primary-menu d-flex justify-content-end align-items-center">
@@ -28,9 +30,43 @@
                                     <div class="cross-wrap"><span class="top"></span><span
                                             class="bottom"></span></div>
                                 </div>
+                                <nav class="main-menu">
+                                    <ul>
+
+
+                                        <li class="menu-item">
+                                            <a href="mailto:support@edropship.co.uk" >
+                                                <i class="fas fa-mail-bulk"></i> &nbsp; hello@edropship.co.uk
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="tel:+447958557597" >
+                                                <i class="fas fa-phone"></i> &nbsp; +447958557597
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <div class="header-right">
+                                <ul>
+                                    <li>
+                                        <div class="menu-toggle">
+                                            <div class="menu-overlay"></div>
+                                            <!-- Navbar Toggler -->
+                                            <div class="nav-toggle">
+                                                <div class="navbar-toggler float-end">
+                                                    <span></span>
+                                                    <span></span>
+                                                    <span></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
+
                 </div> <!-- /.row -->
             </div> <!-- /.container-fluid -->
         </div> <!-- /.header-navigation -->

@@ -38,7 +38,6 @@
         <img class="preloader-image" width="80" src="{{asset('assets/img/preloader-logo.png')}}" alt="preloader {{config('app.name')}}"/>
     </div> <!-- /.preloader -->
     <!--======= End Preloader =======-->
-
     <!--====== Start Header Area ======-->
     {{--  @include('layouts.frontend.components.header')  --}}
     <!--====== End Header Area ======-->
