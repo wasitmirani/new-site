@@ -67,6 +67,7 @@ class PartnerController extends Controller
         );
 
 
+
    $create = Contact::create($data);
         return redirect()->back()->with('message','your message has been sent successfully');
     }
