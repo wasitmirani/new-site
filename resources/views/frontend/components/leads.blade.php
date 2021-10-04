@@ -30,7 +30,6 @@
                             <div class="info-body">
                                 <h5>Urgent Call</h5>
                                 <p><a href="tel:+447958557597">+447958557597</a></p>
-                                {{-- <p><a href="tel:+8563214">+8563214</a></p> --}}
                             </div>
                         </div>
                     </div>

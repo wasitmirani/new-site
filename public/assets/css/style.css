@@ -4450,8 +4450,8 @@ button {
 
 .our-statistics-images .our-statistics-image-main img {
     width: 100%;
-    -webkit-box-shadow: 0px 10px 60px 0px rgb(51 119 255 / 15%);
-    box-shadow: 0px 10px 60px 0px rgb(51 119 255 / 15%);
+    /* -webkit-box-shadow: 0px 10px 60px 0px rgb(51 119 255 / 15%);
+    box-shadow: 0px 10px 60px 0px rgb(51 119 255 / 15%); */
     border-radius: 10px;
 }
 
@@ -4463,9 +4463,11 @@ button {
 }
 
 .our-statistics-images .our-statistics-image-relative,
-.our-statistics-images .our-statistics-image-absolute {
-    -webkit-box-shadow: 0px 10px 60px 0px rgb(51 119 255 / 15%);
+.our-statistics-images .our-statistics-image-absolute img {
+    width:200px;
+    /* -webkit-box-shadow: 0px 10px 60px 0px rgb(51 119 255 / 15%);
     box-shadow: 0px 10px 60px 0px rgb(51 119 255 / 15%);
+    background-color: white ; */
 }
 
 .our-statistics-images .our-statistics-image-relative,
@@ -8596,8 +8598,10 @@ button {
 .collaboration-area.collaboration-area-v1 .app-preview-image .app-feature-preview-relative img,
 .collaboration-area.collaboration-area-v1 .app-preview-image .app-feature-preview-absolute img {
     border-radius: 12px;
-    -webkit-box-shadow: 0 10px 30px 0px rgb(89 89 89 / 18%);
-    box-shadow: 0 10px 30px 0px rgb(89 89 89 / 18%);
+    /* -webkit-box-shadow: 0 10px 30px 0px rgb(89 89 89 / 18%);
+    box-shadow: 0 10px 30px 0px rgb(89 89 89 / 18%); */
+    /* background:white; */
+    width: 250px;
 }
 
 .collaboration-area.collaboration-area-v1 .app-preview-image .app-feature-preview-absolute {
@@ -11395,6 +11399,7 @@ button {
 
 #countdown {
     background: white;
+    width: 518px;
 }
 
 #countdown li {
