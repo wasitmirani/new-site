@@ -7,6 +7,8 @@ use App\Http\Controllers\IntegrationController;
 use League\CommonMark\Extension\FrontMatter\FrontMatterParser;
 use App\Http\Controllers\ResourcesController;
 use App\Http\Controllers\PartnerController;
+use App\Http\Controllers\LeadsController;
+
 
 
 /*
@@ -84,5 +86,4 @@ Route::post('/blog/create',[PartnerController::class,'create'])->name('blog.crea
 
 Route::post('get-address-from-ip',[PartnerController::class,'location'])->name('get-address-from-ip');
 
-
-
+Route::post('form/submit',[LeadsController::class,'store'])->name('form.submit');

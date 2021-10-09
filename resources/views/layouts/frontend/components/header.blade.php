@@ -240,10 +240,7 @@
                                         </ul>
                                     </li>
 
-{{--
-                                    <li class="menu-item">
-                                        <a href="{{route('contact')}}" class="nav-link">Contact</a>
-                                    </li>  --}}
+
 
                                 </ul>
                             </nav>

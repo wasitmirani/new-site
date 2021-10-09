@@ -11,7 +11,11 @@ class InquiryMail extends Mailable
 {
     use Queueable, SerializesModels;
 
+    public $maildata;
+
     /**
+     *
+     *
      * Create a new message instance.
      *
      * @return void
@@ -30,6 +34,6 @@ class InquiryMail extends Mailable
      */
     public function build()
     {
-        return $this->markdown('emails.lead.inquiry')->with('maildata', $this->maildata);
+        return $this->subject('asdhfasdkl;f;asdnfmnasdhfnasdjkfn')->view('emails.Inquiry');
     }
 }

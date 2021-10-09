@@ -8,7 +8,7 @@ use App\Models\Partner;
 use Illuminate\Http\Request;
 
 use App\Models\Vistorloction;
-use Stevebauman\Location\Facades\Location;
+
 
 class PartnerController extends Controller
 {
@@ -65,6 +65,7 @@ class PartnerController extends Controller
             'subject'=>$request->subject,
             'message'=>$request->message
         );
+
 
 
    $create = Contact::create($data);
