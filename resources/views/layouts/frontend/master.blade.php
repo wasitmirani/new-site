@@ -231,6 +231,14 @@ form {
     </div>
   </div>
 </div>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BNNXY96PEM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BNNXY96PEM');
+</script>
     <!--====== End Footer Area ======-->
     <!--======= Scroll To Top =======-->
     <a href="#" data-target="html" class="scroll-to-target scroll-to-top bg-red" style="    margin-bottom: 60px;"><i class="fa fa-angle-up"></i></a>
@@ -266,13 +274,6 @@ form {
     });
 </script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-BNNXY96PEM"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-BNNXY96PEM');
-</script>
 </body>
 </html>
