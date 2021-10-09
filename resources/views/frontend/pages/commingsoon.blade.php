@@ -34,8 +34,8 @@
                                     <ul>
 
 
-                                        <li class="menu-item">
-                                            <a href="mailto:support@edropship.co.uk" >
+                                        <li class="menu-item" >
+                                            <a href="mailto:support@edropship.co.uk"  style="text-transform: lowercase;">
                                                 <i class="fas fa-mail-bulk"></i> &nbsp; hello@edropship.co.uk
                                             </a>
                                         </li>
