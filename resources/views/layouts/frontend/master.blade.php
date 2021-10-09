@@ -207,7 +207,7 @@ form {
           <img src="{{asset('/assets/img/bgdrop.jpg')}}" alt="">
        </div>
        <div class="centercont">
-          <h3>See Your Business Scale with <span style="color: red">eDrop<span style="color: gray">Ship</span></span> </h3>
+          <h3>See Your Business ScaleUp with <span style="color: red">eDrop<span style="color: gray">Ship</span></span> </h3>
      
           <p>Enhance your clientele through eDropShip’s wide customer base. Find potential customers to expand the market for your products. Minimize the workload through our automated portal that offers </p>
           <ul>
