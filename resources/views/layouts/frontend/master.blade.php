@@ -130,7 +130,7 @@ form {
     margin-top: 20px;
 }
 .mmpopup .centercont h3 {
-    font-size: 38px;
+    font-size: 26px;
     color: #141515;
     margin-bottom: 10px;
 }
