@@ -73,7 +73,7 @@
                                 <li><a href="{{route('cookies-policy')}}">Cookies-policy</a></li>
                                 <li><a href="{{route('GuideStepbyStep')}}">Step-by-Step Guaide</a></li>
                                 <li><a href="{{ route('privacy-policy') }}">Privacy-Policy</a></li>
-                                <li><a href="{{ route('terms-and-Conditions') }}">Trems & Conditions </a></li>
+                                <li><a href="{{ route('terms-and-Conditions') }}">Terms & Conditions </a></li>
                                 <li><a href="{{route('shipping')}}">Shipping</a></li>
                                 <li><a href="{{route('HowDropShippingWorks')}}">How DropShipping Works</a></li>
                                 <li><a href="{{route('OurReturnsandExchange')}}">Our Returns and Exchange</a></li>
