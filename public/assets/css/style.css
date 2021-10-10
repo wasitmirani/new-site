@@ -168,9 +168,18 @@
     src: url('../fonts/circularstd/CircularStdBook.eot');
     src: url('../fonts/circularstd/CircularStdBook.eot') format('embedded-opentype'), url('../fonts/circularstd/CircularStdBook.woff2') format('woff2'), url('../fonts/circularstd/CircularStdBook.woff') format('woff'), url('../fonts/circularstd/CircularStdBook.ttf') format('truetype'), url('../fonts/circularstd/CircularStdBook.svg') format('svg');
 }
-
+@font-face {
+    font-family: 'Dax';
+    src: url('../fonts/Dax.ttf');
+    src:  url('../fonts/Dax.ttf') format('truetype'), ;
+}
+@font-face {
+    font-family: 'Dax-medium';
+    src: url('../fonts/Dax_Medium.ttf');
+    src:  url('../fonts/Dax_Medium.ttf') format('truetype'), ;
+}
 body {
-    font-family: 'dax', sans-serif !important;
+    font-family: 'Dax' !important;
     font-size: 15px;
     color: #161c2d;
     line-height: 30px;
@@ -183,7 +192,7 @@ h4,
 h5,
 h6 {
     margin: 0;
-    font-family: 'dax', sans-serif;
+    font-family: 'Dax-medium';
     font-weight: 700;
 }
 
