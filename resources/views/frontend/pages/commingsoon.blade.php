@@ -88,7 +88,7 @@
                         </div>
                         <div class="section-title section-title-mandy">
                             <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1500ms">Take Charge of Your
-                                Business & Make it Grow with <span><img src="{{ asset('assets/img/logo-red.png') }}"
+                                Business & Make it Grow with <span><img src="{{ asset('assets/img/LOGO-Web.png') }}"
                                         alt="logo"></span></h2>
                             <p class="mb-10">Manage your business with eDropShip and let it scale by dropshipping.
                                 We empower your business with all the requisite tools for online store integration, access
@@ -260,7 +260,7 @@
                             <span class="single-heading-tag">Business Scale </span>
                         </div>
                         <h3 style="font-size:50px ; line-height:50px">See Your Business
-                            <span> Scale with <img src="{{ asset('assets/img/logo-red.png') }}" alt="logo"></span>
+                            <span> Scale with <img src="{{ asset('assets/img/LOGO-Web.png') }}" alt="logo"></span>
                         </h3>
                         <div class="section-title-description">
                             <p class="mb-13">Whether you are a supplier, vendor, or seller, dropship via eDropShip
@@ -527,7 +527,7 @@
                                         <h5 class="accordion-header" id="headingTwo">
                                             <button class="accordion-button" type="button" data-toggle="collapse"
                                                 data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-                                                Verified Uk Suppliers
+                                                Verified UK Suppliers
                                             </button>
                                         </h5>
                                         <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo"

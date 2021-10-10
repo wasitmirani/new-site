@@ -916,7 +916,7 @@
                                         <li>Sellers can submit a Return Item request on the official website of eDropShip for informing the Supplier about the Return Item.</li>
                                     </ul>
                                 </li>OR
-                                <li>Sellers can send an email to hello@edropship.co.uk quoting their order number, their name, product code (found on the invoice) and reason for the return within 30 business days of receiving the goods. This also applies to Faulty goods that they have received. Therefore, Sellers are requested to check their full order once it is arrived and email us at hello@edropship.co.uk if they have any problems.</li>
+                                <li>Sellers can send an email to hello@edropship.co.UK quoting their order number, their name, product code (found on the invoice) and reason for the return within 30 business days of receiving the goods. This also applies to Faulty goods that they have received. Therefore, Sellers are requested to check their full order once it is arrived and email us at hello@edropship.co.UK if they have any problems.</li>
                                 <li>The Supplier is liable for responding about the acceptance or rejection of the Return Item request within five (5) Business Days after receiving a Return Item request.</li>
                                 <li>If Supplier has accepted Return Item request, then the Item must be refunded within thirty (30) calendar days.
                                     <ul>
@@ -1116,7 +1116,7 @@
                                                                 <li>It is the sole responsibility of the Sellers for ensuring that their third-party Sales Channel activities are complied with any such requirements.</li>
                                                             </ul>
                                                         </li>
-                                                        <li>Moreover, as a business or professional seller, Seller may be required to comply with any applicable government regulations in the country in which they are selling. Specifically in the UK, business sellers must comply with the Distance Selling Regulations and the Consumer Rights Act 2015. Further information regarding consumer rights is available on the gov.uk website.
+                                                        <li>Moreover, as a business or professional seller, Seller may be required to comply with any applicable government regulations in the country in which they are selling. Specifically in the UK, business sellers must comply with the Distance Selling Regulations and the Consumer Rights Act 2015. Further information regarding consumer rights is available on the gov.UK website.
                                                             <ul>
                                                                 <li>It is the sole responsibility of the Sellers for ensuring that their third-party Sales Channel activities are complied with any such requirements.</li>
                                                             </ul>

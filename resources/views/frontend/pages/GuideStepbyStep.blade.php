@@ -58,7 +58,7 @@
                             <ul>
                                 <li>We believe in providing customer satisfaction.</li>
                                 <li>For your questions and queries, contact us anytime.</li>
-                                <li>We are available 24/7. You can contact us via phone, live chat and hello@edropship.co.uk by email.</li>
+                                <li>We are available 24/7. You can contact us via phone, live chat and hello@edropship.co.UK by email.</li>
                             </ul>
                         </div>
                     </div>

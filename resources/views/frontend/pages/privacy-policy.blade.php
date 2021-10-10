@@ -154,7 +154,7 @@
                     <div class="privacy-item" id="email">
                         <h3 class="title">Email Marketing and Newsletters</h3>
                         <p>We give you the ability to subscribe to our email correspondence or newsletters. You will be required to give us explicit permission to use the information for this reason. You will still have the opportunity to unsubscribe from
-                            our email correspondence or newsletters. This choice is given in an email or you can also email us at hello@eDropShip.co.uk to unsubscribe from our newsletter.</p>
+                            our email correspondence or newsletters. This choice is given in an email or you can also email us at hello@eDropShip.co.UK to unsubscribe from our newsletter.</p>
                         <p>This provision complies with the UK spam legislation and the 2003 rules on privacy and electronic communications. These emails will contain clear reminders about the activities you have already pursued or researched by personalizing
                             your desires and preferences. We will not send this information to any third party.</p>
 

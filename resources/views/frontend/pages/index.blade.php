@@ -16,7 +16,7 @@
                             <img class="particle-4 animate-float-bob-y" src="{{asset('assets/img/particle/particle-5.png')}}" alt="particle Four">
                         </div>
                         <div class="section-title section-title-mandy">
-                            <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1500ms">Take Charge of Your Business & Make it Grow with <span><img src="{{asset('assets/img/logo-red.png')}}" alt="logo"></span></h2>
+                            <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1500ms">Take Charge of Your Business & Make it Grow with <span><img src="{{asset('assets/img/LOGO-Web.png')}}" alt="logo"></span></h2>
                             <p class="mb-10">Manage your business with eDropShip and let it scale by dropshipping. We empower your business with all the requisite tools for online store integration, access provision to suppliers, automated payments, shipping, and order management.</p>
 
                             <div class="section-button-wrapper section-dual-button wow fadeInUp" data-wow-delay="0.3s" data-wow-duration="1500ms">
@@ -175,7 +175,7 @@
                             <span class="single-heading-tag">Business Scale </span>
                         </div>
                         <h3 style="font-size:50px ; line-height:50px" >See Your Business
-                            <span> Scale with <img src="{{asset('assets/img/logo-red.png')}}" alt="logo"></span></h3>
+                            <span> Scale with <img src="{{asset('assets/img/LOGO-Web.png')}}" alt="logo"></span></h3>
                             <div class="section-title-description">
                             <p class="mb-13">Whether you are a supplier, vendor, or seller, dropship via eDropShip and see your business skyrocket. </p>
                             <p> We enable you to take control of your business and let it scale by dropshipping. We empower your with all the requisite tools from online store integration, access provision to suppliers, and automated payments, shipping, and orders.</p>
@@ -506,7 +506,7 @@
                                 You Name It, We got It
                                 {{--  <span>  <div class="brand-logo">
                                     <a href="{{route('home')}}">
-                                        <img src="{{asset('assets/img/logo-red.png')}}" alt="logo">
+                                        <img src="{{asset('assets/img/LOGO-Web.png')}}" alt="logo">
                                     </a>
                                 </div></span>  --}}
                             </h2>
@@ -529,7 +529,7 @@
                                 <div class="accordion-item">
                                     <h5 class="accordion-header" id="headingTwo">
                                         <button class="accordion-button" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-                                            Verified Uk Suppliers
+                                            Verified UK Suppliers
                                         </button>
                                     </h5>
                                     <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionFAQ">

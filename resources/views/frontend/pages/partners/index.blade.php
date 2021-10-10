@@ -35,7 +35,7 @@
 
 
                             {{--  <a href="index.html">
-                                <img src="{{asset('assets/img/logo-red.png')}}" alt="logo">
+                                <img src="{{asset('assets/img/LOGO-Web.png')}}" alt="logo">
                             </a>  --}}
                         </div> </h2>
                         <div class="section-button-wrapper section-dual-button wow fadeInUp" data-wow-delay="0.3s" data-wow-duration="1500ms">

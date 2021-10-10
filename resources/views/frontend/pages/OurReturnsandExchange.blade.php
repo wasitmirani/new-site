@@ -73,7 +73,7 @@
                                     <ul><li>Sellers can submit a Return Item request on the official website of eDropShip for informing the Supplier about the Return Item.</li></ul>
                                 </li>
                                 OR
-                                <li>Sellers can send an email to hello@edropship.co.uk quoting their order number, their name, product code (found on the invoice) and reason for the return within 30 business days of receiving the goods. This also applies to Faulty goods that they have received. Therefore, Sellers are requested to check their full order once it arrives and email us at hello@edropship.co.uk if they have any problems.</li>
+                                <li>Sellers can send an email to hello@edropship.co.UK quoting their order number, their name, product code (found on the invoice) and reason for the return within 30 business days of receiving the goods. This also applies to Faulty goods that they have received. Therefore, Sellers are requested to check their full order once it arrives and email us at hello@edropship.co.UK if they have any problems.</li>
                                 <li>The Supplier is liable for responding about the acceptance or rejection of the Return Item request within five (5) Business Days after receiving a Return Item request.</li>
                                 <li>If Supplier has accepted Return Item request, then the Item must be refunded within thirty (30) calendar days.
                                     <ul>
