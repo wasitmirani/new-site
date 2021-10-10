@@ -42,12 +42,7 @@
                             <span class="single-heading-tag">Send Us Message</span>
                         </div>
                         <div >
-<<<<<<< HEAD
-                        <h2> Send your Intrest  </h2>
-                        
-=======
                         <h2> Send your inquiries *</h2>
->>>>>>> b60ae82d17d4c703eac80fcf9f50d25535333a0f
                     </div>
                 </div>
                     <div class="contact-respond">
