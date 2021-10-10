@@ -179,7 +179,7 @@
     src:  url('../fonts/Dax_Medium.ttf') format('truetype'), ;
 }
 body {
-    font-family: 'Dax' !important;
+    font-family: 'Dax-medium' !important;
     font-size: 15px;
     color: #161c2d;
     line-height: 30px;
