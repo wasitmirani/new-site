@@ -34,6 +34,6 @@ class InquiryMail extends Mailable
      */
     public function build()
     {
-        return $this->subject('asdhfasdkl;f;asdnfmnasdhfnasdjkfn')->view('emails.Inquiry');
+        return $this->subject('Thanks for contacting eDropShip. ')->markdown('emails.Inquiry');
     }
 }

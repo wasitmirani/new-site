@@ -11264,6 +11264,36 @@ button {
 }
 
 @media (max-width:991px) {
+    .formpop img{
+        display: flex !important;
+        
+    }
+    .imgbx{
+        display: none;
+    }
+    .popupmain {
+        position: fixed;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 400px !important;
+        /* height: 425px; */
+        background: #fff;
+        box-shadow: 0px 0px 30px -9px #0000006e;
+        z-index: 11;
+        overflow: hidden;
+        display: none;
+    }
+    .mmpopup .centercont {
+     display: none;
+    }
+    .mmpopup .formpop {
+        padding: 30px;
+        width: 100% !important;
+        padding-top: 20px;
+    }
     .faq--wrapper {
         margin-bottom: 43px
     }
@@ -11331,6 +11361,36 @@ button {
 }
 
 @media (max-width:575px) {
+    .formpop img{
+        display: flex !important;
+        
+    }
+    .imgbx{
+        display: none;
+    }
+    .popupmain {
+        position: fixed;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 400px !important;
+        /* height: 425px; */
+        background: #fff;
+        box-shadow: 0px 0px 30px -9px #0000006e;
+        z-index: 11;
+        overflow: hidden;
+        display: none;
+    }
+    .mmpopup .centercont {
+     display: none;
+    }
+    .mmpopup .formpop {
+        padding: 30px;
+        width: 100% !important;
+        padding-top: 20px;
+    }
     .faq--item {
         padding-left: 15px;
         padding-right: 15px
@@ -11404,7 +11464,7 @@ button {
 
 #countdown li {
     display: inline-block;
-    font-size: 1.5em;
+    font-size: 1.3em;
     list-style-type: none;
     padding: 1em;
     text-transform: uppercase;
@@ -11441,4 +11501,151 @@ button {
     #countdown li span {
         font-size: 3.375rem;
     }
+}
+
+.popupmain {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 980px;
+    /* height: 425px; */
+    background: #fff;
+    box-shadow: 0px 0px 30px -9px #0000006e;
+    z-index: 11;
+    overflow: hidden;
+    display: none;
+}
+.closeico {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    z-index: 9999;
+}
+.closeico {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    z-index: 9999;
+}
+.mmpopup {
+    display: flex;
+    height: 500px;
+    align-items: center;
+}
+.mmpopup .imgbx {
+    width: 30%;
+}
+.mmpopup .centercont {
+    width: 35%;
+    padding-right: 20px;
+}
+.mmpopup .formpop {
+    padding-right: 30px;
+    width: 35%;
+    padding-top: 20px;
+}
+form {
+    display: block;
+    margin-top: 0em;
+}
+.mmpopup .fld-input {
+    height: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.fld-input input {
+    width: 100%;
+    height: 100%;
+    padding: 0 15px;
+    font-size: 12px;
+}
+.fld-input {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(218 217 217);
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    width: 354px;
+    height: 66px;
+    margin-bottom: 20px;
+}
+
+.mmpopup .fld-input.textarea {
+    height: 80px;
+}
+.fld-btn button {
+    border-radius: 5px;
+    background-color: rgb(255 191 0);
+    width: 350px;
+    height: 62px;
+    font-size: 18px;
+    font-weight: 900;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.mmpopup .calldvs a {
+    font-size: 26px;
+    color: #6954eb;
+    font-weight: 400;
+    margin-top: 5px;
+    font-weight: 600;
+    display: block;
+}
+.mmpopup .centercont h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.mmpopup .centercont h3 {
+    font-size: 26px;
+    color: #141515;
+    margin-bottom: 10px;
+}
+.mmpopup .centercont p {
+    margin-bottom: 10px;
+    line-height: 23px;
+    padding: 0 0;
+}
+.mmpopup .centercont p {
+    color: #727272;
+    font-size: 15px;
+    margin-bottom: 4px;
+    line-height: 20px;
+}
+.mmpopup .centercont ul {
+    margin-bottom: 30px;
+    padding: 0;
+    float: left;
+    margin: 0;
+}
+.mmpopup .centercont ul li {
+    display: block;
+    font-size: 13px;
+    color: #566060;
+    padding: 5px 0;
+}
+.mmpopup .fld-input textarea {
+    width: 100%;
+    height: 100%;
+    padding: 0 15px;
+    font-size: 12px;
+    letter-spacing: 0.2px;
+    padding-top: 10px;
+    resize: none;
+}
+.mmpopup .fld-btn button {
+    font-weight: 700;
+    color: #fff;
+}
+.mmpopup .fld-btn button {
+    width: 100%;
+}   
+
+.formpop img{
+    display: none;
 }
