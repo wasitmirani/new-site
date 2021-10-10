@@ -10,7 +10,7 @@
                             </div>
                             <div class="info-body">
                                 <h5>Our Location</h5>
-                                <p>275 Deansgate, Manchester M3 4EL <br>United Kingdom</p>
+                                <p>4 Old Park LaneLondon W1K 1QW <br>United Kingdom</p>
                             </div>
                         </div>
                         <div class="info-iconic-box wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1500ms">
@@ -20,7 +20,7 @@
                             <div class="info-body">
                                 <h5>Email Address</h5>
                                 <p></p>
-                                <p><a href="mailto:support@edropship.co.uk">support@edropship.co.uk</a> </p>
+                                <p><a href="mailto:hello@edropship.co.uk">hello@edropship.co.uk</a> </p>
                             </div>
                         </div>
                         <div class="info-iconic-box wow fadeInUp" data-wow-delay="0.3s" data-wow-duration="1500ms">

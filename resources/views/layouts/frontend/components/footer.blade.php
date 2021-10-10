@@ -29,7 +29,7 @@
                                 <hr>
                                 <span> <i  class="fas fa-headset fa-4x"></i>  Got questions ? Call us 24/7 !</span>
                                 <span><a href="tel:+44 7958 557597" class="Blondie  mt-10"> +44 7958 557597</a></span>
-                                <span><a href="mailto:support@edropship.co.uk" class="Blondie  mt-10"> support@edropship.co.uk</a></span>
+                                <span><a href="mailto:hello@edropship.co.uk" class="Blondie  mt-10"> hello@edropship.co.uk</a></span>
                             </div>
                         </div>
 
