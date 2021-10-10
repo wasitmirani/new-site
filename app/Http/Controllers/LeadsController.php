@@ -23,7 +23,7 @@ class LeadsController extends Controller
             'title' => 'fasdfasdfdfasd',
             'body' => 'fasdfasdfsdfasdfasdfasdfasdfasd',
         ];
-        Mail::to($request->email)->send(new InquiryMail($maildata));
+        // Mail::to($request->email)->send(new InquiryMail($maildata));
 
         $create = Lead::create($data);
         return redirect()->route('home');
