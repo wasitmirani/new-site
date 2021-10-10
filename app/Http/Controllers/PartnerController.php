@@ -6,6 +6,7 @@ use App\Models\Blog;
 use App\Models\Contact;
 use App\Models\Partner;
 use Illuminate\Http\Request;
+use Stevebauman\Location\Facades\Location;
 
 use App\Models\Vistorloction;
 
