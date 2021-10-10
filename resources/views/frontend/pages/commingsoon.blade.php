@@ -390,7 +390,7 @@
                         </div>
                         <div class="app-feature-preview-main wow fadeInDown" data-wow-delay="200ms"
                             data-wow-duration="1500ms">
-                            <img src="{{ asset('assets/img/Sell Giff Banner.gif') }}" alt="live collaboration">
+                            <img src="{{ asset('assets/img/details-1.png') }}" alt="live collaboration">
                         </div>
                         <div class="app-feature-preview-backward animate-float-bob-y wow fadeInUp" data-wow-delay="0ms"
                             data-wow-duration="1500ms">
