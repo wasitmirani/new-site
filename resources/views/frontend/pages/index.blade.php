@@ -45,13 +45,13 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="chartboard-image-wrapper">
-                        <img src="{{asset('assets/img/hero/chartboard-image-main.png')}}" alt="chartboard image one" class="chartboard-image chartboard-image-main wow fadeInDown animate-float-bob-x" data-wow-delay="100ms" data-wow-duration="1500ms">
+                        <img src="{{asset('assets/img/Integrate-Your-Stores.png')}}" alt="chartboard image one" class="chartboard-image chartboard-image-main wow fadeInDown animate-float-bob-x" data-wow-delay="100ms" data-wow-duration="1500ms">
                         <div class="chartboard-app-preview">
-                            <img src="{{asset('assets/img/hero/chartboard-app-preview-1.jpg')}}" alt="app preview one" class="chartboard-image chartboard-app-preview-1 wow fadeInDown" data-wow-delay="500ms" data-wow-duration="1500ms">
-                            <img src="{{asset('assets/img/hero/chartboard-app-preview-2.jpg')}}" alt="app preview two" class="chartboard-image chartboard-app-preview-2 wow fadeInDown" data-wow-delay="700ms" data-wow-duration="1500ms">
-                            <img src="{{asset('assets/img/hero/chartboard-app-preview-3.jpg')}}" alt="app preview three" class="chartboard-image chartboard-app-preview-3 wow fadeInDown" data-wow-delay="300ms" data-wow-duration="1500ms">
+                            {{-- <img src="{{asset('assets/img/hero/chartboard-app-preview-1.jpg')}}" alt="app preview one" class="chartboard-image chartboard-app-preview-1 wow fadeInDown" data-wow-delay="500ms" data-wow-duration="1500ms"> --}}
+                            <img src="{{asset('assets/img/deshboard.png')}}" alt="app preview two" class="chartboard-image chartboard-app-preview-1 wow fadeInDown" data-wow-delay="700ms" data-wow-duration="1500ms">
+                            {{-- <img src="{{asset('assets/img/1.png')}}" alt="app preview three" class="chartboard-image chartboard-app-preview-3 wow fadeInDown" data-wow-delay="300ms" data-wow-duration="1500ms"> --}}
                         </div>
-                        <img src="{{asset('assets/img/hero/chartboard-image-secondary.png')}}" alt="chartboard image two" class="chartboard-image chartboard-image-secondary wow fadeInRight animate-float-bob-y" data-wow-delay="900ms" data-wow-duration="1500ms">
+                        <img src="{{asset('assets/img/Streamlined-Operations.png')}}" alt="chartboard image two" class="chartboard-image chartboard-image-secondary wow fadeInRight animate-float-bob-y" data-wow-delay="900ms" data-wow-duration="1500ms">
                     </div> <!-- /.chart-board-image-wrapper -->
                 </div>
             </div> <!-- /.row -->
@@ -155,17 +155,17 @@
             <div class="row align-items-center">
                 <div class="col-lg-7">
                     <div class="app-preview-image oval-gradient content-right-spacer">
-                        <div class="app-feature-preview-relative animate-float-bob-y wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
+                        {{-- <div class="app-feature-preview-relative animate-float-bob-y wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
                             <img src="{{asset('assets/img/app/live-chat-activity.jpg')}}" alt="chat activity">
-                        </div>
+                        </div> --}}
                         <div class="app-feature-preview-main wow fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
-                            <img src="{{asset('assets/img/app/live-chat-preview.png')}}" alt="live collaboration">
+                            <img src="{{asset('assets/img/1.png')}}" alt="live collaboration">
                         </div>
-                        <div class="app-feature-preview-backward animate-float-bob-y wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                        {{-- <div class="app-feature-preview-backward animate-float-bob-y wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                             <img src="{{asset('assets/img/app/live-chat-mobile-view.png')}}" alt="mobile view">
-                        </div>
+                        </div> --}}
                         <div class="app-feature-preview-absolute animate-float-bob-x wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
-                            <img src="{{asset('assets/img/app/live-chat-onboard-clients.jpg')}}" alt="chat onboard">
+                            <img src="{{ asset('assets/img/5.png') }}" alt="chat onboard">
                         </div>
                     </div>
                 </div>
@@ -228,13 +228,16 @@
                     <div class="col-lg-6 order-1 order-lg-2">
                         <div class="our-statistics-images content-left-spacer content-right-spacer">
                             <div class="our-statistics-image-relative animate-float-bob-y">
-                                <img src="{{ asset('assets/img/app/our-statistic-image-relative.png')}}" alt="our statistic right">
+                                <img src="{{ asset('assets/img/Data-and-Analyticss.png') }}"
+                                    alt="our statistic right">
                             </div>
                             <div class="our-statistics-image-main">
-                                <img src="{{ asset('assets/img/app/our-statistic-image-main.png')}}" alt="our statistic main">
+                                <img src="{{ asset('assets/img/DASHBOARD.png') }}"
+                                    alt="our statistic main">
                             </div>
                             <div class="our-statistics-image-absolute animate-float-bob-x">
-                                <img src="{{ asset('assets/img/app/our-statistic-image-absolute.png')}}" alt="our statistic left">
+                                <img src="{{ asset('assets/img/Low costs-01.png') }}"
+                                    alt="our statistic left">
                             </div>
                         </div>
                     </div>
@@ -274,13 +277,16 @@
                 <div class="col-lg-6 order-1 order-lg-2">
                     <div class="our-statistics-images content-left-spacer content-right-spacer">
                         <div class="our-statistics-image-relative animate-float-bob-y">
-                            <img src="{{ asset('assets/img/app/our-statistic-image-relative.png')}}" alt="our statistic right">
+                            <img src="{{ asset('assets/img/development.png') }}"
+                                alt="our statistic right">
                         </div>
                         <div class="our-statistics-image-main">
-                            <img src="{{ asset('assets/img/app/our-statistic-image-main.png')}}" alt="our statistic main">
+                            <img src="{{ asset('assets/img/details-4.png') }}"
+                                alt="our statistic main">
                         </div>
                         <div class="our-statistics-image-absolute animate-float-bob-x">
-                            <img src="{{ asset('assets/img/app/our-statistic-image-absolute.png')}}" alt="our statistic left">
+                            <img src="{{ asset('assets/img/Easy,-Simplified-Transactions.png') }}"
+                                alt="our statistic left">
                         </div>
                     </div>
                 </div>
@@ -293,17 +299,21 @@
             <div class="row align-items-center">
                 <div class="col-lg-7">
                     <div class="app-preview-image oval-gradient content-right-spacer">
-                        <div class="app-feature-preview-relative animate-float-bob-y wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
-                            <img src="{{asset('assets/img/app/live-chat-activity.jpg')}}" alt="chat activity">
+                        <div class="app-feature-preview-relative animate-float-bob-y wow fadeInUp" data-wow-delay="400ms"
+                            data-wow-duration="1500ms">
+                            {{--  <img src="{{ asset('assets/img/app/live-chat-activity.jpg') }}" alt="chat activity">  --}}
                         </div>
-                        <div class="app-feature-preview-main wow fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
-                            <img src="{{asset('assets/img/app/live-chat-preview.png')}}" alt="live collaboration">
+                        <div class="app-feature-preview-main wow fadeInDown" data-wow-delay="200ms"
+                            data-wow-duration="1500ms">
+                            <img src="{{ asset('assets/img/details-1.png') }}" alt="live collaboration">
                         </div>
-                        <div class="app-feature-preview-backward animate-float-bob-y wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                            <img src="{{asset('assets/img/app/live-chat-mobile-view.png')}}" alt="mobile view">
+                        <div class="app-feature-preview-backward animate-float-bob-y wow fadeInUp" data-wow-delay="0ms"
+                            data-wow-duration="1500ms">
+                            {{--  <img src="{{ asset('assets/img/app/live-chat-mobile-view.png') }}" alt="mobile view">  --}}
                         </div>
-                        <div class="app-feature-preview-absolute animate-float-bob-x wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
-                            <img src="{{asset('assets/img/app/live-chat-onboard-clients.jpg')}}" alt="chat onboard">
+                        <div class="app-feature-preview-absolute animate-float-bob-x wow fadeInUp" data-wow-delay="600ms"
+                            data-wow-duration="1500ms">
+                            <img src="{{ asset('assets/img/HASSLE-FREE-EXPERIENCE.png') }}" alt="chat onboard">
                         </div>
                     </div>
                 </div>
@@ -579,8 +589,9 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="section-right-image animate-float-bob-y wow fadeInUp" data-wow-delay="0ms" data-wow-duration="2500ms">
-                        <img src="{{asset('assets/img/faq/faq-image.png')}}" alt="faq image">
+                    <div class="section-right-image animate-float-bob-y wow fadeInUp" data-wow-delay="0ms"
+                        data-wow-duration="2500ms">
+                        <img src="{{ asset('assets/img/details-3.png') }}" alt="faq image">
                     </div>
                 </div>
             </div> <!-- /.row -->

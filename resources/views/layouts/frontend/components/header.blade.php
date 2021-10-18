@@ -1,4 +1,4 @@
-<header class="header-area header-v4">
+<header class="header-area header-v4 bg-white">
     <div class="header-navigation">
         <div class="container-fluid">
             <div class="row align-items-center">

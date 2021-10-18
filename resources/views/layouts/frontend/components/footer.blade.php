@@ -37,7 +37,7 @@
                 </div>
                 <!-- Single Footer Widget -->
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    {{--  <div class="single-footer-widget">
+                    <div class="single-footer-widget">
                         <h5 class="widget-title">Resources</h5>
                         <div class="footer-widget-menu">
                             <ul>
@@ -61,7 +61,7 @@
 
                             </ul>
                         </div>
-                    </div>  --}}
+                    </div>
                 </div>
                 <!-- Single Footer Widget -->
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
@@ -84,7 +84,7 @@
                 </div>
                 <!-- Single Footer Widget -->
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                    {{--  <div class="single-footer-widget follow-on-widget">
+                    <div class="single-footer-widget follow-on-widget">
                         <h5 class="widget-title">Download App</h5>
                         <div class="footer-app-download">
                             <a href="https://apps.apple.com/us/app/edropship/id1538316367" class="filled-btn bg-rose-bud" target="_blank">
@@ -94,7 +94,7 @@
                                 Google Play <i class="fab fa-google-play"></i>
                             </a>
                         </div>
-                    </div>  --}}
+                    </div>
                     <div class="support-box-2">
 
                         <div class="text">

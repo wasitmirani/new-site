@@ -17,6 +17,13 @@ class FrontEndController extends Controller
         $channels = Integration::take(8)->get();
         $pricing_list = Pricing::orderBy('sort', 'ASC')->take(2)->with('pricingAddons')->get();
 
+        return view($this->file_path . 'index', compact('channels', 'pricing_list'));
+    }
+    public function comming()
+    {
+        $channels = Integration::take(8)->get();
+        $pricing_list = Pricing::orderBy('sort', 'ASC')->take(2)->with('pricingAddons')->get();
+
         return view($this->file_path . 'commingsoon', compact('channels', 'pricing_list'));
     }
 

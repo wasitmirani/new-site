@@ -64,12 +64,12 @@
             </div>
             <div class="col-lg-6">
                 <div class="chartboard-image-wrapper">
-                     <img src="{{asset('assets/img/hero/chartboard-image-main.png')}}" alt="chartboard image one" class="chartboard-image chartboard-image-main wow fadeInDown animate-float-bob-x" data-wow-delay="100ms" data-wow-duration="1500ms">
-                    <div class="chartboard-app-preview">
-                        <img src="{{asset('assets/img/hero/chartboard-app-preview-3.jpg')}}" alt="app preview one" class="chartboard-image chartboard-app-preview-1 wow fadeInDown" data-wow-delay="500ms" data-wow-duration="1500ms">
+                     <img src="{{asset('assets/img/'.$partner->thumbnail )}}" alt="chartboard image one" class="chartboard-image chartboard-image-main wow fadeInDown animate-float-bob-x" data-wow-delay="100ms" data-wow-duration="1500ms">
+                    {{--  <div class="chartboard-app-preview">
+                        <img src="{{asset('assets/img/seller/1-removebg-preview.png')}}" alt="app preview one" class="chartboard-image chartboard-app-preview-1 wow fadeInDown" data-wow-delay="500ms" data-wow-duration="1500ms">
 
-                    </div>
-                     <img src="{{asset('assets/img/hero/chartboard-image-secondary.png')}}" alt="chartboard image two" class="chartboard-image chartboard-image-secondary wow fadeInRight animate-float-bob-y" data-wow-delay="900ms" data-wow-duration="1500ms">
+                    </div>  --}}
+                     <img src="{{asset('assets/img/seller/1-removebg-preview.png')}}" alt="chartboard image two" class="chartboard-image chartboard-image-secondary wow fadeInRight animate-float-bob-y" data-wow-delay="900ms" data-wow-duration="1500ms">
                 </div> <!-- /.chart-board-image-wrapper -->
             </div>
         </div> <!-- /.row -->
@@ -134,12 +134,10 @@
                         </div>
                         <div class="section-list-style mt-22 mb-35">
                             <ul>
-                                <li> {{$section->short_description}}.</li>
-                                <li>{{$section->btn_class}} </li>
-                                <li>{{$section->description}}</li>
-                                <li>{{$section->btn_label}}</li>
-                                <li>{{$section->btn_link}}</li>
-
+                                <li>{{$section->list_1}} </li>
+                                <li>{{$section->list_2}} </li>
+                                <li>{{$section->list_3}}</li>
+                                <li>{{$section->list_4}}</li>
                             </ul>
                         </div>
                         {{-- <div class="section-button-wrapper">
@@ -152,15 +150,15 @@
             </div>
             <div class="col-lg-6 order-1 order-lg-2">
                 <div class="services-law-images content-left-spacer content-right-spacer">
-                    <div class="services-law-image-relative animate-float-bob-x">
+                    {{--  <div class="services-law-image-relative animate-float-bob-x">
                         <img src="{{asset('assets/img/partner/'.$section->img_1)}}" alt="service law right">
-                    </div>
+                    </div>  --}}
                     <div class="services-law-image-main">
-                        <img src="{{asset('assets/img/partner/'.$section->img_2)}}" alt="service law main">
+                        <img src="{{asset('assets/img/'.$section->img_2)}}" alt="service law main">
                     </div>
-                    <div class="services-law-image-absolute animate-float-bob-y">
+                    {{--  <div class="services-law-image-absolute animate-float-bob-y">
                         <img src="{{asset('assets/img/partner/'.$section->img_3)}}" alt="service law left">
-                    </div>
+                    </div>  --}}
                 </div>
             </div>
 
@@ -168,15 +166,15 @@
             @else
             <div class="col-lg-6">
                 <div class="services-law-images content-left-spacer content-right-spacer">
-                    <div class="services-law-image-relative animate-float-bob-x">
+                    {{--  <div class="services-law-image-relative animate-float-bob-x">
                         <img src="{{asset('assets/img/partner/'.$section->img_1)}}" alt="service law right">
-                    </div>
+                    </div>  --}}
                     <div class="services-law-image-main">
-                        <img src="{{asset('assets/img/partner/'.$section->img_2)}}" alt="service law main">
+                        <img src="{{asset('assets/img/'.$section->img_2)}}" alt="service law main">
                     </div>
-                    <div class="services-law-image-absolute animate-float-bob-y">
+                    {{--  <div class="services-law-image-absolute animate-float-bob-y">
                         <img src="{{asset('assets/img/partner/'.$section->img_3)}}" alt="service law left">
-                    </div>
+                    </div>  --}}
                 </div>
             </div>
              <div class="col-lg-6">
@@ -193,10 +191,10 @@
                         </div>
                         <div class="section-list-style mt-22 mb-35">
                             <ul>
-                                <li>{{$section->subheading}} </li>
-                                <li>{{$section->btn_class}} </li>
-                                <li>{{$section->description}}</li>
-                                <li>{{$section->btn_label}}</li>
+                                <li>{{$section->list_1}} </li>
+                                <li>{{$section->list_2}} </li>
+                                <li>{{$section->list_3}}</li>
+                                <li>{{$section->list_4}}</li>
                             </ul>
                         </div>
                         {{-- <div class="section-button-wrapper">
@@ -217,10 +215,10 @@
 </section> <!-- /.services-law-area -->
 <!--====== End Services Law Area ======-->
 <!--====== Start Fact and CTA Area ======-->
-<section class="fact-and-cta-area pt-85 bg-dark-blue" style="background-image: url(assets/img/cta/fact-and-cta-bg-map.png);">
+<section class="fact-and-cta-area pt-85" style="background-image: url({{asset('assets/img/cta-bg.jpg')}}); background-size: cover ">
     <div class="container">
         <div class="fact-area pb-35">
-            <div class="row justify-content-center">
+            {{--  <div class="row justify-content-center">
                 <div class="col-lg-10">
                     <div class="row">
                         <div class="col-md-4">
@@ -258,13 +256,13 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>  --}}
         </div>
         <div class="video-cta-area">
             <div class="row">
                 <div class="col-xl-8 col-lg-7">
                     <div class="featured-video-area">
-                        <div class="featured-video-content video-overlay bg-cover play-video" style="background-image: url(https://i9.ytimg.com/vi/VeHZb_Xt-Xc/maxresdefault.jpg?time=1629806400000&sqp=CMC-k4kG&rs=AOn4CLAm5Y0Mexr-B28ga9f8INBIALVtUA);">
+                        <div class="featured-video-content video-overlay bg-cover play-video" style="background-image: url({{asset('assets/img/about.png')}});">
                             <a href="https://www.youtube.com/watch?v=VeHZb_Xt-Xc" class="play-video-btn play-video-btn-v2"><i class="fas fa-play pulse-animated"></i></a>
                         </div>
                     </div>

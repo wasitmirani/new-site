@@ -155,11 +155,11 @@
                                 <p>But I must explain you this mistak denouncinge pleasure praising</p>
                             </div>
                         </div>
-                        <div class="section-button-wrapper">
+                        {{-- <div class="section-button-wrapper">
                             <a href="about.html" class="filled-btn btn-bordered bg-royal-blue">
                                 Learn More <i class="fas fa-arrow-right"></i>
                             </a>
-                        </div>
+                        </div> --}}
                     </div>
                 </div> <!-- /.col-lg-5 -->
             </div> <!-- /.row -->
@@ -360,7 +360,7 @@
             </div> <!-- /.row -->
         </div>
     </section> <!-- /.company-statistic-area -->
-    <section class="counter-up-area bg-royal-blue pt-128 pb-43">
+    {{-- <section class="counter-up-area bg-royal-blue pt-128 pb-43">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
@@ -446,7 +446,7 @@
                 </div> <!-- /.col-md-7 -->
             </div> <!-- /.row -->
         </div> <!-- /.container-->
-    </section> <!-- /.counter-up-area -->
+    </section> <!-- /.counter-up-area --> --}}
     <!--====== End Counter Up Area ======-->
 
     @component('frontend.components.brandsSlider')

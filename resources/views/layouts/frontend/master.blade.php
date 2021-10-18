@@ -37,7 +37,7 @@
     </div> <!-- /.preloader -->
     <!--======= End Preloader =======-->
     <!--====== Start Header Area ======-->
-    {{--  @include('layouts.frontend.components.header')  --}}
+     @include('layouts.frontend.components.header')
     <!--====== End Header Area ======-->
     <!--====== Start Hero Area ======-->
       @yield('content')
@@ -48,10 +48,10 @@
       @endcomponent
 <!-- Modal -->
 
-<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+{{-- <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
-        
+
 <div class="popupmain" id="popuprequest" style="display: block;">
     <a id="close1" class="closeico" href="javascript:;" title="" data-dismiss="modal" aria-label="Close"><i class="far fa-times-circle"></i></a>
 
@@ -61,7 +61,7 @@
        </div>
        <div class="centercont">
           <h3>See Your Business ScaleUp with <span style="color: red">eDrop<span style="color: gray">Ship</span></span> </h3>
-     
+
           <p>Enhance your clientele through eDropShip’s wide customer base. Find potential customers to expand the market for your products. Minimize the workload through our automated portal that offers </p>
           <ul>
                <li class="first"><i class="far fa-check"></i> Accelerated order management</li>
@@ -77,11 +77,11 @@
        <div class="formpop">
        <img src="{{asset('/assets/img/LOGO-Web.png')}}" alt="">
            @livewire('pop-form')
- 
+
        </div>
     </div>
-</div>         
-    
+</div> --}}
+
     </div>
   </div>
 </div>
@@ -122,7 +122,7 @@
     <script src="{{asset('assets/js/main.js')}}"></script>
     <script type="text/javascript">
     $(document).ready(function() {
-       
+
        $('.bd-example-modal-lg').modal('show')
 
     });

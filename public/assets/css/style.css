@@ -192,7 +192,7 @@ h4,
 h5,
 h6 {
     margin: 0;
-    font-family: 'Dax-medium';
+    font-family: 'Dax-medium' !important;
     font-weight: 700;
 }
 
@@ -229,6 +229,8 @@ h6 {
 p {
     margin: 0px;
     padding: 0px;
+    font-family: 'Dax' !important;
+    font-weight: 600;
 }
 
 img {
@@ -6058,6 +6060,7 @@ button {
 
 /* Hero Area V4 */
 
+
 .hero-area.hero-v4 .section-title h1 {
     font-size: 90px;
     line-height: 90px;
@@ -6145,9 +6148,10 @@ button {
 }
 
 .hero-area.hero-v4 .chartboard-image-wrapper .chartboard-app-preview .chartboard-app-preview-1 {
-    right: 20px;
-    top: 94px;
+    right: 10px;
+    top: 200px;
     z-index: 2;
+    height: 300px;
 }
 
 .hero-area.hero-v4 .hero-content .user-profile-card ul li {
@@ -6181,8 +6185,8 @@ button {
 }
 
 .hero-area.hero-v4 {
-    background-position: top right;
-    background-size: 65% 65%;
+    background-position: center;
+    /* background-size: 100% 100%; */
     overflow: hidden;
     background-color: #F0F6FF;
     background-attachment: scroll;
@@ -11275,7 +11279,7 @@ button {
 @media (max-width:991px) {
     .formpop img{
         display: flex !important;
-        
+
     }
     .imgbx{
         display: none;
@@ -11372,7 +11376,7 @@ button {
 @media (max-width:575px) {
     .formpop img{
         display: flex !important;
-        
+
     }
     .imgbx{
         display: none;
@@ -11653,7 +11657,7 @@ form {
 }
 .mmpopup .fld-btn button {
     width: 100%;
-}   
+}
 
 .formpop img{
     display: none;

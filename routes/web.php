@@ -23,6 +23,7 @@ use App\Http\Controllers\LeadsController;
 */
 
 Route::get('/',[FrontEndController::class,'index'])->name('home');
+Route::get('/comming',[FrontEndController::class,'comming'])->name('comming');
 
 Route::prefix('contact-us')->name('contact.')->group(function () {
     Route::get('/',[FrontEndController::class,'contact'])->name('contactus');

@@ -28,15 +28,15 @@
                                 <div class="post-excerpt">
                                     <p>{{ $item->description }}</p>
                                 </div>
-                                <div class="post-read-more">
+                                {{-- <div class="post-read-more">
                                     <a href="blog-details.html" class="filled-btn">Learn More <i class="fas fa-arrow-right"></i></a>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                         @endforeach
                         <!-- /.blog-post-item -->
                         <!-- Posts Navigation -->
-                        <nav class="posts-navigation" aria-label="posts">
+                        {{-- <nav class="posts-navigation" aria-label="posts">
                             <ul class="pagination">
                                 <li>
                                     <a href="#" aria-label="Previous">
@@ -52,7 +52,7 @@
                                     </a>
                                 </li>
                             </ul>
-                        </nav>
+                        </nav> --}}
                     </div> <!-- /.blog-list-content -->
                 </div>
 
@@ -76,7 +76,7 @@
                                 </div>
                             </form>
                         </div>
-                        <div class="widget category-widget wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1200ms">
+                        {{-- <div class="widget category-widget wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1200ms">
                             <h4 class="sidebar-widget-title">Category</h4>
                             <ul class="category-link">
                                 <li><a href="course-details.html">Web Development</a></li>
@@ -87,7 +87,7 @@
                                 <li><a href="course-details.html">Media Marketing</a></li>
                                 <li><a href="course-details.html">SEO Optimizations</a></li>
                             </ul>
-                        </div>
+                        </div> --}}
                         <div class="widget latest-post-widget wow fadeInUp" data-wow-delay="0.3s"
                             data-wow-duration="1200ms">
                             <h4 class="sidebar-widget-title">Latest News</h4>
@@ -136,7 +136,7 @@
                                 </div> <!-- /.popular-posts-item -->
                             </div>
                         </div>
-                        <div class="widget widget-testimonial wow fadeInUp" data-wow-delay="0.4s"
+                        {{-- <div class="widget widget-testimonial wow fadeInUp" data-wow-delay="0.4s"
                             data-wow-duration="1200ms">
                             <div class="testimonial-slider testimonial-slider-v4" id="testimonial-slider-v3">
                                 <!-- Single Testimonial -->
@@ -177,8 +177,8 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="widget widget-tag-cloud wow fadeInUp" data-wow-delay="0.5s" data-wow-duration="1200ms">
+                        </div> --}}
+                        {{-- <div class="widget widget-tag-cloud wow fadeInUp" data-wow-delay="0.5s" data-wow-duration="1200ms">
                             <h4 class="sidebar-widget-title">Popular Tags</h4>
                             <a href="#">Landing</a>
                             <a href="#">UI Design</a>
@@ -188,7 +188,7 @@
                             <a href="#">UX/UI</a>
                             <a href="#">Consulting</a>
                             <a href="#">Mobile Apps</a>
-                        </div>
+                        </div> --}}
                     </div> <!-- /.posts-sidebar -->
                 </div>
             </div> <!-- /row -->

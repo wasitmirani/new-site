@@ -10,7 +10,7 @@
                             </div>
                             <div class="info-body">
                                 <h5>Our Location</h5>
-                                <p>275 Deansgate, Manchester M3 4EL <br>United Kingdom</p>
+                                <p>4 Old Park LaneLondon W1K 1QW <br>United Kingdom</p>
                             </div>
                         </div>
                         <div class="info-iconic-box wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1500ms">
