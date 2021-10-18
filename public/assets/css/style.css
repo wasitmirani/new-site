@@ -6186,7 +6186,7 @@ button {
 
 .hero-area.hero-v4 {
     background-position: center;
-    /* background-size: 100% 100%; */
+    background-size: 100%;
     overflow: hidden;
     background-color: #F0F6FF;
     background-attachment: scroll;

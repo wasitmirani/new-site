@@ -28,7 +28,7 @@
                 <div class="col-xl-2 col-lg-4 col-md-6">
                     <div class="single-service-box single-service-box-v2 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="service-thumbnail">
-                            <img src="{{asset('assets/img/services/'.$item->thumbnail)}}" alt="{{$item->title}} channels {{config('app.name')}}">
+                            <img src="{{asset('assets/img/services/'.$item->w_thumbnail)}}" alt="{{$item->title}} channels {{config('app.name')}}">
                         </div>
                         <div class="service-box-content">
                             <h5 class="service-box-title">{{$item->title}} integration</h5>
