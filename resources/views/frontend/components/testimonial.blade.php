@@ -11,40 +11,40 @@
                             <div class="quote-thumbnail">
                                 <i class="flaticon-right-quote"></i>
                             </div>
-                            <p>Sed ut perspicia unde omnis natus error sit volupt accusantium doloremque laudantium totam vellum rem</p>
+                            <p>Dropshipping is a retail fulfillment method for online retail stores. It eliminates the need of warehousing inventory, which makes selling easier and convenient. </p>
                             <div class="testimonial-author">
                                 <img src="{{asset('assets/img/testimonial/testimonial-author-1.png')}}" alt="testimonial author">
-                                <h6>Michael W. Kirwan <span>CEO & Founder</span></h6>
+                                <h6>Michael W. Kirwan <span></span></h6>
                             </div>
                         </div>
                         <div class="single-testimonial single-testimonial-v5">
                             <div class="quote-thumbnail">
                                 <i class="flaticon-right-quote"></i>
                             </div>
-                            <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae conse quatur vellum rem</p>
+                            <p>Dropshipping has become even more hands-off with certain automated dropshipping portals. I am obousvaliy like this portal.</p>
                             <div class="testimonial-author">
                                 <img src="{{asset('assets/img/testimonial/testimonial-author-2.png')}}" alt="testimonial author">
-                                <h6>Ricky L. Simpson <span>Web Designer</span></h6>
+                                <h6>Ricky L. Simpson <span></span></h6>
                             </div>
                         </div>
                         <div class="single-testimonial single-testimonial-v5">
                             <div class="quote-thumbnail">
                                 <i class="flaticon-right-quote"></i>
                             </div>
-                            <p>On the other hand denounce with righteous indignation dislike men who are so beguiled and demoralized by charms</p>
+                            <p>Need this portal to manage my all the data with gathered around </p>
                             <div class="testimonial-author">
                                 <img src="{{asset('assets/img/testimonial/testimonial-author-3.png')}}" alt="testimonial author">
-                                <h6>Harold S. Richardson <span>Saas Developer</span></h6>
+                                <h6>Harold S. Richardson <span></span></h6>
                             </div>
                         </div>
                         <div class="single-testimonial single-testimonial-v5">
                             <div class="quote-thumbnail">
                                 <i class="flaticon-right-quote"></i>
                             </div>
-                            <p>On the other hand denounce with righteous indignation dislike men who are so beguiled and demoralized by charms</p>
+                            <p>On the other hand are save this can saves my time and many more </p>
                             <div class="testimonial-author">
                                 <img src="{{asset('assets/img/testimonial/testimonial-author-1.png')}}" alt="testimonial author">
-                                <h6>Harold S. Richardson <span>Saas Developer</span></h6>
+                                <h6>Harold S. Richardson <span></span></h6>
                             </div>
                         </div>
                     </div>

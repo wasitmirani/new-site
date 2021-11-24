@@ -207,7 +207,7 @@
             <div class="col-lg-6">
                 <div class="square-and-oval-image-wrapper content-right-spacer">
                     <div class="image-square">
-                        <img src="{{ asset('assets/img/about/why-choose-us-1.jpg')}}" alt="why choose one">
+                        <img src="{{ asset('assets/img/about/new.png')}}" alt="why choose one">
                     </div>
                     <div class="image-oval animate-float-bob-y">
                         <img src="{{ asset('assets/img/about/why-choose-us-2.jpg')}}" alt="why choose two">
