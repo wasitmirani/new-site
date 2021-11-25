@@ -10,7 +10,7 @@
 @section('content')
 
 
-<section class="hero-area hero-v4" style="background-image: url({{asset('assets/img/hero/hero-curve-bg.png')}});">
+<section class="hero-area hero-v4" style="background-image: url({{asset('assets/img/app/to-access-bg.png')}});">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6">
@@ -69,7 +69,7 @@
                         <img src="{{asset('assets/img/seller/1-removebg-preview.png')}}" alt="app preview one" class="chartboard-image chartboard-app-preview-1 wow fadeInDown" data-wow-delay="500ms" data-wow-duration="1500ms">
 
                     </div>  --}}
-                     <img src="{{asset('assets/img/'.$partner->thumbnail_2)}}" alt="chartboard image two" class="chartboard-image chartboard-image-secondary wow fadeInRight animate-float-bob-y" data-wow-delay="900ms" data-wow-duration="1500ms">
+                     <img src="{{asset('assets/img/'.$partner->thumbnail_2)}}" alt="chartboard image two" class="chartboard-image chartboard-image-secondary wow fadeInRight" data-wow-delay="900ms" data-wow-duration="1500ms">
                 </div> <!-- /.chart-board-image-wrapper -->
             </div>
         </div> <!-- /.row -->

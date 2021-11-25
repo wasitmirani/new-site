@@ -1,7 +1,7 @@
 @extends('layouts.frontend.master') @section('content')
 
 
-<section class="hero-area hero-v4" style="background-image: url({{asset('assets/img/hero/hero-curve-bg.png')}});">
+<section class="hero-area hero-v4" style="background-image: url({{asset('assets/img/app/app-bg.png')}});">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6">
@@ -13,9 +13,9 @@
                         <img class="particle-4 animate-float-bob-y" src="{{asset('assets/img/particle/particle-5.png')}}" alt="particle Four">
                     </div>
                     <div class="section-title section-title-mandy">
-                        <h5> Integration </h5>
+                        <h5> Paltform Tour</h5>
 
-                        <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1500ms">Everything you need to make DropShipping easier with @component('frontend.components.appTitle')
+                        <h2 class="wow fadeInUp text-white" data-wow-delay="0.2s" data-wow-duration="1500ms">Everything you need to make DropShipping easier with @component('frontend.components.appTitle')
 
                         @endcomponent <div class="brand-logo">
                         <br>
@@ -77,13 +77,13 @@
             <div class="testimonial-slider" id="testimonial-slider-v3">
                 <div class="single-testimonial single-testimonial-v6">
                     <div class="single-testimonial-body">
-                        <img src="{{ asset('assets/img/tour/1.png')}}" alt="testimonial author">
+                        <img src="{{ asset('assets/img/product_1.gif')}}" alt="testimonial author">
 
                     </div>
                 </div>
                 <div class="single-testimonial single-testimonial-v6">
                     <div class="single-testimonial-body">
-                        <img src="{{ asset('assets/img/tour/2.png')}}" alt="testimonial author">
+                        <img src="{{ asset('assets/img/product_2    .gif')}}" alt="testimonial author">
 
                     </div>
                 </div>
