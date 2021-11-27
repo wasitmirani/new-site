@@ -266,10 +266,10 @@
                 <div class="col-lg-5">
                     <div class="square-and-oval-image-wrapper content-right-spacer">
                         <div class="image-square">
-                            <img src="http://127.0.0.1:8000/assets/img/about/why-choose-us-1.jpg" alt="why choose one">
+                            <img src="{{ asset('assets/img/plan.png')}}" alt="why choose one">
                         </div>
                         <div class="image-oval animate-float-bob-y">
-                            <img src="http://127.0.0.1:8000/assets/img/about/why-choose-us-2.jpg" alt="why choose two">
+                            <img src="{{ asset('assets/img//about/why-choose-us-2.jpg')}} " alt="why choose two">
                         </div>
                     </div>
                 </div>

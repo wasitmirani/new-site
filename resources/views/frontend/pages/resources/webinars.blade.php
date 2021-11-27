@@ -12,81 +12,33 @@
         <div class="row">
             <div class="col-12">
                 <div class="service-details-content">
-                    <h2>Email Marketing</h2>
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam</p>
+                    <h2>Get professional advice</h2>
+                    <p>Get professional advice on effective ways to run your online business and operate on the ecommerce marketplaces. </p>
                     <div class="image-block">
                         <div class="row">
-                            <div class="col-md-6">
-                                <div class="animate-square-zoom wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1500ms">
-                                    <img src="{{ asset('assets/img/services/service-details-thumbnail-1.jpg')}}" alt="service details one">
-                                </div>
+                            <div class="col-md-6 align-self-center">
+                                <img src="{{ asset('assets/img/girl.png')}}"  alt="webinar" >
                             </div>
                             <div class="col-md-6">
-                                <div class="animate-square-zoom wow fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
-                                    <img src="{{ asset('assets/img/services/service-details-thumbnail-2.jpg')}}" alt="service details two">
-                                </div>
+                                <img src="{{ asset('assets/img/webinar.png')}}" alt="webinar">
                             </div>
                         </div>
                     </div>
-                    <h3>Results For Email Marketing In Business</h3>
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt porro quisquam </p>
-                    <div class="icon-boxes-wrapper">
+                    <h3>Other webinars.</h3>
+                    <div class="image-block">
                         <div class="row">
-                            <div class="col-lg-3 col-md-6">
-                                <div class="single-iconic-box iconic-box-v3 exclusive-iconic-box-1 wow fadeInUp" data-wow-delay="0.1s">
-                                    <div class="iconic-box-icon">
-                                        <img src="{{ asset('assets/img/feature/flaticon-headphones.png')}}" alt="headphones">
-                                    </div>
-                                    <div class="iconic-box-body">
-                                        <h5 class="iconic-box-title">Business Analysis</h5>
-                                        <p class="iconic-box-content">
-                                            Sed perspiciatis unde omnis iste natus error sit voluptatem accusa ntium dolore.
-                                        </p>
-                                    </div>
-                                </div>
+                            <div class="col-md-4 align-self-center">
+                                <img src="{{ asset('assets/img/w2.png')}}"  alt="webinar" >
                             </div>
-                            <div class="col-lg-3 col-md-6">
-                                <div class="single-iconic-box iconic-box-v3 exclusive-iconic-box-2 wow fadeInUp" data-wow-delay="0.2s">
-                                    <div class="iconic-box-icon">
-                                        <img src="{{ asset('assets/img/feature/flaticon-share.png')}}" alt="share">
-                                    </div>
-                                    <div class="iconic-box-body">
-                                        <h5 class="iconic-box-title">Business Consulting</h5>
-                                        <p class="iconic-box-content">
-                                            Sed perspiciatis unde omnis iste natus error sit voluptatem accusa ntium dolore.
-                                        </p>
-                                    </div>
-                                </div>
+                            <div class="col-md-4">
+                                <img src="{{ asset('assets/img/webinar.png')}}" alt="webinar">
                             </div>
-                            <div class="col-lg-3 col-md-6">
-                                <div class="single-iconic-box iconic-box-v3 exclusive-iconic-box-3 wow fadeInUp" data-wow-delay="0.3s">
-                                    <div class="iconic-box-icon">
-                                        <img src="{{ asset('assets/img/feature/flaticon-chatting.png')}}" alt="chatting">
-                                    </div>
-                                    <div class="iconic-box-body">
-                                        <h5 class="iconic-box-title">Focused Research</h5>
-                                        <p class="iconic-box-content">
-                                            Sed perspiciatis unde omnis iste natus error sit voluptatem accusa ntium dolore.
-                                        </p>
-                                    </div>
-                                </div>
+                            <div class="col-md-4">
+                                <img src="{{ asset('assets/img/w3.png')}}" alt="webinar">
                             </div>
-                            <div class="col-lg-3 col-md-6">
-                                <div class="single-iconic-box iconic-box-v3 exclusive-iconic-box-4 wow fadeInUp" data-wow-delay="0.4s">
-                                    <div class="iconic-box-icon">
-                                        <img src="{{ asset('assets/img/feature/flaticon-satisfaction.png')}}" alt="satisfaction">
-                                    </div>
-                                    <div class="iconic-box-body">
-                                        <h5 class="iconic-box-title">Quality Assurance</h5>
-                                        <p class="iconic-box-content">
-                                            Sed perspiciatis unde omnis iste natus error sit voluptatem accusa ntium dolore.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> <!-- /.row -->
-                    </div> <!-- /.icon-boxes-wrapper -->
-                    <div class="customer-faq">
+                        </div>
+                    </div>
+                    <div class="customer-faq mt-5">
                         <div class="row align-items-center">
                             <div class="col-lg-6">
                                 <div class="customer-faq-thumbnail animate-square-zoom wow fadeInUp" data-wow-delay="0ms" data-wow-duration="2500ms">
@@ -100,48 +52,48 @@
                                         <div class="accordion-item">
                                             <h5 class="accordion-header" id="headingOne">
                                                 <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                                    Choose Work With MintTwist SEO Agency?
+                                                    Getting started with eDropShip as a Seller 
                                                 </button>
                                             </h5>
                                             <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionFAQ">
                                                 <div class="accordion-body">
-                                                    <p>We are confident in our SEO strategies and in general we will start to see organic traffic and conversions growing after approximately 4-6 months.</p>
+                                                    <p>From signing up to making your first sale, our team will guide you through the whole process of turning your store into success</p>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="accordion-item">
                                             <h5 class="accordion-header" id="headingTwo">
                                                 <button class="accordion-button" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-                                                    How Long Does It Take to Start Ranking?
+                                                    Getting started with eDropShip as a Wholesaler 
                                                 </button>
                                             </h5>
                                             <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionFAQ">
                                                 <div class="accordion-body">
-                                                    <p>We are confident in our SEO strategies and in general we will start to see organic traffic and conversions growing after approximately 4-6 months.</p>
+                                                    <p>A short demo on everything you need to know about eDropShip’s features for wholesalers. </p>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="accordion-item">
                                             <h5 class="accordion-header" id="headingThree">
                                                 <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                                    Can You Guarantee Results?
+                                                    Getting started with eDropShip as an Exporter
                                                 </button>
                                             </h5>
                                             <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionFAQ">
                                                 <div class="accordion-body">
-                                                    <p>We are confident in our SEO strategies and in general we will start to see organic traffic and conversions growing after approximately 4-6 months.</p>
+                                                    <p>Learn how to find the right clients for your products and let your business scale with eDropShip. </p>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="accordion-item">
                                             <h5 class="accordion-header" id="headingFour">
                                                 <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                                    Do You Only Work Within The UK?
+                                                    How to integrate channels and create product listings 
                                                 </button>
                                             </h5>
                                             <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionFAQ">
                                                 <div class="accordion-body">
-                                                    <p>We are confident in our SEO strategies and in general we will start to see organic traffic and conversions growing after approximately 4-6 months.</p>
+                                                    <p>A demo on channel integration and creation of product listing by our team. </p>
                                                 </div>
                                             </div>
                                         </div>
