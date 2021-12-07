@@ -168,16 +168,19 @@
     src: url('../fonts/circularstd/CircularStdBook.eot');
     src: url('../fonts/circularstd/CircularStdBook.eot') format('embedded-opentype'), url('../fonts/circularstd/CircularStdBook.woff2') format('woff2'), url('../fonts/circularstd/CircularStdBook.woff') format('woff'), url('../fonts/circularstd/CircularStdBook.ttf') format('truetype'), url('../fonts/circularstd/CircularStdBook.svg') format('svg');
 }
+
 @font-face {
     font-family: 'Dax';
     src: url('../fonts/Dax.ttf');
-    src:  url('../fonts/Dax.ttf') format('truetype'), ;
+    src: url('../fonts/Dax.ttf') format('truetype'), ;
 }
+
 @font-face {
     font-family: 'Dax-medium';
     src: url('../fonts/Dax_Medium.ttf');
-    src:  url('../fonts/Dax_Medium.ttf') format('truetype'), ;
+    src: url('../fonts/Dax_Medium.ttf') format('truetype'), ;
 }
+
 body {
     font-family: 'Dax-medium' !important;
     font-size: 15px;
@@ -4475,7 +4478,7 @@ button {
 
 .our-statistics-images .our-statistics-image-relative,
 .our-statistics-images .our-statistics-image-absolute img {
-    width:200px;
+    width: 200px;
     /* -webkit-box-shadow: 0px 10px 60px 0px rgb(51 119 255 / 15%);
     box-shadow: 0px 10px 60px 0px rgb(51 119 255 / 15%);
     background-color: white ; */
@@ -5450,7 +5453,6 @@ button {
     display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center;
 }
 
 .single-counter-up.single-counter-up-v2 p {
@@ -5460,7 +5462,7 @@ button {
 }
 
 .single-counter-up.single-counter-up-v2 .counterup-info h2 .counter {
-    font-size: 85px;
+    font-size: 40px;
 }
 
 
@@ -6059,7 +6061,6 @@ button {
 
 
 /* Hero Area V4 */
-
 
 .hero-area.hero-v4 .section-title h1 {
     font-size: 90px;
@@ -11277,11 +11278,10 @@ button {
 }
 
 @media (max-width:991px) {
-    .formpop img{
+    .formpop img {
         display: flex !important;
-
     }
-    .imgbx{
+    .imgbx {
         display: none;
     }
     .popupmain {
@@ -11300,7 +11300,7 @@ button {
         display: none;
     }
     .mmpopup .centercont {
-     display: none;
+        display: none;
     }
     .mmpopup .formpop {
         padding: 30px;
@@ -11374,11 +11374,10 @@ button {
 }
 
 @media (max-width:575px) {
-    .formpop img{
+    .formpop img {
         display: flex !important;
-
     }
-    .imgbx{
+    .imgbx {
         display: none;
     }
     .popupmain {
@@ -11397,7 +11396,7 @@ button {
         display: none;
     }
     .mmpopup .centercont {
-     display: none;
+        display: none;
     }
     .mmpopup .formpop {
         padding: 30px;
@@ -11531,50 +11530,60 @@ button {
     overflow: hidden;
     display: none;
 }
+
 .closeico {
     position: absolute;
     top: 15px;
     right: 20px;
     z-index: 9999;
 }
+
 .closeico {
     position: absolute;
     top: 15px;
     right: 20px;
     z-index: 9999;
 }
+
 .mmpopup {
     display: flex;
     height: 500px;
     align-items: center;
 }
+
 .mmpopup .imgbx {
     width: 30%;
 }
+
 .mmpopup .centercont {
     width: 35%;
     padding-right: 20px;
 }
+
 .mmpopup .formpop {
     padding-right: 30px;
     width: 35%;
     padding-top: 20px;
 }
+
 form {
     display: block;
     margin-top: 0em;
 }
+
 .mmpopup .fld-input {
     height: 50px;
     width: 100%;
     margin-bottom: 10px;
 }
+
 .fld-input input {
     width: 100%;
     height: 100%;
     padding: 0 15px;
     font-size: 12px;
 }
+
 .fld-input {
     border-style: solid;
     border-width: 1px;
@@ -11589,6 +11598,7 @@ form {
 .mmpopup .fld-input.textarea {
     height: 80px;
 }
+
 .fld-btn button {
     border-radius: 5px;
     background-color: rgb(255 191 0);
@@ -11601,6 +11611,7 @@ form {
     cursor: pointer;
     transition: 0.5s;
 }
+
 .mmpopup .calldvs a {
     font-size: 26px;
     color: #6954eb;
@@ -11609,39 +11620,46 @@ form {
     font-weight: 600;
     display: block;
 }
+
 .mmpopup .centercont h3 {
     font-size: 24px;
     font-weight: 700;
     margin-top: 20px;
 }
+
 .mmpopup .centercont h3 {
     font-size: 26px;
     color: #141515;
     margin-bottom: 10px;
 }
+
 .mmpopup .centercont p {
     margin-bottom: 10px;
     line-height: 23px;
     padding: 0 0;
 }
+
 .mmpopup .centercont p {
     color: #727272;
     font-size: 15px;
     margin-bottom: 4px;
     line-height: 20px;
 }
+
 .mmpopup .centercont ul {
     margin-bottom: 30px;
     padding: 0;
     float: left;
     margin: 0;
 }
+
 .mmpopup .centercont ul li {
     display: block;
     font-size: 13px;
     color: #566060;
     padding: 5px 0;
 }
+
 .mmpopup .fld-input textarea {
     width: 100%;
     height: 100%;
@@ -11651,14 +11669,16 @@ form {
     padding-top: 10px;
     resize: none;
 }
+
 .mmpopup .fld-btn button {
     font-weight: 700;
     color: #fff;
 }
+
 .mmpopup .fld-btn button {
     width: 100%;
 }
 
-.formpop img{
+.formpop img {
     display: none;
 }

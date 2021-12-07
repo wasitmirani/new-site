@@ -49,7 +49,7 @@
                             </h2>
                             <div class="section-button-wrapper section-dual-button wow fadeInUp" data-wow-delay="0.3s"
                                 data-wow-duration="1500ms">
-                                <a href="{{ route('pricing') }}" class="filled-btn bg-mandy button-radius">
+                                <a href="{{ route('pricing') }}" class="filled-btn bg-mandy button-radius" target="_blank">
                                     Get Free Trial <i class="fas fa-arrow-right"></i>
                                 </a>
                                 <a href="https://portal.edropship.co.uk" class="filled-btn bg-purple button-radius"
@@ -138,7 +138,7 @@
                                 <p class="mb-13">{{ $item->description }}.</p>
                             </div>
                             <div class="section-button-wrapper">
-                                <a href="services.html" class="filled-btn bg-mandy button-radius">
+                                <a href="https://portal.edropship.co.uk/register" class="filled-btn bg-mandy button-radius">
                                     Get Stared Now <i class="fas fa-arrow-right"></i>
                                 </a>
                             </div>

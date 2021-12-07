@@ -197,7 +197,7 @@
      * Testimonial Slider V1
     ---------------------------------------------*/
     $('#testimonial-slider-v1').slick({
-        dots: true,
+        dots: false,
         arrows: false,
         infinite: true,
         autoplay: false,
@@ -225,7 +225,7 @@
      * Testimonial Slider V2
     ---------------------------------------------*/
     $('#testimonial-slider-v2').slick({
-        dots: true,
+        dots: false,
         arrows: false,
         infinite: true,
         autoplay: false,
@@ -253,7 +253,7 @@
      * Testimonial Slider V3
     ---------------------------------------------*/
     $('#testimonial-slider-v3').slick({
-        dots: true,
+        dots: false,
         arrows: false,
         infinite: true,
         autoplay: true,

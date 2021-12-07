@@ -147,7 +147,7 @@
                             <div class="simple-single-icon-box">
                                 <i class="fal fa-users"></i>
                                 <h4>Build Real Users</h4>
-                                <p>Unde omnis natus volu accusantium doloremqie laudantium totam</p>
+                                <p>Users are setisfy with the eDropShip </p>
                             </div>
                             <div class="simple-single-icon-box">
                                 <i class="fal fa-tools"></i>

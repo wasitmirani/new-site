@@ -18,15 +18,15 @@
                                 <div class="section-button-wrapper section-dual-button wow fadeInUp" data-wow-delay="0.7s"
                                     data-wow-duration="1500ms">
                                     <span>
-                                        <a href="service-details.html" class="filled-btn">
+                                        <a href="{{ route('contact.contactus') }}" class="filled-btn">
                                             Discover More <i class="fas fa-arrow-right"></i>
                                         </a>
                                     </span>
-                                    <span class="play-video">
+                                    {{--  <span class="play-video">
                                         <a href="../../../87110435.html" class="play-btn">
                                             <i class="fas fa-play pulse-animated"></i>
                                         </a>
-                                    </span>
+                                    </span>  --}}
                                 </div>
                             </div>
                         </div>
@@ -170,7 +170,7 @@
                                 <div class="single-contact-box wow fadeInUp" data-wow-delay="0.2s"
                                     data-wow-duration="1500ms">
                                     <h4>Ecommerce Marketplaces </h4>
-                                    <p>LOur guru will guide you on starting online business on the major ecommerce
+                                    <p>Our guru will guide you on starting online business on the major ecommerce
                                         marketplaces like Shopify, Amazon, eBay, and others. </p>
                                     <a href="{{ route('contact.contactus') }}"
                                         class="filled-btn btn-bordered bg-royal-blue">

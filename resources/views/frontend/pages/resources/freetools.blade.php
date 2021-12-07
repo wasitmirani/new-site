@@ -51,9 +51,9 @@
                             be requested to set up your account. </p>
                         <br />
                         <span>
-                            <a href="service-details.html" class="filled-btn">
+                            {{--  <a href="service-details.html" class="filled-btn">
                                 Discover More <i class="fas fa-arrow-right"></i>
-                            </a>
+                            </a>  --}}
                         </span>
                     </div>
                 </div>
@@ -71,9 +71,9 @@
                         </p>
                         <br />
                         <span>
-                            <a href="service-details.html" class="filled-btn">
+                            {{--  <a href="service-details.html" class="filled-btn">
                                 Discover More <i class="fas fa-arrow-right"></i>
-                            </a>
+                            </a>  --}}
                         </span>
                     </div>
                 </div>
@@ -91,9 +91,9 @@
                             as the commission listing through this tab. </p>
                         <br />
                         <span>
-                            <a href="service-details.html" class="filled-btn">
+                            {{--  <a href="service-details.html" class="filled-btn">
                                 Discover More <i class="fas fa-arrow-right"></i>
-                            </a>
+                            </a>  --}}
                         </span>
                     </div>
                 </div>
@@ -113,9 +113,9 @@
                             of the sales channel. First, integrate the channel into eDropShip panel. Also, the inventory items need to be present in the system to be able to listed under a specific channel. </p>
                         <br />
                         <span>
-                            <a href="service-details.html" class="filled-btn">
+                            {{--  <a href="service-details.html" class="filled-btn">
                                 Discover More <i class="fas fa-arrow-right"></i>
-                            </a>
+                            </a>  --}}
                         </span>
                     </div>
                 </div>
@@ -134,9 +134,9 @@
                         <p>The Dashboard menu provides different types of reports, presenting a rundown of significant milestones achieved like weekly store statistics, sales, store earning, top sales, total orders, and out-of-stock products. </p>
                         <br />
                         <span>
-                            <a href="service-details.html" class="filled-btn">
+                            {{--  <a href="service-details.html" class="filled-btn">
                                 Discover More <i class="fas fa-arrow-right"></i>
-                            </a>
+                            </a>  --}}
                         </span>
                     </div>
                 </div>
@@ -155,9 +155,9 @@
                         <p>eDropShip provides 24/7 support for technical glitches and various queries via WhatsApp live chat, phone and email. We also provide different tutorials to provide training and help you get acquainted wth the system.</p>
                         <br />
                         <span>
-                            <a href="service-details.html" class="filled-btn">
+                            {{--  <a href="service-details.html" class="filled-btn">
                                 Discover More <i class="fas fa-arrow-right"></i>
-                            </a>
+                            </a>  --}}
                         </span>
                     </div>
                 </div>
@@ -178,9 +178,9 @@
                             tab on the lower header.</p>
                         <br />
                         <span>
-                            <a href="service-details.html" class="filled-btn">
+                            {{--  <a href="service-details.html" class="filled-btn">
                                 Discover More <i class="fas fa-arrow-right"></i>
-                            </a>
+                            </a>  --}}
                         </span>
                     </div>
                 </div>
@@ -201,9 +201,9 @@
                         </p>
                         <br />
                         <span>
-                            <a href="service-details.html" class="filled-btn">
+                            {{--  <a href="service-details.html" class="filled-btn">
                                 Discover More <i class="fas fa-arrow-right"></i>
-                            </a>
+                            </a>  --}}
                         </span>
                     </div>
                 </div>
@@ -224,9 +224,9 @@
                             track of shipment. </p>
                         <br />
                         <span>
-                            <a href="service-details.html" class="filled-btn">
+                            {{--  <a href="service-details.html" class="filled-btn">
                                 Discover More <i class="fas fa-arrow-right"></i>
-                            </a>
+                            </a>  --}}
                         </span>
                     </div>
                 </div>

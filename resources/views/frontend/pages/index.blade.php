@@ -20,10 +20,10 @@
                             <p class="mb-10">Manage your business with eDropShip and let it scale by dropshipping. We empower your business with all the requisite tools for online store integration, access provision to suppliers, automated payments, shipping, and order management.</p>
 
                             <div class="section-button-wrapper section-dual-button wow fadeInUp" data-wow-delay="0.3s" data-wow-duration="1500ms">
-                                <a href="services.html" class="filled-btn bg-mandy button-radius">
+                                <a href="https://portal.edropship.co.uk/register" class="filled-btn bg-mandy button-radius" target="_blank">
                                     Get Free Trial <i class="fas fa-arrow-right"></i>
                                 </a>
-                                <a href="about.html" class="filled-btn bg-purple button-radius">
+                                <a href="https://portal.edropship.co.uk/login" class="filled-btn bg-purple button-radius" target="_blank">
                                     Sign in <i class="fas fa-arrow-right"></i>
                                 </a>
                             </div>
@@ -115,7 +115,7 @@
 
                                     </p>
                                     <div class="iconic-box-btn">
-                                        <a href="{{route('resources.tour')}}"><i class="fas fa-arrow-right"></i></a>
+                                        <a href="{{route('integrations')}}"><i class="fas fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -182,7 +182,7 @@
 
                         </div>
                         {{--  <div class="section-button-wrapper">
-                            <a href="services.html" class="filled-btn bg-mandy button-radius">
+                            <a href="https://portal.edropship.co.uk/register" class="filled-btn bg-mandy button-radius">
                                 Get Stared Now <i class="fas fa-arrow-right"></i>
                             </a>
                         </div>  --}}
@@ -218,9 +218,9 @@
                                     <p>Whether you are a seller or supplier, keep track of your orders and manage your inventory without much effort through our automated panel. </p>
                                 </div>
                                 <div class="section-button-wrapper">
-                                    <a href="blog-standard.html" class="filled-btn">
+                                    {{--  <a href="blog-standard.html" class="filled-btn">
                                         View All News <i class="fas fa-arrow-right"></i>
-                                    </a>
+                                    </a>  --}}
                                 </div>
                             </div>
                         </div>
@@ -397,7 +397,7 @@
                     <div class="pricing-area-content content-right-spacer">
                         <div class="section-title section-title-tuna">
                             <h2>Choose The Best Package For Your <br class="d-none d-lg-block">
-                                <span>Applications</span>
+                                <span>Busniess</span>
                             </h2>
                             <div class="section-title-description">
                                 <p>Sign up on eDropShip by entering the required information and allow your online store to flourish. Create product listings and be visible to grab potential clients.     </p>
@@ -454,12 +454,12 @@
                             </div>
                             <div class="pricing-table-foot">
                                 <div class="pricing-plan-cost">
-                                    <span class="payment-currency">$</span>
+                                    <span class="payment-currency">£</span>
                                     <span class="plan-price">{{$item->rate}}</span>
                                     <span class="plan-type"> /monthly</span>
                                 </div>
                                 <div class="plan-select">
-                                    <a href="service-details.html" class="filled-btn bg-rose-bud">Select Plan <i class="fas fa-arrow-right"></i></a>
+                                    <a href="https://portal.edropship.co.uk/register" class="filled-btn bg-rose-bud" target="_blank">Select Plan <i class="fas fa-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -574,7 +574,7 @@
                                 </div>
                                 <div class="accordion-item">
                                     <h5 class="accordion-header" id="headingFive">
-                                        <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                                             Easy Access
                                         </button>
                                     </h5>

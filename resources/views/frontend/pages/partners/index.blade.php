@@ -39,10 +39,10 @@
                             </a>  --}}
                         </div> </h2>
                         <div class="section-button-wrapper section-dual-button wow fadeInUp" data-wow-delay="0.3s" data-wow-duration="1500ms">
-                            <a href="services.html" class="filled-btn bg-mandy button-radius">
+                            <a href="https://portal.edropship.co.uk/register" class="filled-btn bg-mandy button-radius" target="_blank">
                                 Get Free Trial <i class="fas fa-arrow-right"></i>
                             </a>
-                            <a href="about.html" class="filled-btn bg-purple button-radius">
+                            <a href="https://portal.edropship.co.uk" class="filled-btn bg-purple button-radius" target="_blank">
                                 Sign in <i class="fas fa-arrow-right"></i>
                             </a>
                         </div>
@@ -311,7 +311,7 @@
 
         </div> <!-- /.row -->
         <div class="view-more-btn-wrapper text-center mt-20 wow fadeInUp" data-wow-delay="0.9s" data-wow-duration="1500ms">
-            {{-- <a href="services.html" class="filled-btn btn-bordered bg-clear-blue">
+            {{-- <a href="https://portal.edropship.co.uk/register" class="filled-btn btn-bordered bg-clear-blue">
                 View All Services <i class="fas fa-arrow-right"></i>
             </a> --}}
         </div>

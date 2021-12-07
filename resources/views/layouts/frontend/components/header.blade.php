@@ -248,7 +248,7 @@
                         <div class="header-right">
                             <ul>
                                 <li class="get-started-wrapper">
-                                    <a href="services.html" class="filled-btn bg-mandy button-radius">
+                                    <a href="https://portal.edropship.co.uk" class="filled-btn bg-mandy button-radius" target="_blank">
                                         Get Started <i class="fas fa-arrow-right"></i>
                                     </a>
                                 </li>
