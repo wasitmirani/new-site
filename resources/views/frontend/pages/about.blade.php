@@ -202,7 +202,7 @@
                         <div class="single-iconic-box iconic-box-v4 wow fadeInDown" data-wow-delay="0.3s"
                             data-wow-duration="2000ms">
                             <div class="iconic-box-icon">
-                                <img class="about-thumbnail about-thumbnail-1" src="assets/img/hero/ebay_icon.png"
+                                <img class="about-thumbnail about-thumbnail-1" src="assets/img/hero/eBay_icon.png"
                                     alt="about thumbnail one">
                             </div>
                             <div class="iconic-box-body">
