@@ -32,7 +32,7 @@
                         <div class="single-iconic-box iconic-box-v4 wow fadeInDown" data-wow-delay="0.1s"
                             data-wow-duration="2000ms">
                             <div class="iconic-box-icon ">
-                                <img class="about-thumbnail about-thumbnail-1" src="assets/img/integration-Channels.png"
+                                <img class="about-thumbnail about-thumbnail-1" src="assets/img/Integration-Channels.png"
                                     alt="about thumbnail one">
                             </div>
                             <div class="iconic-box-body">
@@ -123,7 +123,7 @@
                                         alt="about thumbnail two">
                                 </div>
                                 <div class="animate-square-zoom wow fadeInUp" data-wow-delay="0.5s">
-                                    <img class="about-thumbnail about-thumbnail-4" src="assets/img/hero/etsy_icon.png"
+                                    <img class="about-thumbnail about-thumbnail-4" src="assets/img/hero/Etsy_icon.png"
                                         alt="about thumbnail four">
                                 </div>
                             </div>
@@ -202,7 +202,7 @@
                         <div class="single-iconic-box iconic-box-v4 wow fadeInDown" data-wow-delay="0.3s"
                             data-wow-duration="2000ms">
                             <div class="iconic-box-icon">
-                                <img class="about-thumbnail about-thumbnail-1" src="assets/img/hero/Ebay_icon.png"
+                                <img class="about-thumbnail about-thumbnail-1" src="assets/img/hero/ebay_icon.png"
                                     alt="about thumbnail one">
                             </div>
                             <div class="iconic-box-body">
