@@ -15,24 +15,28 @@
                             $blogs = getBlogs();
                         @endphp
                         @foreach ($blogs as $item)
-                        <div class="blog-post-item blog-post-item-v3 post-offwhite">
-                            <div class="blog-post-entry-content">
-                                <div class="post-meta-wrapper"><ul>
-                                    {{--  <img src="{{ asset('uploads/$item->image') }}"
-                                                alt="latest post one">  --}}
-                                    <li><a href="#" class="post-meta"><i class="far fa-user"></i>{{ $item->name }}</a></li>
-                                    <li><a href="#" class="post-meta"><i class="far fa-calendar-alt"></i>{{ $item->created_at }}</a></li>
-                                    <li><a href="#" class="post-meta"><i class="fas fa-comment-dots"></i>Comments (05)</a></li></ul>
-                                </div>
-                                <h4 class="post-title"><a href="blog-details.html">{{ $item->title }}</a></h4>
-                                <div class="post-excerpt">
-                                    <p>{{ $item->description }}</p>
-                                </div>
-                                {{-- <div class="post-read-more">
+                            <div class="blog-post-item blog-post-item-v3 post-offwhite">
+                                <div class="blog-post-entry-content">
+                                    <div class="post-meta-wrapper">
+                                        <ul>
+                                            <img src="{{ asset('uploads/' . $item->image) }}" alt="latest post one">
+                                            <li><a href="#" class="post-meta"><i
+                                                        class="far fa-user"></i>{{ $item->name }}</a></li>
+                                            <li><a href="#" class="post-meta"><i
+                                                        class="far fa-calendar-alt"></i>{{ $item->created_at }}</a></li>
+                                            {{-- <li><a href="#" class="post-meta"><i
+                                                        class="fas fa-comment-dots"></i>Comments (05)</a></li> --}}
+                                        </ul>
+                                    </div>
+                                    <h4 class="post-title"><a href="blog-details.html">{{ $item->title }}</a></h4>
+                                    <div class="post-excerpt">
+                                        <p>{{ $item->description }}</p>
+                                    </div>
+                                    {{-- <div class="post-read-more">
                                     <a href="blog-details.html" class="filled-btn">Learn More <i class="fas fa-arrow-right"></i></a>
                                 </div> --}}
+                                </div>
                             </div>
-                        </div>
                         @endforeach
                         <!-- /.blog-post-item -->
                         <!-- Posts Navigation -->
@@ -92,51 +96,22 @@
                             data-wow-duration="1200ms">
                             <h4 class="sidebar-widget-title">Latest News</h4>
                             <div class="popular-posts-wrapper">
-                                <div class="popular-posts-item">
-                                    <div class="popular-posts-thumbnail">
-                                        <a href="blog-details.html">
-                                            <img src="{{ asset('assets/img/blog/latest-post-thumbnail-1.jpg') }}"
-                                                alt="latest post one">
-                                        </a>
-                                    </div>
-                                    <div class="popular-posts-item-content">
-                                        <h5 class="popular-posts-title"><a href="blog-details.html">Build Seamless
-                                                Spreadshet Import Experience</a></h5>
-                                        <a href="#" class="posts-date"><i class="far fa-calendar-alt"></i> 25 May
-                                            2021</a>
-                                    </div>
-                                </div> <!-- /.popular-posts-item -->
-                                <div class="popular-posts-item">
-                                    <div class="popular-posts-thumbnail">
-                                        <a href="blog-details.html">
-                                            <img src="{{ asset('assets/img/blog/latest-post-thumbnail-2.jpg') }}"
-                                                alt="latest post two">
-                                        </a>
-                                    </div>
-                                    <div class="popular-posts-item-content">
-                                        <h5 class="popular-posts-title"><a href="blog-details.html">Creating Online
-                                                Environment Work Well Older</a></h5>
-                                        <a href="#" class="posts-date"><i class="far fa-calendar-alt"></i> 25 May
-                                            2021</a>
-                                    </div>
-                                </div> <!-- /.popular-posts-item -->
-                                <div class="popular-posts-item">
-                                    <div class="popular-posts-thumbnail">
-                                        <a href="blog-details.html">
-                                            <img src="{{ asset('assets/img/blog/latest-post-thumbnail-3.jpg') }}"
-                                                alt="latest post three">
-                                        </a>
-                                    </div>
-                                    <div class="popular-posts-item-content">
-                                        <h5 class="popular-posts-title"><a href="blog-details.html">Signs Website Feels More
-                                                Haunted House</a></h5>
-                                        <a href="#" class="posts-date"><i class="far fa-calendar-alt"></i> 25 May
-                                            2021</a>
-                                    </div>
-                                </div> <!-- /.popular-posts-item -->
+                                @foreach ($blogs as $item)
+                                    <div class="popular-posts-item">
+                                        <div class="popular-posts-thumbnail">
+                                            <a>
+                                                <img src="{{ asset('uploads/' . $item->image) }}" alt="latest post one">
+                                            </a>
+                                        </div>
+                                        <div class="popular-posts-item-content">
+                                            <h5 class="popular-posts-title"><a>{{ $item->title }}</a></h5>
+                                            <a href="#" class="posts-date"><i class="far fa-calendar-alt"></i> 25 May
+                                                2021</a>
+                                        </div>
+                                    </div> <!-- /.popular-posts-item -->
+                                @endforeach
                             </div>
-                        </div>
-                        {{-- <div class="widget widget-testimonial wow fadeInUp" data-wow-delay="0.4s"
+                            {{-- <div class="widget widget-testimonial wow fadeInUp" data-wow-delay="0.4s"
                             data-wow-duration="1200ms">
                             <div class="testimonial-slider testimonial-slider-v4" id="testimonial-slider-v3">
                                 <!-- Single Testimonial -->
@@ -178,7 +153,7 @@
                                 </div>
                             </div>
                         </div> --}}
-                        {{-- <div class="widget widget-tag-cloud wow fadeInUp" data-wow-delay="0.5s" data-wow-duration="1200ms">
+                            {{-- <div class="widget widget-tag-cloud wow fadeInUp" data-wow-delay="0.5s" data-wow-duration="1200ms">
                             <h4 class="sidebar-widget-title">Popular Tags</h4>
                             <a href="#">Landing</a>
                             <a href="#">UI Design</a>
@@ -189,10 +164,10 @@
                             <a href="#">Consulting</a>
                             <a href="#">Mobile Apps</a>
                         </div> --}}
-                    </div> <!-- /.posts-sidebar -->
-                </div>
-            </div> <!-- /row -->
-        </div> <!-- .container -->
+                        </div> <!-- /.posts-sidebar -->
+                    </div>
+                </div> <!-- /row -->
+            </div> <!-- .container -->
     </section> <!-- /.blog-list-wrapper -->
     <!--====== End Blog List Area ======-->
 

@@ -108,14 +108,14 @@
 
                 @foreach ($channel->integrationSection as $item)
                     <div class="col-lg-7">
-                        <div class="app-preview-image oval-gradient content-right-spacer">
+                        <div class="app-preview-image content-right-spacer">
                             <div class="app-feature-preview-relative animate-float-bob-y wow fadeInUp"
                                 data-wow-delay="400ms" data-wow-duration="1500ms">
-                                <img src="{{ asset('assets/img/integration/' . $item->thumbnail_1) }}" alt="chat activity">
+                                {{-- <img src="{{ asset('assets/img/integration/' . $item->thumbnail_1) }}" alt="chat activity"> --}}
                             </div>
                             <div class="app-feature-preview-main wow fadeInDown" data-wow-delay="200ms"
                                 data-wow-duration="1500ms">
-                                <img src="{{ asset('assets/img/integration/' . $item->thumbnail_2) }}"
+                                <img src="{{ asset('assets/img/intigartionthum/' . $item->thumbnail_2) }}"
                                     alt="live collaboration">
                             </div>
                             {{-- <div class="app-feature-preview-backward animate-float-bob-y wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
@@ -123,7 +123,7 @@
                     </div> --}}
                             <div class="app-feature-preview-absolute animate-float-bob-x wow fadeInUp"
                                 data-wow-delay="600ms" data-wow-duration="1500ms">
-                                <img src="{{ asset('assets/img/integration/' . $item->thumbnail_3) }}" alt="chat onboard">
+                                {{-- <img src="{{ asset('assets/img/integration/' . $item->thumbnail_3) }}" alt="chat onboard"> --}}
                             </div>
                         </div>
                     </div>
